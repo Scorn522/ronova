@@ -1,0 +1,13 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "ronova:item/ronova_blade",
+    "layer1": "ronova:item/ronova_layer"
+  },
+  "loader": "ronova:masked_layer_loader",
+  "masked": {
+    "mask": "ronova:item/ronova_mask",
+    "parallax_scale": 0.09,
+    "layer_offset_y": 0.08
+  }
+}

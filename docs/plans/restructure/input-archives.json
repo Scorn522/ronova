@@ -1,0 +1,20 @@
+{
+  "kind": "input_archive_identity",
+  "archives": [
+    {
+      "archive": "ronova-docs-0.2.0-alpha.7.17-r66.zip",
+      "bytes": 2882072,
+      "sha256": "04d444c2fe46e60eefb16a1eeee98980638b7be2e1425648f19774fde5c45ade",
+      "extracted_original_files_compared": 243,
+      "differing_extracted_files": []
+    },
+    {
+      "archive": "ronova-source-0.2.0-alpha.7.17-r66.zip",
+      "bytes": 3769053,
+      "sha256": "1266d8c2dd46b949178d7341ee467333be678fb9b373c1403b576a56c73fd763",
+      "extracted_original_files_compared": 618,
+      "differing_extracted_files": []
+    }
+  ],
+  "code_or_runtime_tests_executed": false
+}

@@ -1,0 +1,45 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.ronova.coremod.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "ronova.refmap.json",
+  "mixins": [
+    "EntityStateAccessor",
+    "LivingEntityStateAccessor",
+    "SynchedEntityDataStateAccessor",
+    "SynchedDataItemStateAccessor",
+    "PersistentEntityManagerAccessor",
+    "EntityLookupAccessor",
+    "EntityTickListAccessor",
+    "EntitySectionStorageAccessor",
+    "EntitySectionAccessor",
+    "ClassInstanceMultiMapAccessor",
+    "PersistentEntityAdmissionMixin",
+    "ServerLevelAccessor",
+    "EntityProtectionMixin",
+    "EntityTypeNbtAdmissionMixin",
+    "EntityTypeFactoryAdmissionMixin",
+    "ConnectionProtectionMixin",
+    "LivingEntityProtectionMixin",
+    "MinecraftServerRuntimeMixin",
+    "DimensionDataStorageRecoveryMixin",
+    "SavedDataRecoverySaveMixin",
+    "NbtCompressedWriteObservationMixin",
+    "CompoundTagWriteObservationMixin",
+    "ListTagWriteObservationMixin",
+    "ServerConnectionProtectionMixin",
+    "ServerLevelAdmissionMixin",
+    "ServerLevelTickAdmissionMixin"
+  ],
+  "client": [
+    "ClientLevelAccessor",
+    "ItemRendererMixin",
+    "MinecraftClientRuntimeMixin",
+    "MinecraftScreenGuardMixin",
+    "MouseHandlerInputMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

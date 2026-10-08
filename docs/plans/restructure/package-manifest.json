@@ -1,0 +1,723 @@
+{
+  "scope": "Cumulative documentation overlay through fix12 against original r66; no deletions, production source or validation replacements. Own hash excluded.",
+  "revision": "fix12-wiring-acceptance-decision",
+  "original_input_archive": "ronova-docs-0.2.0-alpha.7.17-r66.zip",
+  "original_input_archive_sha256": "04d444c2fe46e60eefb16a1eeee98980638b7be2e1425648f19774fde5c45ade",
+  "removed_files": [],
+  "changed_or_added_files": [
+    {
+      "path": "FEATURES.md",
+      "action": "replace",
+      "input_sha256": "a58759c5c0372fc7ab7e9feac6d1cb9bfa711cd26326193501537dae9533fd8c",
+      "sha256": "df13a384fd0d053ea9298a4dd310105d2548f2ed0242cc9cb8d0f5aa800227f7",
+      "bytes": 94011
+    },
+    {
+      "path": "README.md",
+      "action": "replace",
+      "input_sha256": "027ae02538704623c7afdde8ad5eb977f4481e87fb26a37b625705a990833ebc",
+      "sha256": "9bc2dfeaa236644226ce729baec49b09466641014ffda13129fd6a88876f438a",
+      "bytes": 5876
+    },
+    {
+      "path": "docs/ALL-MODS-RESEARCH.md",
+      "action": "replace",
+      "input_sha256": "42e15cde41858876e74e9b16722d93b4c36b4f6a51940d7a0c65d3068790b46a",
+      "sha256": "cc7c5f7f4ce57d4899fe9d02c69dab25a839d52bd8f24161455f589c25cc60b5",
+      "bytes": 4035
+    },
+    {
+      "path": "docs/DESIGN-SPEC.md",
+      "action": "replace",
+      "input_sha256": "9d0768c351aa3a1d4bda7865c93303def851cfd7370afdc37442bcf544dda9e7",
+      "sha256": "cb534408c5f6dd621ffd8624407bf62eb730e08e2d20ac9edfda0855b3b8e05f",
+      "bytes": 13706
+    },
+    {
+      "path": "docs/README.md",
+      "action": "replace",
+      "input_sha256": "546df72a299012589079a689a14b09820cd61041dd5e46dff506d4c46d90006e",
+      "sha256": "c01a98371da143441f3cc4f554a48d69e771aadf12c2c3d107498caf5ee15740",
+      "bytes": 4281
+    },
+    {
+      "path": "docs/archive/eight-directions-existing-baseline-supplement-r66.zip",
+      "action": "add",
+      "input_sha256": null,
+      "sha256": "9d367661ba720d73511b4b3e9ae6a1334f432038cde075def4f93c648c53ed89",
+      "bytes": 9258
+    },
+    {
+      "path": "docs/archive/enhancement-addendum-handoff-r66.zip",
+      "action": "add",
+      "input_sha256": null,
+      "sha256": "e87c419fd02f29ec43e62b51ead964340fd06886c16d6bf5102237f82c35f0b6",
+      "bytes": 20556
+    },
+    {
+      "path": "docs/archive/enhancement-addendum-v1.3-handoff-r66.zip",
+      "action": "add",
+      "input_sha256": null,
+      "sha256": "e92137ba9408331368795f5e1a19766b2c44941df0bfe5cdb33269a95b2590b9",
+      "bytes": 19828
+    },
+    {
+      "path": "docs/archive/fix8-windows-rerun-receipt-r66.zip",
+      "action": "add",
+      "input_sha256": null,
+      "sha256": "0afe2119dad29d3ea8213f40be1ea22556412110c04dab6a18eb03acedf5c5c9",
+      "bytes": 3045
+    },
+    {
+      "path": "docs/archive/plans-before-ms-restructure-r66/ARCHIVE-NOTE.md",
+      "action": "add",
+      "input_sha256": null,
+      "sha256": "7ba627cb518baec47ba073892b2dbb3dda87783099fe78931b190f0b59af7ca2",
+      "bytes": 350
+    },
+    {
+      "path": "docs/archive/plans-before-ms-restructure-r66/DESIGN-SPEC.md",
+      "action": "add",
+      "input_sha256": null,
+      "sha256": "9d0768c351aa3a1d4bda7865c93303def851cfd7370afdc37442bcf544dda9e7",
+      "bytes": 91080
+    },
+    {
+      "path": "docs/archive/plans-before-ms-restructure-r66/README.md",
+      "action": "add",
+      "input_sha256": null,
+      "sha256": "aa6d2bf1a0835722823d1e8314210e8504701afa9c5bd4b39517405927f802a1",
+      "bytes": 5010
+    },
+    {
+      "path": "docs/archive/plans-before-ms-restructure-r66/Ronova_7.14A_Baseline_All_Enhancements_Master_V1.4_Internal_Root.md",
+      "action": "add",
+      "input_sha256": null,
+      "sha256": "cac45dcc62e38bb90a26661464272801462ee0b3482b894bedc55d8d419fe523",
+      "bytes": 73679
+    },
+    {
+      "path": "docs/archive/plans-before-ms-restructure-r66/Ronova_7.16_Plus_JVM_Extreme_Strength_Enhancement_Master_V2.6_Internal_Root.md",
+      "action": "add",
+      "input_sha256": null,
+      "sha256": "905ff0b353fce4764805ae1075259a2dba77904f9468e88768ccb05998efcf37",
+      "bytes": 207866
+    },
+    {
+      "path": "docs/archive/plans-before-ms-restructure-r66/Ronova_7.17_Extreme_Full_Plane_Enhancement_Plan_V1.0_Internal_Root.md",
+      "action": "add",
+      "input_sha256": null,
+      "sha256": "62d45c727873273dfec65a39e6c846311898eefe8b5c10f268a203af7421b90a",
+      "bytes": 36800
+    },
+    {
+      "path": "docs/archive/plans-before-ms-restructure-r66/Ronova_7.17_Extreme_Tier_Strength_Implementation_Plan_V1.0_Internal_Root.md",
+      "action": "add",
+      "input_sha256": null,
+      "sha256": "028e5849c3741f7f29abb191dce6eecb9f8b8631614584329fd50df2fc522855",
+      "bytes": 46583
+    },
+    {
+      "path": "docs/archive/plans-before-ms-restructure-r66/Ronova_7.17_Generic_Recovery_Chain_Implementation_Plan_V1.0_Internal_Root.md",
+      "action": "add",
+      "input_sha256": null,
+      "sha256": "85c993b68fb0cdd4647483fb9da937ce9b2cd95f10a7d9a6a54e6f8d1bfa62a1",
+      "bytes": 35947
+    },
+    {
+      "path": "docs/archive/plans-before-ms-restructure-r66/Ronova_Compliant_Maximum_Strength_Plan_V1.0.md",
+      "action": "add",
+      "input_sha256": null,
+      "sha256": "00af477883318e2ce5500178c4dc3d48867e980bba773bffa184d26b4617005f",
+      "bytes": 22184
+    },
+    {
+      "path": "docs/archive/plans-before-ms-restructure-r66/Ronova_L6E-0_Contract_Freeze_V1.3_Internal_Root.md",
+      "action": "add",
+      "input_sha256": null,
+      "sha256": "b09cbc535fbc0d6ec1f8d72dc90a5f9e67fa13a49b57c6d3b65975c4811d9d2b",
+      "bytes": 42431
+    },
+    {
+      "path": "docs/archive/plans-before-ms-restructure-r66/Ronova_L6E_P0-A_Truth_Authority_Implementation_Spec_V1.3_Internal_Root.md",
+      "action": "add",
+      "input_sha256": null,
+      "sha256": "a0a70e129f1c053bba8f6b6aec1f1947590fe51d5703550e53a137c96a0149ca",
+      "bytes": 55825
+    },
+    {
+      "path": "docs/archive/plans-before-ms-restructure-r66/Ronova_L6_Architecture_Master_Plan_V2.4_Internal_Root.md",
+      "action": "add",
+      "input_sha256": null,
+      "sha256": "16100e2fc2779ee2cb29b784d3201c4f76e0a0cbd58fbe3da720c070d7edf278",
+      "bytes": 134413
+    },
+    {
+      "path": "docs/archive/plans-before-ms-restructure-r66/Ronova_L6_L6E_Full_Enhancement_Roadmap_V1.0_Internal_Root.md",
+      "action": "add",
+      "input_sha256": null,
+      "sha256": "6a4c2cf0e620f3eb2646f958ae6b318c4471db2f5e8a638fd75079c50fd830a4",
+      "bytes": 56571
+    },
+    {
+      "path": "docs/archive/plans-before-ms-restructure-r66/Ronova_MS_Compliance_and_Enhancement_Plan_V1.0.md",
+      "action": "add",
+      "input_sha256": null,
+      "sha256": "8f190feed151a5928c0dc35f4f9e968ad3f7cf751768cd875d8488223100c409",
+      "bytes": 28438
+    },
+    {
+      "path": "docs/archive/plans-before-ms-restructure-r66/Ronova_MS_Remediation_Spec_V1.0.md",
+      "action": "add",
+      "input_sha256": null,
+      "sha256": "d855674727e223ae56f01c4649c558ff97a6d2afed695cac8a83ce72e23e7e57",
+      "bytes": 24760
+    },
+    {
+      "path": "docs/archive/plans-before-ms-restructure-r66/Ronova_MS_Rulebound_Enhancement_Plan_V2.0.md",
+      "action": "add",
+      "input_sha256": null,
+      "sha256": "caa8968235fa8a2e3b04503a1c080c136feaada93311a8485cb0243b7629d4d1",
+      "bytes": 86398
+    },
+    {
+      "path": "docs/archive/plans-before-ms-restructure-r66/Ronova_NonViolating_Enhancement_Plan_V1.0.md",
+      "action": "add",
+      "input_sha256": null,
+      "sha256": "43a2de15b78ca16375dca65cd1f6d05735a1672d1337dd346d5c2ffd9cfd9c29",
+      "bytes": 20772
+    },
+    {
+      "path": "docs/archive/same-privilege-surface-handoff-r66.zip",
+      "action": "add",
+      "input_sha256": null,
+      "sha256": "425d09053d1087f54f2e1cb22ad7d8bc644c0cb3e6b80e328b18a6b0aba2a918",
+      "bytes": 9337
+    },
+    {
+      "path": "docs/archive/second-batch-eight-directions-verification-r66.zip",
+      "action": "add",
+      "input_sha256": null,
+      "sha256": "c3e3e5244d21f1a4c125444294b8b104d7f5cd38470938fd5b1bf56a71cc2289",
+      "bytes": 7467
+    },
+    {
+      "path": "docs/archive/v13-verification-and-ceiling-report-handoff-r66.zip",
+      "action": "add",
+      "input_sha256": null,
+      "sha256": "03bd55a36aaed4bc5de5a4bbb788e7a18cafa3c03aa16297a9eb468fffb2516f",
+      "bytes": 19718
+    },
+    {
+      "path": "docs/plans/INVARIANT-INDEX.md",
+      "action": "add",
+      "input_sha256": null,
+      "sha256": "df379a616f6fa8f8f327202eaf14a49f235d8e56a29f6270e3f30b2b30bff989",
+      "bytes": 98878
+    },
+    {
+      "path": "docs/plans/MS-ENTITYDEFENCE-PLAN.md",
+      "action": "add",
+      "input_sha256": null,
+      "sha256": "129b34c65ffc43848b77220ce43bf13ca53fea61715bda1393e652e33ac555a5",
+      "bytes": 136042
+    },
+    {
+      "path": "docs/plans/MS-MSITEM-PLAN.md",
+      "action": "add",
+      "input_sha256": null,
+      "sha256": "7f58d85e945abef0680fe48b44f203fdcf684869522beec668d1c55626d3276f",
+      "bytes": 258352
+    },
+    {
+      "path": "docs/plans/MS-SKILLS-PLAN.md",
+      "action": "add",
+      "input_sha256": null,
+      "sha256": "a237fcdb378fa5e9cb5a697cf3e806fe4d90a23ff4f34dc4ec5e1b8913fed046",
+      "bytes": 1162661
+    },
+    {
+      "path": "docs/plans/R66-CAPABILITY-WIRING-PLAN.md",
+      "action": "add",
+      "input_sha256": null,
+      "sha256": "3ae32e0944bfb761f0f7abefd9c2da3e2dca9110296b5c3a34893bcbbabaa923",
+      "bytes": 130873
+    },
+    {
+      "path": "docs/plans/README.md",
+      "action": "replace",
+      "input_sha256": "aa6d2bf1a0835722823d1e8314210e8504701afa9c5bd4b39517405927f802a1",
+      "sha256": "bac091af635f202d5b39543d2925f58d4141a05a1389fbf778c1e0e516b67db6",
+      "bytes": 16165
+    },
+    {
+      "path": "docs/plans/RESTRUCTURE-CHECK.md",
+      "action": "add",
+      "input_sha256": null,
+      "sha256": "9d4d82ce513ee72cf3883794fad45b61bd93aaf552b67a2dd7ce6efebc05318b",
+      "bytes": 39078
+    },
+    {
+      "path": "docs/plans/RESTRUCTURE-MAP.md",
+      "action": "add",
+      "input_sha256": null,
+      "sha256": "91160e019bf5dd570cccd5cf8aa9aaf5b57f958ff900c0a9b6d623be558b26e5",
+      "bytes": 292592
+    },
+    {
+      "path": "docs/plans/RESTRUCTURE-REVIEW.md",
+      "action": "add",
+      "input_sha256": null,
+      "sha256": "c9731e910792662393b3ad7e104e4a6659bf8282fb724752575a8f7d33aea9d0",
+      "bytes": 58853
+    },
+    {
+      "path": "docs/plans/Ronova_7.14A_Baseline_All_Enhancements_Master_V1.4_Internal_Root.md",
+      "action": "replace",
+      "input_sha256": "cac45dcc62e38bb90a26661464272801462ee0b3482b894bedc55d8d419fe523",
+      "sha256": "e55b61bf05a09fab370d5e80e0b5a1f7886ca645767f29ca418250c32f09c3c3",
+      "bytes": 21585
+    },
+    {
+      "path": "docs/plans/Ronova_7.16_Plus_JVM_Extreme_Strength_Enhancement_Master_V2.6_Internal_Root.md",
+      "action": "replace",
+      "input_sha256": "905ff0b353fce4764805ae1075259a2dba77904f9468e88768ccb05998efcf37",
+      "sha256": "ab5ae31ec546c3a7defb47d8602c1de32819f0ca729a39581d4bfc24b3239ad7",
+      "bytes": 22958
+    },
+    {
+      "path": "docs/plans/Ronova_7.17_Extreme_Full_Plane_Enhancement_Plan_V1.0_Internal_Root.md",
+      "action": "replace",
+      "input_sha256": "62d45c727873273dfec65a39e6c846311898eefe8b5c10f268a203af7421b90a",
+      "sha256": "132a9df43c2132361a1be9eb843060d4f169155cd9d3ced8f5fef6c69741d759",
+      "bytes": 3456
+    },
+    {
+      "path": "docs/plans/Ronova_7.17_Extreme_Tier_Strength_Implementation_Plan_V1.0_Internal_Root.md",
+      "action": "replace",
+      "input_sha256": "028e5849c3741f7f29abb191dce6eecb9f8b8631614584329fd50df2fc522855",
+      "sha256": "adb9c569cb70f0b3c03f0501c8ac462f6048c28d3916060f19a5e3bb6ea54f79",
+      "bytes": 8420
+    },
+    {
+      "path": "docs/plans/Ronova_7.17_Generic_Recovery_Chain_Implementation_Plan_V1.0_Internal_Root.md",
+      "action": "replace",
+      "input_sha256": "85c993b68fb0cdd4647483fb9da937ce9b2cd95f10a7d9a6a54e6f8d1bfa62a1",
+      "sha256": "44d6938915237627b3ab54827906ea249e86203e4b0edb01cc964d385fc5231e",
+      "bytes": 4084
+    },
+    {
+      "path": "docs/plans/Ronova_Compliant_Maximum_Strength_Plan_V1.0.md",
+      "action": "replace",
+      "input_sha256": "00af477883318e2ce5500178c4dc3d48867e980bba773bffa184d26b4617005f",
+      "sha256": "a8c047ed81e1c2693335774aecdbc899551e804f1b548911170fa95d05f9840f",
+      "bytes": 5531
+    },
+    {
+      "path": "docs/plans/Ronova_Enhancement_Addendum_V1.1.md",
+      "action": "add",
+      "input_sha256": null,
+      "sha256": "4b676eb78905935c4ec0fde32a1dc903781b8de66a8d6a4fc46ee4517c0feda6",
+      "bytes": 13706
+    },
+    {
+      "path": "docs/plans/Ronova_Enhancement_Addendum_V1.2.md",
+      "action": "add",
+      "input_sha256": null,
+      "sha256": "2e8387761d210b3bceccbb730e8f67eb1f65f7a934fe54f9bb896f37e280ffe0",
+      "bytes": 21098
+    },
+    {
+      "path": "docs/plans/Ronova_Enhancement_Addendum_V1.3.md",
+      "action": "add",
+      "input_sha256": null,
+      "sha256": "f337a12323850078396b35b578c8f1dbd18823c02e7dcd720019fb8e25aa95fe",
+      "bytes": 35541
+    },
+    {
+      "path": "docs/plans/Ronova_L6E-0_Contract_Freeze_V1.3_Internal_Root.md",
+      "action": "replace",
+      "input_sha256": "b09cbc535fbc0d6ec1f8d72dc90a5f9e67fa13a49b57c6d3b65975c4811d9d2b",
+      "sha256": "5dcdb60840f5fa94709d440f7db75db511833fe3df9b64893f56a22e9e293ff9",
+      "bytes": 13122
+    },
+    {
+      "path": "docs/plans/Ronova_L6E_P0-A_Truth_Authority_Implementation_Spec_V1.3_Internal_Root.md",
+      "action": "replace",
+      "input_sha256": "a0a70e129f1c053bba8f6b6aec1f1947590fe51d5703550e53a137c96a0149ca",
+      "sha256": "57f9c667a9a8179a075311dbb3fded5e7c13a60a6135000855954cf6f329698b",
+      "bytes": 18174
+    },
+    {
+      "path": "docs/plans/Ronova_L6_Architecture_Master_Plan_V2.4_Internal_Root.md",
+      "action": "replace",
+      "input_sha256": "16100e2fc2779ee2cb29b784d3201c4f76e0a0cbd58fbe3da720c070d7edf278",
+      "sha256": "755732825d07cfec69e9987a483b50677d69e67699dfb7acf0836b69df172fbb",
+      "bytes": 16529
+    },
+    {
+      "path": "docs/plans/Ronova_L6_L6E_Full_Enhancement_Roadmap_V1.0_Internal_Root.md",
+      "action": "replace",
+      "input_sha256": "6a4c2cf0e620f3eb2646f958ae6b318c4471db2f5e8a638fd75079c50fd830a4",
+      "sha256": "c95c5c6eb431d740cb99391b183a7a0cc7c19e3aa41e68f62fb0d5a93f77fb71",
+      "bytes": 5334
+    },
+    {
+      "path": "docs/plans/Ronova_MS_Compliance_and_Enhancement_Plan_V1.0.md",
+      "action": "replace",
+      "input_sha256": "8f190feed151a5928c0dc35f4f9e968ad3f7cf751768cd875d8488223100c409",
+      "sha256": "eb021c9e539bfbd58647b2a6d3f70fdaaf145f537d1d952e1695a3e6404c779e",
+      "bytes": 4701
+    },
+    {
+      "path": "docs/plans/Ronova_MS_Remediation_Spec_V1.0.md",
+      "action": "replace",
+      "input_sha256": "d855674727e223ae56f01c4649c558ff97a6d2afed695cac8a83ce72e23e7e57",
+      "sha256": "6134fbca33edf91f7a4e1bf716ec83d527eee7b480353c944284dabb37d97c22",
+      "bytes": 4169
+    },
+    {
+      "path": "docs/plans/Ronova_MS_Rulebound_Enhancement_Plan_V2.0.md",
+      "action": "replace",
+      "input_sha256": "caa8968235fa8a2e3b04503a1c080c136feaada93311a8485cb0243b7629d4d1",
+      "sha256": "d703a1513f00496b63c65f94ea03ecb5549f7b40e5922e77cd72fb9f2d3b1481",
+      "bytes": 11153
+    },
+    {
+      "path": "docs/plans/Ronova_NonViolating_Enhancement_Plan_V1.0.md",
+      "action": "replace",
+      "input_sha256": "43a2de15b78ca16375dca65cd1f6d05735a1672d1337dd346d5c2ffd9cfd9c29",
+      "sha256": "e8f21d7f16d7d5c70f9dd787339a598a726c6fd8bf47c260a05a18d793afb748",
+      "bytes": 3083
+    },
+    {
+      "path": "docs/plans/VALIDATION-TRACEABILITY.md",
+      "action": "add",
+      "input_sha256": null,
+      "sha256": "51227520d957fbd39ddbfca81b8e4ad312d31229d72ad35c4beece65183adc20",
+      "bytes": 118457
+    },
+    {
+      "path": "docs/plans/WIRING-ACCEPTANCE.md",
+      "action": "add",
+      "input_sha256": null,
+      "sha256": "fc6fd6ef6e52fd13ba50eee498a7edb60d19f7e7f64e4d623fd50d8b001fdcbe",
+      "bytes": 22183
+    },
+    {
+      "path": "docs/plans/restructure/README.md",
+      "action": "add",
+      "input_sha256": null,
+      "sha256": "1ca0f74092c13480a9b903c0aa4d4c0c23a0051984e0319056c6b636f502a73e",
+      "bytes": 13642
+    },
+    {
+      "path": "docs/plans/restructure/capability-wiring-baseline.json",
+      "action": "add",
+      "input_sha256": null,
+      "sha256": "6c85a988a4413de8ec84b4b48e1ffd6c1f30b5648c076e26404eb3b3f376e1d9",
+      "bytes": 33443
+    },
+    {
+      "path": "docs/plans/restructure/current-verification.json",
+      "action": "add",
+      "input_sha256": null,
+      "sha256": "2a79d47ed25866e38574eac352c91358c74b63c064beba9c80b021b9f8488e61",
+      "bytes": 67579
+    },
+    {
+      "path": "docs/plans/restructure/enhancement-addendum-merge.json",
+      "action": "add",
+      "input_sha256": null,
+      "sha256": "1ffb75b063f143e60ed884cd8a0c3f6369652f4d1533abd9a181f01f1850a232",
+      "bytes": 826765
+    },
+    {
+      "path": "docs/plans/restructure/generate_invariant_index.py",
+      "action": "add",
+      "input_sha256": null,
+      "sha256": "f7eb5f0d8e5d283b33bf3222d4ab1661438b2b6f2efc0e88d1be25370fa6870d",
+      "bytes": 13464
+    },
+    {
+      "path": "docs/plans/restructure/generate_validation_traceability.py",
+      "action": "add",
+      "input_sha256": null,
+      "sha256": "0bd1b6fe95d742800363fef85cab8d57034fdc0bf99282b5257ce35955ebcebb",
+      "bytes": 33718
+    },
+    {
+      "path": "docs/plans/restructure/id-inventory.json",
+      "action": "add",
+      "input_sha256": null,
+      "sha256": "607ed64719403330ab7c9fd79db07a5663d83f105d19b7e2cf2159aca8b023a1",
+      "bytes": 173722
+    },
+    {
+      "path": "docs/plans/restructure/input-archives.json",
+      "action": "add",
+      "input_sha256": null,
+      "sha256": "d8b3de68ae6317dd50e7598d42b8623bcf116e63bc6b03a64ffc53e8e2dc35bd",
+      "bytes": 632
+    },
+    {
+      "path": "docs/plans/restructure/input-file-hashes.json",
+      "action": "add",
+      "input_sha256": null,
+      "sha256": "db053e9c189780e3d5dac72153034b1c076b2b16394f777164c820de81b04adc",
+      "bytes": 36740
+    },
+    {
+      "path": "docs/plans/restructure/link-audit-fix2.json",
+      "action": "add",
+      "input_sha256": null,
+      "sha256": "3ab26c4bf8a8b12567d6ba493c50415af4115cdae1864bdb5ea3da211590b421",
+      "bytes": 454023
+    },
+    {
+      "path": "docs/plans/restructure/link-audit.json",
+      "action": "add",
+      "input_sha256": null,
+      "sha256": "8c0f816a4a0674e9ca40247ec33a6c951f2ab824f3e326d414247a58b11d299c",
+      "bytes": 347306
+    },
+    {
+      "path": "docs/plans/restructure/ms-coverage.json",
+      "action": "add",
+      "input_sha256": null,
+      "sha256": "6573746d5ad7da0a67154a0e90e4ed119a8593d33387e91362d5bd3bd3806e2e",
+      "bytes": 66934
+    },
+    {
+      "path": "docs/plans/restructure/reference-updates.json",
+      "action": "add",
+      "input_sha256": null,
+      "sha256": "a797c529acbac3a158402b80a0934f0416b49f2bdfa5889ea1312c4aedd1622d",
+      "bytes": 551262
+    },
+    {
+      "path": "docs/plans/restructure/review-notes.json",
+      "action": "add",
+      "input_sha256": null,
+      "sha256": "8c500e00a54073fb8c90de53bddc3c00ee56fc36109ec49560382d00190c1f95",
+      "bytes": 3362
+    },
+    {
+      "path": "docs/plans/restructure/review-verification-fix2.json",
+      "action": "add",
+      "input_sha256": null,
+      "sha256": "5a842d5e92118afab941c86e6e9590112516b1674c06c25dd7d492c9ca8ae5ac",
+      "bytes": 18796
+    },
+    {
+      "path": "docs/plans/restructure/review-verification.json",
+      "action": "add",
+      "input_sha256": null,
+      "sha256": "0d5e1b6293568a526dc9155a5d279e6591a77818fde6684d7e4d2ba70f03906c",
+      "bytes": 6643
+    },
+    {
+      "path": "docs/plans/restructure/scope-adjustments.json",
+      "action": "add",
+      "input_sha256": null,
+      "sha256": "17e207583f7cda595705bbcd768a449a97b8e07537aea73d8e74b7e2098f698a",
+      "bytes": 50817
+    },
+    {
+      "path": "docs/plans/restructure/section-map.json",
+      "action": "add",
+      "input_sha256": null,
+      "sha256": "741fff5d68a079d6534aa02c2c6391b99468960d55699a27a80cf6e6ccb58aa3",
+      "bytes": 1630769
+    },
+    {
+      "path": "docs/plans/restructure/source-manifest.json",
+      "action": "add",
+      "input_sha256": null,
+      "sha256": "a930e78ce50634dfeee4f26bb6f8fb232ba80ffb35b729d95541693a68a0614f",
+      "bytes": 6859
+    },
+    {
+      "path": "docs/plans/restructure/test_addendum_portability.py",
+      "action": "add",
+      "input_sha256": null,
+      "sha256": "b1dc68cee17e131669fe388caa6a1764bf79d36223e18275c6c27123777ea8c3",
+      "bytes": 10763
+    },
+    {
+      "path": "docs/plans/restructure/test_validation_traceability.py",
+      "action": "add",
+      "input_sha256": null,
+      "sha256": "852d65fd36fbfd30403cda505a28b9a1cbbc57ddeef34da7428edcd6db64365e",
+      "bytes": 3542
+    },
+    {
+      "path": "docs/plans/restructure/validation-traceability.json",
+      "action": "add",
+      "input_sha256": null,
+      "sha256": "108b2a225d7f3c8793496f9861c9d791512b956cefb2c04675c6ef34d0592fab",
+      "bytes": 297887
+    },
+    {
+      "path": "docs/plans/restructure/verification.json",
+      "action": "add",
+      "input_sha256": null,
+      "sha256": "8b4de0c276acb118dc98e38864f8a0b314de010671af736a1a7b1ce4553cb83a",
+      "bytes": 9132
+    },
+    {
+      "path": "docs/plans/restructure/verify_addendum_merge.py",
+      "action": "add",
+      "input_sha256": null,
+      "sha256": "edabf3cb7b8d1b2d4aa5579ead027375fa79c3fcc590c956ce58f960baafb43c",
+      "bytes": 53454
+    },
+    {
+      "path": "docs/plans/restructure/verify_restructure.py",
+      "action": "add",
+      "input_sha256": null,
+      "sha256": "07d7b3b3aa293eefd8cc611af33de48a90bc1da74959b98e4b5a75e417736e7e",
+      "bytes": 15084
+    },
+    {
+      "path": "docs/reference/R66-CAPABILITY-AUDIT.md",
+      "action": "add",
+      "input_sha256": null,
+      "sha256": "b8648701786ed576392a8aa0d4dabad741bcf6ac9ecef1fef36f6a6cee4b636e",
+      "bytes": 53393
+    },
+    {
+      "path": "docs/reference/R66-EIGHT-DIRECTIONS-EXISTING-BASELINE-EVIDENCE.md",
+      "action": "add",
+      "input_sha256": null,
+      "sha256": "32ae099921b4d0d9d3fd75e768d7ac7bd87cff176183dbd1bc1751381e26ede2",
+      "bytes": 97058
+    },
+    {
+      "path": "docs/reference/R66-EIGHT-DIRECTIONS-EXISTING-BASELINE-SUPPLEMENT.md",
+      "action": "add",
+      "input_sha256": null,
+      "sha256": "b0474aa11165b3c306392ef334db628e4ae6d60ee5ffa33778b2eb44ff8c1767",
+      "bytes": 19795
+    },
+    {
+      "path": "docs/reference/R66-EIGHT-DIRECTIONS-REVIEW-EVIDENCE.md",
+      "action": "add",
+      "input_sha256": null,
+      "sha256": "15c489930e0d8afebda56145a9f3f0f96e9b66d34bdce2da208cc2e376dfdad0",
+      "bytes": 78531
+    },
+    {
+      "path": "docs/reference/R66-FIX8-WINDOWS-RERUN-RECEIPT.md",
+      "action": "add",
+      "input_sha256": null,
+      "sha256": "b7f7441a59f137d9361887aa534f7f42d7eddf2a76a89a55b5bdb90abb3f5fc6",
+      "bytes": 5032
+    },
+    {
+      "path": "docs/reference/R66-NATIVE-NEGOTIATION-EVIDENCE.md",
+      "action": "add",
+      "input_sha256": null,
+      "sha256": "40c3e10dac1c93cebfe2b4b7cad8c90e146bc90c037d256031036a4ffef2400e",
+      "bytes": 16147
+    },
+    {
+      "path": "docs/reference/R66-SAME-PRIVILEGE-REVIEW-EVIDENCE.md",
+      "action": "add",
+      "input_sha256": null,
+      "sha256": "35575ad8a5745fc96e706abb082625faa7e0b16065d2e6bcf3471c49ef0bc91e",
+      "bytes": 76272
+    },
+    {
+      "path": "docs/reference/R66-SAME-PRIVILEGE-SURFACE.md",
+      "action": "add",
+      "input_sha256": null,
+      "sha256": "ad7cb6ebb650a21657cc70e3cba54a3280dfbef3324ddbdfe063ece034cfa822",
+      "bytes": 18288
+    },
+    {
+      "path": "docs/reference/R66-SECOND-BATCH-EIGHT-DIRECTIONS-VERIFICATION.md",
+      "action": "add",
+      "input_sha256": null,
+      "sha256": "be1e885a5ebada3fde22ccfe2fe6f80d5d9d97c94ee74a275b726f8161a375ea",
+      "bytes": 13814
+    },
+    {
+      "path": "docs/reference/R66-V13-REVIEW-EVIDENCE.md",
+      "action": "add",
+      "input_sha256": null,
+      "sha256": "dea8fb12d00055f46c9f67199771afef99caa337b71b9e00951352cc71a97d93",
+      "bytes": 45549
+    },
+    {
+      "path": "docs/reference/R66-VERIFICATION-CEILING-REVIEW-EVIDENCE.md",
+      "action": "add",
+      "input_sha256": null,
+      "sha256": "31cf13a316774e6cd9790ea63db90a6fd90923e2b70514371c38da6a86a01883",
+      "bytes": 99861
+    },
+    {
+      "path": "docs/reference/Ronova_Enhancement_Addendum_MERGE-NOTE.md",
+      "action": "add",
+      "input_sha256": null,
+      "sha256": "8a919155dc7f749dc638d27f08ebcdf5f58301c75775c9838910d496e7578399",
+      "bytes": 7012
+    },
+    {
+      "path": "docs/reference/Ronova_Enhancement_Addendum_V1.3_HANDOFF.md",
+      "action": "add",
+      "input_sha256": null,
+      "sha256": "9a9b85c8e507296f4a3cfd644a903f3d9bb91497bc1b639f2d9bc6f76366cb0d",
+      "bytes": 6444
+    },
+    {
+      "path": "docs/reference/v13-verification-ceiling/R66-EXTREME-CEILING-REVIEW.md",
+      "action": "add",
+      "input_sha256": null,
+      "sha256": "1bf8be3c1d3d9325ece6a5bcf341c2c18cc97b3a95b9d848eeab5bc4a88a3a3f",
+      "bytes": 12621
+    },
+    {
+      "path": "docs/reference/v13-verification-ceiling/R66-MERGE-VERIFIER-PORTABILITY.md",
+      "action": "add",
+      "input_sha256": null,
+      "sha256": "9bdbc2fa1b013e9f1227c483dee76e58998bdb50029028de5c2712cf179670b4",
+      "bytes": 5550
+    },
+    {
+      "path": "docs/reference/v13-verification-ceiling/R66-V13-VERIFICATION-ADDENDUM.md",
+      "action": "add",
+      "input_sha256": null,
+      "sha256": "8ee8f9cf9d06b66a4515e30e679d8e23cb365fb414a6a3fb16c0e343a3e48081",
+      "bytes": 15263
+    },
+    {
+      "path": "docs/reference/v13-verification-ceiling/README-INDEX.md",
+      "action": "add",
+      "input_sha256": null,
+      "sha256": "a064b7f5507e1eb769cde0809588e4e4a6615a90df1b06621e4fccce5483ef26",
+      "bytes": 2855
+    },
+    {
+      "path": "docs/research/incoming-v1.1-apply-manifest.md",
+      "action": "replace",
+      "input_sha256": "98e9fadc52ffa7c8bccfb6fed8faab4e61f4a951f24a9042740fa0e299d61661",
+      "sha256": "4c63d4b0e8439caa2c7e33f058c615308c06b08d1343656a963a7760c8da5182",
+      "bytes": 11021
+    },
+    {
+      "path": "docs/research/reference-priority-mechanisms.md",
+      "action": "replace",
+      "input_sha256": "d5ee29b6684dd59dd6914c8074618bac73f84f478dba2bd50c795f93ce72c62a",
+      "sha256": "ff19e95b09ba9c66f72ac4da866f0c154c22f3b0efc2a876e759c57efa5b2d04",
+      "bytes": 16179
+    },
+    {
+      "path": "docs/research/ronova-vs-ms-comparison.md",
+      "action": "replace",
+      "input_sha256": "eaa27d2e3b5b091b5035a5145dcea4067974f26911df1279d65e897347337f5b",
+      "sha256": "57cc64832b6d4895a34941d93d51bfe857d90eb1bf32bdc0377fac7881e84acb",
+      "bytes": 22062
+    }
+  ]
+}

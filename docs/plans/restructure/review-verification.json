@@ -1,0 +1,204 @@
+{
+  "kind": "documentation_review_integrity_only",
+  "revision": "fix1",
+  "date": "2026-09-14",
+  "review_basis": {
+    "archive": "ronova-docs-0.2.0-alpha.7.17-r66-ms-restructured.zip",
+    "sha256": "3457759a1e24036ef3364504cd2049af19a66c3ada6b12bef051f872cba187e6",
+    "file_count": 277
+  },
+  "original_docs_input": {
+    "archive": "ronova-docs-0.2.0-alpha.7.17-r66.zip",
+    "sha256": "04d444c2fe46e60eefb16a1eeee98980638b7be2e1425648f19774fde5c45ade",
+    "file_count": 243
+  },
+  "source_archive_observation": {
+    "archive": "ronova-source-0.2.0-alpha.7.17-r66.zip",
+    "sha256": "1266d8c2dd46b949178d7341ee467333be678fb9b373c1403b576a56c73fd763",
+    "entries": 618,
+    "modified": false,
+    "note": "The source archive was not modified or repackaged; no code behavior was reviewed in this task."
+  },
+  "document_integrity": {
+    "errors": [],
+    "restored_source_count": 16,
+    "restored_source_lines": 17752,
+    "original_body_count": 1047,
+    "source_payloads_byte_identical_to_previous_restructure": true,
+    "all_16_restored_sources_byte_identical_to_original": true,
+    "ms_framework_headings": 82,
+    "canonical_reference_occurrences": 1432,
+    "requested_id_occurrences": 1047
+  },
+  "derived_index": {
+    "statistics": {
+      "source_count": 16,
+      "scoped_id_rows": 424,
+      "distinct_id_spellings_across_sources": 273,
+      "mapped_location_entries": 929,
+      "recorded_id_occurrences": 1047,
+      "unnumbered_constitutional_name_rows": 16,
+      "d1_d106_without_individually_recorded_spelling": [
+        "D14",
+        "D15",
+        "D16",
+        "D17",
+        "D18",
+        "D19",
+        "D20",
+        "D21",
+        "D22",
+        "D23",
+        "D24",
+        "D25",
+        "D26",
+        "D27",
+        "D28",
+        "D29",
+        "D30",
+        "D31",
+        "D34",
+        "D35",
+        "D36",
+        "D37",
+        "D38",
+        "D39",
+        "D40",
+        "D41",
+        "D42",
+        "D43",
+        "D44",
+        "D45",
+        "D46",
+        "D47",
+        "D48",
+        "D49",
+        "D50",
+        "D51",
+        "D52"
+      ]
+    },
+    "exactly_matches_generator": true,
+    "original_inventory_unchanged": true,
+    "unscoped_or_same_spelling_ids_not_semantically_merged": true
+  },
+  "preserved_maps_and_inventories": [
+    {
+      "path": "docs/plans/restructure/section-map.json",
+      "sha256": "741fff5d68a079d6534aa02c2c6391b99468960d55699a27a80cf6e6ccb58aa3",
+      "byte_identical_to_previous": true
+    },
+    {
+      "path": "docs/plans/restructure/id-inventory.json",
+      "sha256": "607ed64719403330ab7c9fd79db07a5663d83f105d19b7e2cf2159aca8b023a1",
+      "byte_identical_to_previous": true
+    },
+    {
+      "path": "docs/plans/restructure/source-manifest.json",
+      "sha256": "a930e78ce50634dfeee4f26bb6f8fb232ba80ffb35b729d95541693a68a0614f",
+      "byte_identical_to_previous": true
+    },
+    {
+      "path": "docs/plans/restructure/scope-adjustments.json",
+      "sha256": "17e207583f7cda595705bbcd768a449a97b8e07537aea73d8e74b7e2098f698a",
+      "byte_identical_to_previous": true
+    }
+  ],
+  "protected_inputs": {
+    "file_count": 211,
+    "all_byte_identical_to_previous": true
+  },
+  "scope_and_notes": {
+    "four_hard_limit_table_unchanged": true,
+    "cond06_markdown_and_json_text_in_sync": true,
+    "source_adjacent_review_note_count": 7,
+    "notes_outside_original_payloads": true,
+    "book_bodies_not_split": true
+  },
+  "book_and_index_sizes": [
+    {
+      "path": "docs/plans/MS-ENTITYDEFENCE-PLAN.md",
+      "bytes": 134027,
+      "lines_including_blank": 3589,
+      "nonempty_lines": 2162,
+      "sha256": "e4a6ce134ce5e6d755f749b136953a4eb2427af58c95cb9c30901641922eacf9"
+    },
+    {
+      "path": "docs/plans/MS-MSITEM-PLAN.md",
+      "bytes": 254765,
+      "lines_including_blank": 5580,
+      "nonempty_lines": 3637,
+      "sha256": "8eb6a435a624c5823898a991f4a6b9659bea1cc1d95381b34f3a89c56b378381"
+    },
+    {
+      "path": "docs/plans/MS-SKILLS-PLAN.md",
+      "bytes": 1154416,
+      "lines_including_blank": 20828,
+      "nonempty_lines": 13582,
+      "sha256": "a993efed3e7e49796868b9f53c256288996dda9bf48b41137728238f7e60db84"
+    },
+    {
+      "path": "docs/plans/INVARIANT-INDEX.md",
+      "bytes": 98799,
+      "lines_including_blank": 650,
+      "nonempty_lines": 580,
+      "sha256": "f62947ec1dede1ed15a8cc48e411676a7529d9b5a83fee97d7763842d052aac5"
+    }
+  ],
+  "local_links": {
+    "original_input": {
+      "markdown_files": 188,
+      "local_link_occurrences": 1378,
+      "resolved_local_link_occurrences": 859,
+      "external_links_not_fetched": 9
+    },
+    "previous_restructure": {
+      "markdown_files": 194,
+      "local_link_occurrences": 6695,
+      "resolved_local_link_occurrences": 6176,
+      "external_links_not_fetched": 9
+    },
+    "output": {
+      "markdown_files": 196,
+      "local_link_occurrences": 7800,
+      "resolved_local_link_occurrences": 7281,
+      "external_links_not_fetched": 9
+    },
+    "preexisting_issue_occurrences_retained": 519,
+    "new_issues_against_previous_restructure": [],
+    "new_issues_against_original": [],
+    "issue_multiset_equal_ignoring_shifted_lines": true,
+    "external_links_fetched": false
+  },
+  "files_relative_to_previous_restructure": {
+    "changed_files": [
+      "docs/DESIGN-SPEC.md",
+      "docs/README.md",
+      "docs/plans/MS-ENTITYDEFENCE-PLAN.md",
+      "docs/plans/MS-MSITEM-PLAN.md",
+      "docs/plans/MS-SKILLS-PLAN.md",
+      "docs/plans/README.md",
+      "docs/plans/RESTRUCTURE-CHECK.md",
+      "docs/plans/RESTRUCTURE-MAP.md",
+      "docs/plans/restructure/link-audit.json",
+      "docs/plans/restructure/ms-coverage.json",
+      "docs/plans/restructure/package-manifest.json"
+    ],
+    "added_files": [
+      "docs/plans/INVARIANT-INDEX.md",
+      "docs/plans/RESTRUCTURE-REVIEW.md",
+      "docs/plans/restructure/generate_invariant_index.py",
+      "docs/plans/restructure/review-notes.json",
+      "docs/plans/restructure/review-verification.json"
+    ],
+    "removed_files": [],
+    "note": "List includes this review record and cumulative manifest; self-hashes are deliberately not recorded here. Output package content is recorded by package-manifest.json."
+  },
+  "implementation_or_runtime_tests_executed": false,
+  "limitations": [
+    "No source-code/runtime compliance conclusion.",
+    "No build, Minecraft launch, server test, or stage acceptance.",
+    "Large primary Markdown files remain large; added navigation does not reduce file size.",
+    "Historical implementation claims and existing semantic discrepancies were preserved rather than re-verified or silently reconciled."
+  ]
+}

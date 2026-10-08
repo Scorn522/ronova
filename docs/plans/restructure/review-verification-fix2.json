@@ -1,0 +1,468 @@
+{
+  "kind": "documentation_review_integrity_only",
+  "revision": "fix2",
+  "date": "2026-09-14",
+  "input_archive_observations": [
+    {
+      "archive": "ronova-docs-0.2.0-alpha.7.17-r66.zip",
+      "sha256": "04d444c2fe46e60eefb16a1eeee98980638b7be2e1425648f19774fde5c45ade",
+      "file_count": 243,
+      "expected_ledger_path": "validation/7.17/acceptance-matrix.json",
+      "expected_ledger_present": false
+    },
+    {
+      "archive": "ronova-docs-0.2.0-alpha.7.17-r66-ms-restructured-fix1.zip",
+      "sha256": "441b5b373f08fb4d51f8ec20f705c8bad5a5dca731c34372d3e477b6f8e2aa24",
+      "file_count": 282,
+      "expected_ledger_path": "validation/7.17/acceptance-matrix.json",
+      "expected_ledger_present": false
+    },
+    {
+      "archive": "ronova-source-0.2.0-alpha.7.17-r66.zip",
+      "sha256": "1266d8c2dd46b949178d7341ee467333be678fb9b373c1403b576a56c73fd763",
+      "file_count": 618,
+      "expected_ledger_path": "validation/7.17/acceptance-matrix.json",
+      "expected_ledger_present": false
+    }
+  ],
+  "source_archive_modified": false,
+  "document_integrity": {
+    "kind": "document_integrity_only",
+    "scope": "Source-body reconstruction, unchanged IDs, MS section skeleton, canonical links, and input-file change boundaries. Not implementation or runtime evidence.",
+    "errors": [],
+    "checks": {
+      "source_body_count": 1047,
+      "reversible_markdown_edits": {
+        "heading-depth": 995,
+        "link-target": 62,
+        "reference-wrapper": 1306
+      },
+      "original_sources": [
+        {
+          "alias": "INDEX",
+          "source": "docs/plans/README.md",
+          "sections": 5,
+          "lines": 63,
+          "bytes": 5010,
+          "sha256": "aa6d2bf1a0835722823d1e8314210e8504701afa9c5bd4b39517405927f802a1",
+          "byte_identical_to_input": true,
+          "id_occurrences": 2
+        },
+        {
+          "alias": "BL",
+          "source": "docs/plans/Ronova_7.14A_Baseline_All_Enhancements_Master_V1.4_Internal_Root.md",
+          "sections": 144,
+          "lines": 3022,
+          "bytes": 73679,
+          "sha256": "cac45dcc62e38bb90a26661464272801462ee0b3482b894bedc55d8d419fe523",
+          "byte_identical_to_input": true,
+          "id_occurrences": 10
+        },
+        {
+          "alias": "V26",
+          "source": "docs/plans/Ronova_7.16_Plus_JVM_Extreme_Strength_Enhancement_Master_V2.6_Internal_Root.md",
+          "sections": 171,
+          "lines": 3460,
+          "bytes": 207866,
+          "sha256": "905ff0b353fce4764805ae1075259a2dba77904f9468e88768ccb05998efcf37",
+          "byte_identical_to_input": true,
+          "id_occurrences": 67
+        },
+        {
+          "alias": "FULL",
+          "source": "docs/plans/Ronova_7.17_Extreme_Full_Plane_Enhancement_Plan_V1.0_Internal_Root.md",
+          "sections": 22,
+          "lines": 337,
+          "bytes": 36800,
+          "sha256": "62d45c727873273dfec65a39e6c846311898eefe8b5c10f268a203af7421b90a",
+          "byte_identical_to_input": true,
+          "id_occurrences": 0
+        },
+        {
+          "alias": "TIER",
+          "source": "docs/plans/Ronova_7.17_Extreme_Tier_Strength_Implementation_Plan_V1.0_Internal_Root.md",
+          "sections": 53,
+          "lines": 833,
+          "bytes": 46583,
+          "sha256": "028e5849c3741f7f29abb191dce6eecb9f8b8631614584329fd50df2fc522855",
+          "byte_identical_to_input": true,
+          "id_occurrences": 5
+        },
+        {
+          "alias": "REC",
+          "source": "docs/plans/Ronova_7.17_Generic_Recovery_Chain_Implementation_Plan_V1.0_Internal_Root.md",
+          "sections": 25,
+          "lines": 487,
+          "bytes": 35947,
+          "sha256": "85c993b68fb0cdd4647483fb9da937ce9b2cd95f10a7d9a6a54e6f8d1bfa62a1",
+          "byte_identical_to_input": true,
+          "id_occurrences": 0
+        },
+        {
+          "alias": "MAX",
+          "source": "docs/plans/Ronova_Compliant_Maximum_Strength_Plan_V1.0.md",
+          "sections": 38,
+          "lines": 381,
+          "bytes": 22184,
+          "sha256": "00af477883318e2ce5500178c4dc3d48867e980bba773bffa184d26b4617005f",
+          "byte_identical_to_input": true,
+          "id_occurrences": 10
+        },
+        {
+          "alias": "CF",
+          "source": "docs/plans/Ronova_L6E-0_Contract_Freeze_V1.3_Internal_Root.md",
+          "sections": 95,
+          "lines": 1695,
+          "bytes": 42431,
+          "sha256": "b09cbc535fbc0d6ec1f8d72dc90a5f9e67fa13a49b57c6d3b65975c4811d9d2b",
+          "byte_identical_to_input": true,
+          "id_occurrences": 34
+        },
+        {
+          "alias": "P0A",
+          "source": "docs/plans/Ronova_L6E_P0-A_Truth_Authority_Implementation_Spec_V1.3_Internal_Root.md",
+          "sections": 139,
+          "lines": 2298,
+          "bytes": 55825,
+          "sha256": "a0a70e129f1c053bba8f6b6aec1f1947590fe51d5703550e53a137c96a0149ca",
+          "byte_identical_to_input": true,
+          "id_occurrences": 17
+        },
+        {
+          "alias": "L6",
+          "source": "docs/plans/Ronova_L6_Architecture_Master_Plan_V2.4_Internal_Root.md",
+          "sections": 100,
+          "lines": 1468,
+          "bytes": 134413,
+          "sha256": "16100e2fc2779ee2cb29b784d3201c4f76e0a0cbd58fbe3da720c070d7edf278",
+          "byte_identical_to_input": true,
+          "id_occurrences": 256
+        },
+        {
+          "alias": "ROAD",
+          "source": "docs/plans/Ronova_L6_L6E_Full_Enhancement_Roadmap_V1.0_Internal_Root.md",
+          "sections": 35,
+          "lines": 429,
+          "bytes": 56571,
+          "sha256": "6a4c2cf0e620f3eb2646f958ae6b318c4471db2f5e8a638fd75079c50fd830a4",
+          "byte_identical_to_input": true,
+          "id_occurrences": 4
+        },
+        {
+          "alias": "MSC",
+          "source": "docs/plans/Ronova_MS_Compliance_and_Enhancement_Plan_V1.0.md",
+          "sections": 30,
+          "lines": 374,
+          "bytes": 28438,
+          "sha256": "8f190feed151a5928c0dc35f4f9e968ad3f7cf751768cd875d8488223100c409",
+          "byte_identical_to_input": true,
+          "id_occurrences": 113
+        },
+        {
+          "alias": "MSR",
+          "source": "docs/plans/Ronova_MS_Remediation_Spec_V1.0.md",
+          "sections": 28,
+          "lines": 414,
+          "bytes": 24760,
+          "sha256": "d855674727e223ae56f01c4649c558ff97a6d2afed695cac8a83ce72e23e7e57",
+          "byte_identical_to_input": true,
+          "id_occurrences": 13
+        },
+        {
+          "alias": "RULE",
+          "source": "docs/plans/Ronova_MS_Rulebound_Enhancement_Plan_V2.0.md",
+          "sections": 63,
+          "lines": 1026,
+          "bytes": 86398,
+          "sha256": "caa8968235fa8a2e3b04503a1c080c136feaada93311a8485cb0243b7629d4d1",
+          "byte_identical_to_input": true,
+          "id_occurrences": 269
+        },
+        {
+          "alias": "NON",
+          "source": "docs/plans/Ronova_NonViolating_Enhancement_Plan_V1.0.md",
+          "sections": 19,
+          "lines": 296,
+          "bytes": 20772,
+          "sha256": "43a2de15b78ca16375dca65cd1f6d05735a1672d1337dd346d5c2ffd9cfd9c29",
+          "byte_identical_to_input": true,
+          "id_occurrences": 11
+        },
+        {
+          "alias": "DS",
+          "source": "docs/DESIGN-SPEC.md",
+          "sections": 80,
+          "lines": 1169,
+          "bytes": 91080,
+          "sha256": "9d0768c351aa3a1d4bda7865c93303def851cfd7370afdc37442bcf544dda9e7",
+          "byte_identical_to_input": true,
+          "id_occurrences": 236
+        }
+      ],
+      "original_lines": 17752,
+      "original_bytes": 968757,
+      "requested_id_family_occurrences": 1047,
+      "ms_frameworks": [
+        {
+          "path": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/minecraft-ms-1.20.1-skills.zh.md",
+          "headings": 35,
+          "sha256": "ac7801b0859e66b903307c96a59540887b1f1ba6bf7002ad6ad4b433a099e726",
+          "heading_sequence_identical": true
+        },
+        {
+          "path": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/item/minecraft-ms-msitem.zh.md",
+          "headings": 23,
+          "sha256": "1c1aea6dc45e50c3f99ef06926bfbb05bfea7d606d811e9017a89fa4f61ecb5e",
+          "heading_sequence_identical": true
+        },
+        {
+          "path": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/entity/minecraft-ms-entitydefence.zh.md",
+          "headings": 24,
+          "sha256": "495480f9e3343a1dd8840a42a8b27e80eb0b7dafdca0a37b9f535870a5ef4cd4",
+          "heading_sequence_identical": true
+        }
+      ],
+      "ms_framework_headings": 82,
+      "duplicate_explicit_anchors": [],
+      "canonical_reference_occurrences": 1432,
+      "canonical_reference_unique_targets_by_origin": 530,
+      "invalid_canonical_references": [],
+      "input_file_boundary": {
+        "original_files": 243,
+        "unchanged_files": 220,
+        "changed_files": [
+          "README.md",
+          "FEATURES.md",
+          "docs/README.md",
+          "docs/ALL-MODS-RESEARCH.md",
+          "docs/DESIGN-SPEC.md",
+          "docs/research/incoming-v1.1-apply-manifest.md",
+          "docs/research/ronova-vs-ms-comparison.md",
+          "docs/research/reference-priority-mechanisms.md",
+          "docs/plans/Ronova_Compliant_Maximum_Strength_Plan_V1.0.md",
+          "docs/plans/README.md",
+          "docs/plans/Ronova_7.17_Extreme_Tier_Strength_Implementation_Plan_V1.0_Internal_Root.md",
+          "docs/plans/Ronova_NonViolating_Enhancement_Plan_V1.0.md",
+          "docs/plans/Ronova_MS_Rulebound_Enhancement_Plan_V2.0.md",
+          "docs/plans/Ronova_7.14A_Baseline_All_Enhancements_Master_V1.4_Internal_Root.md",
+          "docs/plans/Ronova_7.17_Extreme_Full_Plane_Enhancement_Plan_V1.0_Internal_Root.md",
+          "docs/plans/Ronova_L6_Architecture_Master_Plan_V2.4_Internal_Root.md",
+          "docs/plans/Ronova_MS_Remediation_Spec_V1.0.md",
+          "docs/plans/Ronova_7.17_Generic_Recovery_Chain_Implementation_Plan_V1.0_Internal_Root.md",
+          "docs/plans/Ronova_MS_Compliance_and_Enhancement_Plan_V1.0.md",
+          "docs/plans/Ronova_7.16_Plus_JVM_Extreme_Strength_Enhancement_Master_V2.6_Internal_Root.md",
+          "docs/plans/Ronova_L6_L6E_Full_Enhancement_Roadmap_V1.0_Internal_Root.md",
+          "docs/plans/Ronova_L6E_P0-A_Truth_Authority_Implementation_Spec_V1.3_Internal_Root.md",
+          "docs/plans/Ronova_L6E-0_Contract_Freeze_V1.3_Internal_Root.md"
+        ],
+        "removed_files": [],
+        "unexpected_changes": [],
+        "protected_reference_history_evidence_files": 211
+      },
+      "unresolved_original_text_reference_count": 0,
+      "unresolved_original_link_fragment_count": 0
+    },
+    "implementation_or_runtime_tests_executed": false
+  },
+  "invariant_index": {
+    "statistics": {
+      "source_count": 16,
+      "scoped_id_rows": 424,
+      "distinct_id_spellings_across_sources": 273,
+      "mapped_location_entries": 929,
+      "recorded_id_occurrences": 1047,
+      "unnumbered_constitutional_name_rows": 16,
+      "d1_d106_without_individually_recorded_spelling": [
+        "D14",
+        "D15",
+        "D16",
+        "D17",
+        "D18",
+        "D19",
+        "D20",
+        "D21",
+        "D22",
+        "D23",
+        "D24",
+        "D25",
+        "D26",
+        "D27",
+        "D28",
+        "D29",
+        "D30",
+        "D31",
+        "D34",
+        "D35",
+        "D36",
+        "D37",
+        "D38",
+        "D39",
+        "D40",
+        "D41",
+        "D42",
+        "D43",
+        "D44",
+        "D45",
+        "D46",
+        "D47",
+        "D48",
+        "D49",
+        "D50",
+        "D51",
+        "D52"
+      ]
+    },
+    "markdown_matches_generator": true,
+    "inventory_and_body_unchanged": true
+  },
+  "validation_traceability": {
+    "errors": [],
+    "cases": 68,
+    "scoped_requirement_rows": 120,
+    "requirement_groups": {
+      "L6 决策": 13,
+      "V26 不变量": 55,
+      "DS 加强 C 块": 19,
+      "RULE 加强 C 块": 18,
+      "RULE 加强 D 块": 4,
+      "MS 缺口": 11
+    },
+    "requirement_case_edges": 231,
+    "explicit_original_id_edges": 4,
+    "no_direct_case_rows": 9,
+    "ms_source_checks": 28,
+    "ms_case_edges": 64,
+    "ms_checks_without_direct_case": [
+      "msitem:L383"
+    ],
+    "source_hashes_checked": 11,
+    "mapping_semantics_automatically_proven": false,
+    "runtime_evidence_verified": false,
+    "gap_map_07_closed": false,
+    "markdown_matches_generator": true,
+    "ledger_observation": {
+      "state": "INPUT_MISSING",
+      "path": "validation/7.17/acceptance-matrix.json",
+      "per_case_status_read": false,
+      "runtime_evidence_verified": false
+    }
+  },
+  "document_helper_parser_tests": {
+    "tests_run": 10,
+    "failures": 0,
+    "errors": 0,
+    "scope": "Read-only documentation parser; temporary synthetic JSON only. Not a Mod fixture or acceptance evidence.",
+    "transcript": "test_duplicate_and_unknown_ids_are_not_dropped (test_validation_traceability.LedgerReaderTests.test_duplicate_and_unknown_ids_are_not_dropped) ... ok\ntest_existing_without_schema_stays_unparsed (test_validation_traceability.LedgerReaderTests.test_existing_without_schema_stays_unparsed) ... ok\ntest_explicit_array_preserves_status_and_bytes (test_validation_traceability.LedgerReaderTests.test_explicit_array_preserves_status_and_bytes) ... ok\ntest_explicit_object_key_ids (test_validation_traceability.LedgerReaderTests.test_explicit_object_key_ids) ... ok\ntest_invalid_pointer_fails_explicitly (test_validation_traceability.LedgerReaderTests.test_invalid_pointer_fails_explicitly) ... ok\ntest_json_pointer_escaping (test_validation_traceability.LedgerReaderTests.test_json_pointer_escaping) ... ok\ntest_key_identity_is_not_array_index (test_validation_traceability.LedgerReaderTests.test_key_identity_is_not_array_index) ... ok\ntest_missing_is_not_not_run (test_validation_traceability.LedgerReaderTests.test_missing_is_not_not_run) ... ok\ntest_partial_schema_is_rejected_even_if_file_missing (test_validation_traceability.LedgerReaderTests.test_partial_schema_is_rejected_even_if_file_missing) ... ok\ntest_wrong_field_is_not_guessed (test_validation_traceability.LedgerReaderTests.test_wrong_field_is_not_guessed) ... ok\n\n----------------------------------------------------------------------\nRan 10 tests in 0.003s\n\nOK\n"
+  },
+  "books": [
+    {
+      "path": "docs/plans/MS-SKILLS-PLAN.md",
+      "sha256": "a993efed3e7e49796868b9f53c256288996dda9bf48b41137728238f7e60db84",
+      "bytes": 1154416,
+      "byte_identical_to_fix1": true
+    },
+    {
+      "path": "docs/plans/MS-MSITEM-PLAN.md",
+      "sha256": "8eb6a435a624c5823898a991f4a6b9659bea1cc1d95381b34f3a89c56b378381",
+      "bytes": 254765,
+      "byte_identical_to_fix1": true
+    },
+    {
+      "path": "docs/plans/MS-ENTITYDEFENCE-PLAN.md",
+      "sha256": "e4a6ce134ce5e6d755f749b136953a4eb2427af58c95cb9c30901641922eacf9",
+      "bytes": 134027,
+      "byte_identical_to_fix1": true
+    }
+  ],
+  "preserved_records": [
+    {
+      "path": "docs/plans/restructure/section-map.json",
+      "sha256": "741fff5d68a079d6534aa02c2c6391b99468960d55699a27a80cf6e6ccb58aa3",
+      "byte_identical_to_fix1": true
+    },
+    {
+      "path": "docs/plans/restructure/id-inventory.json",
+      "sha256": "607ed64719403330ab7c9fd79db07a5663d83f105d19b7e2cf2159aca8b023a1",
+      "byte_identical_to_fix1": true
+    },
+    {
+      "path": "docs/plans/restructure/source-manifest.json",
+      "sha256": "a930e78ce50634dfeee4f26bb6f8fb232ba80ffb35b729d95541693a68a0614f",
+      "byte_identical_to_fix1": true
+    },
+    {
+      "path": "docs/plans/restructure/ms-coverage.json",
+      "sha256": "6573746d5ad7da0a67154a0e90e4ed119a8593d33387e91362d5bd3bd3806e2e",
+      "byte_identical_to_fix1": true
+    }
+  ],
+  "protected_inputs": {
+    "original_protected_files": 211,
+    "changed_protected_files": [],
+    "fix1_validation_related_files": 29,
+    "all_fix1_validation_related_files_unchanged": true,
+    "all_preserved_source_snapshots_unchanged": true,
+    "current_progress_unchanged": true
+  },
+  "changes_relative_to_fix1": {
+    "changed_files": [
+      "README.md",
+      "docs/README.md",
+      "docs/plans/INVARIANT-INDEX.md",
+      "docs/plans/README.md",
+      "docs/plans/RESTRUCTURE-CHECK.md",
+      "docs/plans/RESTRUCTURE-MAP.md",
+      "docs/plans/RESTRUCTURE-REVIEW.md",
+      "docs/plans/restructure/generate_invariant_index.py",
+      "docs/plans/restructure/package-manifest.json"
+    ],
+    "added_files": [
+      "docs/plans/VALIDATION-TRACEABILITY.md",
+      "docs/plans/restructure/generate_validation_traceability.py",
+      "docs/plans/restructure/link-audit-fix2.json",
+      "docs/plans/restructure/review-verification-fix2.json",
+      "docs/plans/restructure/test_validation_traceability.py",
+      "docs/plans/restructure/validation-traceability.json"
+    ],
+    "removed_files": [],
+    "changed_count": 9,
+    "added_count": 6,
+    "removed_count": 0,
+    "changed_or_added_hashes": "See cumulative package-manifest.json. That manifest and this report omit their own self-referential hashes."
+  },
+  "local_links": {
+    "record": "docs/plans/restructure/link-audit-fix2.json",
+    "method": "CommonMark inline link/image parsing with tables; fences excluded; archive original snapshots except ARCHIVE-NOTE excluded for historical path context. Paths and Markdown anchors only; external sites not fetched. Compare occurrence multiset by source/target/resolved/reason.",
+    "original_input_counts": {
+      "markdown_files": 188,
+      "local_link_occurrences": 1378,
+      "resolved_local_link_occurrences": 859,
+      "external_links_not_fetched": 9
+    },
+    "fix1_counts": {
+      "markdown_files": 196,
+      "local_link_occurrences": 7800,
+      "resolved_local_link_occurrences": 7281,
+      "external_links_not_fetched": 9
+    },
+    "output_counts": {
+      "markdown_files": 197,
+      "local_link_occurrences": 8720,
+      "resolved_local_link_occurrences": 8201,
+      "external_links_not_fetched": 9
+    },
+    "preexisting_issue_occurrences_retained": 519,
+    "new_issues_vs_fix1": [],
+    "new_issues_vs_original": [],
+    "issue_multiset_equal_to_fix1": true,
+    "external_urls_fetched": false
+  },
+  "implementation_or_runtime_tests_executed": false,
+  "limitations": [
+    "The exact acceptance ledger was absent from all three supplied archives; all per-case states remain unread.",
+    "28 PARTIAL / 40 NOT_RUN / 0 complete PASS is an unchanged statement in CURRENT-PROGRESS.md, not a row-level recount.",
+    "Design relationships are review-authored and partial/context-only where marked; document scripts do not prove semantic test coverage.",
+    "GAP-MAP-07 stays open pending ledger and actual artifact/fixture/server/client evidence binding.",
+    "No source build, game startup or Mod/phase acceptance was executed."
+  ]
+}

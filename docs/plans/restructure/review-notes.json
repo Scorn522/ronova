@@ -1,0 +1,44 @@
+{
+  "kind": "documentation_review_notes_only",
+  "date": "2026-09-14",
+  "revision": "fix1",
+  "original_source_payloads_edited": false,
+  "notes": [
+    {
+      "anchor": "orig-ds-l1007",
+      "destination": "docs/plans/MS-SKILLS-PLAN.md",
+      "note": "“无参数”仅为默认取向，不是四项硬限制之外的必选条件。本段加强 A5 / 进程内 attach 的必要性按所选路线确定，不能把旧“唯一前置入口”当作排除等价方案的铁律；功能依赖也不因改标签自动消失。见[当前启动参数与前置选型](README.md#scope-startup-parameters)。"
+    },
+    {
+      "anchor": "orig-rule-l0734",
+      "destination": "docs/plans/MS-SKILLS-PLAN.md",
+      "note": "“无参数”仅为默认取向，不是四项硬限制之外的必选条件。本段加强 A5 / 进程内 attach 的必要性按所选路线确定，不能把旧“唯一前置入口”当作排除等价方案的铁律；功能依赖也不因改标签自动消失。见[当前启动参数与前置选型](README.md#scope-startup-parameters)。"
+    },
+    {
+      "anchor": "orig-rule-l0267",
+      "destination": "docs/plans/MS-SKILLS-PLAN.md",
+      "note": "“无参数”仅为默认取向，不是四项硬限制之外的必选条件。本段加强 A5 / 进程内 attach 的必要性按所选路线确定，不能把旧“唯一前置入口”当作排除等价方案的铁律；功能依赖也不因改标签自动消失。见[当前启动参数与前置选型](README.md#scope-startup-parameters)。"
+    },
+    {
+      "anchor": "orig-ds-l0932",
+      "destination": "docs/plans/MS-SKILLS-PLAN.md",
+      "note": "本段 DS 的 P 层“冻结”标签不再有不可修改效力；DS 的 C1 / C11 / C12 / C13 / C14 / C16 / C19 属可修订的项目设计对齐项，不是额外铁律。原条款和当前完成口径没有因本轮修订自动删除，历史实现判断也未复核。见[P 层与 C 块定级](README.md#scope-p-layer)。"
+    },
+    {
+      "anchor": "orig-ds-l0962",
+      "destination": "docs/plans/MS-SKILLS-PLAN.md",
+      "note": "本段 DS 的 P 层“冻结”标签不再有不可修改效力；DS 的 C1 / C11 / C12 / C13 / C14 / C16 / C19 属可修订的项目设计对齐项，不是额外铁律。原条款和当前完成口径没有因本轮修订自动删除，历史实现判断也未复核。见[P 层与 C 块定级](README.md#scope-p-layer)。"
+    },
+    {
+      "anchor": "orig-ds-l1040",
+      "destination": "docs/plans/MS-SKILLS-PLAN.md",
+      "note": "本段 DS 的 P 层“冻结”标签不再有不可修改效力；DS 的 C1 / C11 / C12 / C13 / C14 / C16 / C19 属可修订的项目设计对齐项，不是额外铁律。原条款和当前完成口径没有因本轮修订自动删除，历史实现判断也未复核。见[P 层与 C 块定级](README.md#scope-p-layer)。"
+    },
+    {
+      "anchor": "orig-ds-l1126",
+      "destination": "docs/plans/MS-SKILLS-PLAN.md",
+      "note": "本段 DS 的 P 层“冻结”标签不再有不可修改效力；DS 的 C1 / C11 / C12 / C13 / C14 / C16 / C19 属可修订的项目设计对齐项，不是额外铁律。原条款和当前完成口径没有因本轮修订自动删除，历史实现判断也未复核。见[P 层与 C 块定级](README.md#scope-p-layer)。"
+    }
+  ],
+  "implementation_or_runtime_tests_executed": false
+}

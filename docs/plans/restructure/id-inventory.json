@@ -1,0 +1,6062 @@
+{
+  "description": "Original ID spellings scoped per source; IDs are not renumbered or globally merged.",
+  "sources": {
+    "INDEX": {
+      "path": "docs/plans/README.md",
+      "occurrences": 2,
+      "distinct_spellings": 2,
+      "counts": {
+        "D1": 1,
+        "D13": 1
+      },
+      "locations": {
+        "D1": [
+          {
+            "anchor": "orig-index-l0027",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-index-l0027",
+            "count": 1
+          }
+        ],
+        "D13": [
+          {
+            "anchor": "orig-index-l0027",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-index-l0027",
+            "count": 1
+          }
+        ]
+      }
+    },
+    "BL": {
+      "path": "docs/plans/Ronova_7.14A_Baseline_All_Enhancements_Master_V1.4_Internal_Root.md",
+      "occurrences": 10,
+      "distinct_spellings": 5,
+      "counts": {
+        "D13": 1,
+        "D5": 1,
+        "PROC-INV-1": 6,
+        "T-08": 1,
+        "T-15": 1
+      },
+      "locations": {
+        "D13": [
+          {
+            "anchor": "orig-bl-l0001",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-bl-l0001",
+            "count": 1
+          }
+        ],
+        "D5": [
+          {
+            "anchor": "orig-bl-l2527",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-bl-l2527",
+            "count": 1
+          }
+        ],
+        "PROC-INV-1": [
+          {
+            "anchor": "orig-bl-l0001",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-bl-l0001",
+            "count": 1
+          },
+          {
+            "anchor": "orig-bl-l0101",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-bl-l0101",
+            "count": 1
+          },
+          {
+            "anchor": "orig-bl-l0121",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-bl-l0121",
+            "count": 1
+          },
+          {
+            "anchor": "orig-bl-l2632",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-bl-l2632",
+            "count": 1
+          },
+          {
+            "anchor": "orig-bl-l2647",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-bl-l2647",
+            "count": 1
+          },
+          {
+            "anchor": "orig-bl-l2927",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-bl-l2927",
+            "count": 1
+          }
+        ],
+        "T-08": [
+          {
+            "anchor": "orig-bl-l2963",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-bl-l2963",
+            "count": 1
+          }
+        ],
+        "T-15": [
+          {
+            "anchor": "orig-bl-l2963",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-bl-l2963",
+            "count": 1
+          }
+        ]
+      }
+    },
+    "V26": {
+      "path": "docs/plans/Ronova_7.16_Plus_JVM_Extreme_Strength_Enhancement_Master_V2.6_Internal_Root.md",
+      "occurrences": 67,
+      "distinct_spellings": 62,
+      "counts": {
+        "D1": 3,
+        "D100": 1,
+        "D101": 1,
+        "D102": 1,
+        "D103": 1,
+        "D104": 1,
+        "D105": 1,
+        "D106": 1,
+        "D11": 1,
+        "D13": 2,
+        "D32": 1,
+        "D33": 2,
+        "D4": 1,
+        "D5": 2,
+        "D53": 1,
+        "D54": 1,
+        "D55": 1,
+        "D56": 1,
+        "D57": 1,
+        "D58": 1,
+        "D59": 1,
+        "D60": 1,
+        "D61": 1,
+        "D62": 1,
+        "D63": 1,
+        "D64": 1,
+        "D65": 1,
+        "D66": 1,
+        "D67": 1,
+        "D68": 1,
+        "D69": 1,
+        "D70": 1,
+        "D71": 1,
+        "D72": 1,
+        "D73": 1,
+        "D74": 1,
+        "D75": 1,
+        "D76": 1,
+        "D77": 1,
+        "D78": 1,
+        "D79": 1,
+        "D80": 1,
+        "D81": 1,
+        "D82": 1,
+        "D83": 1,
+        "D84": 1,
+        "D85": 1,
+        "D86": 1,
+        "D87": 1,
+        "D88": 1,
+        "D89": 1,
+        "D9": 1,
+        "D90": 1,
+        "D91": 1,
+        "D92": 1,
+        "D93": 1,
+        "D94": 1,
+        "D95": 1,
+        "D96": 1,
+        "D97": 1,
+        "D98": 1,
+        "D99": 1
+      },
+      "locations": {
+        "D1": [
+          {
+            "anchor": "orig-v26-l0132",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-v26-l0132",
+            "count": 1
+          },
+          {
+            "anchor": "orig-v26-l0455",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-v26-l0455",
+            "count": 1
+          },
+          {
+            "anchor": "orig-v26-l2895",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-v26-l2895",
+            "count": 1
+          }
+        ],
+        "D100": [
+          {
+            "anchor": "orig-v26-l0571",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-v26-l0571",
+            "count": 1
+          }
+        ],
+        "D101": [
+          {
+            "anchor": "orig-v26-l0571",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-v26-l0571",
+            "count": 1
+          }
+        ],
+        "D102": [
+          {
+            "anchor": "orig-v26-l0571",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-v26-l0571",
+            "count": 1
+          }
+        ],
+        "D103": [
+          {
+            "anchor": "orig-v26-l0571",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-v26-l0571",
+            "count": 1
+          }
+        ],
+        "D104": [
+          {
+            "anchor": "orig-v26-l0571",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-v26-l0571",
+            "count": 1
+          }
+        ],
+        "D105": [
+          {
+            "anchor": "orig-v26-l0571",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-v26-l0571",
+            "count": 1
+          }
+        ],
+        "D106": [
+          {
+            "anchor": "orig-v26-l0571",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-v26-l0571",
+            "count": 1
+          }
+        ],
+        "D11": [
+          {
+            "anchor": "orig-v26-l1665",
+            "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-v26-l1665",
+            "count": 1
+          }
+        ],
+        "D13": [
+          {
+            "anchor": "orig-v26-l0132",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-v26-l0132",
+            "count": 1
+          },
+          {
+            "anchor": "orig-v26-l2895",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-v26-l2895",
+            "count": 1
+          }
+        ],
+        "D32": [
+          {
+            "anchor": "orig-v26-l0455",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-v26-l0455",
+            "count": 1
+          }
+        ],
+        "D33": [
+          {
+            "anchor": "orig-v26-l0132",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-v26-l0132",
+            "count": 1
+          },
+          {
+            "anchor": "orig-v26-l0472",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-v26-l0472",
+            "count": 1
+          }
+        ],
+        "D4": [
+          {
+            "anchor": "orig-v26-l1665",
+            "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-v26-l1665",
+            "count": 1
+          }
+        ],
+        "D5": [
+          {
+            "anchor": "orig-v26-l2895",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-v26-l2895",
+            "count": 2
+          }
+        ],
+        "D53": [
+          {
+            "anchor": "orig-v26-l0503",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-v26-l0503",
+            "count": 1
+          }
+        ],
+        "D54": [
+          {
+            "anchor": "orig-v26-l0503",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-v26-l0503",
+            "count": 1
+          }
+        ],
+        "D55": [
+          {
+            "anchor": "orig-v26-l0503",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-v26-l0503",
+            "count": 1
+          }
+        ],
+        "D56": [
+          {
+            "anchor": "orig-v26-l0503",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-v26-l0503",
+            "count": 1
+          }
+        ],
+        "D57": [
+          {
+            "anchor": "orig-v26-l0503",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-v26-l0503",
+            "count": 1
+          }
+        ],
+        "D58": [
+          {
+            "anchor": "orig-v26-l0503",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-v26-l0503",
+            "count": 1
+          }
+        ],
+        "D59": [
+          {
+            "anchor": "orig-v26-l0503",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-v26-l0503",
+            "count": 1
+          }
+        ],
+        "D60": [
+          {
+            "anchor": "orig-v26-l0503",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-v26-l0503",
+            "count": 1
+          }
+        ],
+        "D61": [
+          {
+            "anchor": "orig-v26-l0503",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-v26-l0503",
+            "count": 1
+          }
+        ],
+        "D62": [
+          {
+            "anchor": "orig-v26-l0503",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-v26-l0503",
+            "count": 1
+          }
+        ],
+        "D63": [
+          {
+            "anchor": "orig-v26-l0503",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-v26-l0503",
+            "count": 1
+          }
+        ],
+        "D64": [
+          {
+            "anchor": "orig-v26-l0503",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-v26-l0503",
+            "count": 1
+          }
+        ],
+        "D65": [
+          {
+            "anchor": "orig-v26-l0503",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-v26-l0503",
+            "count": 1
+          }
+        ],
+        "D66": [
+          {
+            "anchor": "orig-v26-l0521",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-v26-l0521",
+            "count": 1
+          }
+        ],
+        "D67": [
+          {
+            "anchor": "orig-v26-l0521",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-v26-l0521",
+            "count": 1
+          }
+        ],
+        "D68": [
+          {
+            "anchor": "orig-v26-l0521",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-v26-l0521",
+            "count": 1
+          }
+        ],
+        "D69": [
+          {
+            "anchor": "orig-v26-l0521",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-v26-l0521",
+            "count": 1
+          }
+        ],
+        "D70": [
+          {
+            "anchor": "orig-v26-l0521",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-v26-l0521",
+            "count": 1
+          }
+        ],
+        "D71": [
+          {
+            "anchor": "orig-v26-l0521",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-v26-l0521",
+            "count": 1
+          }
+        ],
+        "D72": [
+          {
+            "anchor": "orig-v26-l0521",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-v26-l0521",
+            "count": 1
+          }
+        ],
+        "D73": [
+          {
+            "anchor": "orig-v26-l0521",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-v26-l0521",
+            "count": 1
+          }
+        ],
+        "D74": [
+          {
+            "anchor": "orig-v26-l0521",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-v26-l0521",
+            "count": 1
+          }
+        ],
+        "D75": [
+          {
+            "anchor": "orig-v26-l0521",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-v26-l0521",
+            "count": 1
+          }
+        ],
+        "D76": [
+          {
+            "anchor": "orig-v26-l0521",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-v26-l0521",
+            "count": 1
+          }
+        ],
+        "D77": [
+          {
+            "anchor": "orig-v26-l0521",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-v26-l0521",
+            "count": 1
+          }
+        ],
+        "D78": [
+          {
+            "anchor": "orig-v26-l0521",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-v26-l0521",
+            "count": 1
+          }
+        ],
+        "D79": [
+          {
+            "anchor": "orig-v26-l0539",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-v26-l0539",
+            "count": 1
+          }
+        ],
+        "D80": [
+          {
+            "anchor": "orig-v26-l0539",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-v26-l0539",
+            "count": 1
+          }
+        ],
+        "D81": [
+          {
+            "anchor": "orig-v26-l0539",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-v26-l0539",
+            "count": 1
+          }
+        ],
+        "D82": [
+          {
+            "anchor": "orig-v26-l0539",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-v26-l0539",
+            "count": 1
+          }
+        ],
+        "D83": [
+          {
+            "anchor": "orig-v26-l0539",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-v26-l0539",
+            "count": 1
+          }
+        ],
+        "D84": [
+          {
+            "anchor": "orig-v26-l0539",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-v26-l0539",
+            "count": 1
+          }
+        ],
+        "D85": [
+          {
+            "anchor": "orig-v26-l0539",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-v26-l0539",
+            "count": 1
+          }
+        ],
+        "D86": [
+          {
+            "anchor": "orig-v26-l0539",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-v26-l0539",
+            "count": 1
+          }
+        ],
+        "D87": [
+          {
+            "anchor": "orig-v26-l0552",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-v26-l0552",
+            "count": 1
+          }
+        ],
+        "D88": [
+          {
+            "anchor": "orig-v26-l0552",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-v26-l0552",
+            "count": 1
+          }
+        ],
+        "D89": [
+          {
+            "anchor": "orig-v26-l0552",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-v26-l0552",
+            "count": 1
+          }
+        ],
+        "D9": [
+          {
+            "anchor": "orig-v26-l1665",
+            "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-v26-l1665",
+            "count": 1
+          }
+        ],
+        "D90": [
+          {
+            "anchor": "orig-v26-l0552",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-v26-l0552",
+            "count": 1
+          }
+        ],
+        "D91": [
+          {
+            "anchor": "orig-v26-l0552",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-v26-l0552",
+            "count": 1
+          }
+        ],
+        "D92": [
+          {
+            "anchor": "orig-v26-l0552",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-v26-l0552",
+            "count": 1
+          }
+        ],
+        "D93": [
+          {
+            "anchor": "orig-v26-l0552",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-v26-l0552",
+            "count": 1
+          }
+        ],
+        "D94": [
+          {
+            "anchor": "orig-v26-l0552",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-v26-l0552",
+            "count": 1
+          }
+        ],
+        "D95": [
+          {
+            "anchor": "orig-v26-l0552",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-v26-l0552",
+            "count": 1
+          }
+        ],
+        "D96": [
+          {
+            "anchor": "orig-v26-l0552",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-v26-l0552",
+            "count": 1
+          }
+        ],
+        "D97": [
+          {
+            "anchor": "orig-v26-l0552",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-v26-l0552",
+            "count": 1
+          }
+        ],
+        "D98": [
+          {
+            "anchor": "orig-v26-l0552",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-v26-l0552",
+            "count": 1
+          }
+        ],
+        "D99": [
+          {
+            "anchor": "orig-v26-l0571",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-v26-l0571",
+            "count": 1
+          }
+        ]
+      }
+    },
+    "FULL": {
+      "path": "docs/plans/Ronova_7.17_Extreme_Full_Plane_Enhancement_Plan_V1.0_Internal_Root.md",
+      "occurrences": 0,
+      "distinct_spellings": 0,
+      "counts": {},
+      "locations": {}
+    },
+    "TIER": {
+      "path": "docs/plans/Ronova_7.17_Extreme_Tier_Strength_Implementation_Plan_V1.0_Internal_Root.md",
+      "occurrences": 5,
+      "distinct_spellings": 5,
+      "counts": {
+        "D13": 1,
+        "D60": 1,
+        "D65": 1,
+        "L5-INV-2": 1,
+        "PROC-INV-1": 1
+      },
+      "locations": {
+        "D13": [
+          {
+            "anchor": "orig-tier-l0749",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-tier-l0749",
+            "count": 1
+          }
+        ],
+        "D60": [
+          {
+            "anchor": "orig-tier-l0815",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-tier-l0815",
+            "count": 1
+          }
+        ],
+        "D65": [
+          {
+            "anchor": "orig-tier-l0815",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-tier-l0815",
+            "count": 1
+          }
+        ],
+        "L5-INV-2": [
+          {
+            "anchor": "orig-tier-l0621",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-tier-l0621",
+            "count": 1
+          }
+        ],
+        "PROC-INV-1": [
+          {
+            "anchor": "orig-tier-l0749",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-tier-l0749",
+            "count": 1
+          }
+        ]
+      }
+    },
+    "REC": {
+      "path": "docs/plans/Ronova_7.17_Generic_Recovery_Chain_Implementation_Plan_V1.0_Internal_Root.md",
+      "occurrences": 0,
+      "distinct_spellings": 0,
+      "counts": {},
+      "locations": {}
+    },
+    "MAX": {
+      "path": "docs/plans/Ronova_Compliant_Maximum_Strength_Plan_V1.0.md",
+      "occurrences": 10,
+      "distinct_spellings": 10,
+      "counts": {
+        "D1": 1,
+        "D10": 1,
+        "D2": 1,
+        "D3": 1,
+        "D4": 1,
+        "D5": 1,
+        "D6": 1,
+        "D7": 1,
+        "D8": 1,
+        "D9": 1
+      },
+      "locations": {
+        "D1": [
+          {
+            "anchor": "orig-max-l0157",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-max-l0157",
+            "count": 1
+          }
+        ],
+        "D10": [
+          {
+            "anchor": "orig-max-l0157",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-max-l0157",
+            "count": 1
+          }
+        ],
+        "D2": [
+          {
+            "anchor": "orig-max-l0157",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-max-l0157",
+            "count": 1
+          }
+        ],
+        "D3": [
+          {
+            "anchor": "orig-max-l0157",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-max-l0157",
+            "count": 1
+          }
+        ],
+        "D4": [
+          {
+            "anchor": "orig-max-l0157",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-max-l0157",
+            "count": 1
+          }
+        ],
+        "D5": [
+          {
+            "anchor": "orig-max-l0157",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-max-l0157",
+            "count": 1
+          }
+        ],
+        "D6": [
+          {
+            "anchor": "orig-max-l0157",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-max-l0157",
+            "count": 1
+          }
+        ],
+        "D7": [
+          {
+            "anchor": "orig-max-l0157",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-max-l0157",
+            "count": 1
+          }
+        ],
+        "D8": [
+          {
+            "anchor": "orig-max-l0157",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-max-l0157",
+            "count": 1
+          }
+        ],
+        "D9": [
+          {
+            "anchor": "orig-max-l0157",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-max-l0157",
+            "count": 1
+          }
+        ]
+      }
+    },
+    "CF": {
+      "path": "docs/plans/Ronova_L6E-0_Contract_Freeze_V1.3_Internal_Root.md",
+      "occurrences": 34,
+      "distinct_spellings": 34,
+      "counts": {
+        "D13": 1,
+        "ID-1": 1,
+        "ID-2": 1,
+        "ID-3": 1,
+        "ID-4": 1,
+        "ID-5": 1,
+        "ID-6": 1,
+        "ID-7": 1,
+        "ID-8": 1,
+        "ID-9": 1,
+        "PROC-INV-1": 1,
+        "R1": 1,
+        "R2": 1,
+        "R3": 1,
+        "R4": 1,
+        "R5": 1,
+        "R6": 1,
+        "R7": 1,
+        "T-01": 1,
+        "T-02": 1,
+        "T-03": 1,
+        "T-04": 1,
+        "T-05": 1,
+        "T-06": 1,
+        "T-07": 1,
+        "T-08": 1,
+        "T-09": 1,
+        "T-10": 1,
+        "T-11": 1,
+        "T-12": 1,
+        "T-13": 1,
+        "T-14": 1,
+        "T-15": 1,
+        "T-16": 1
+      },
+      "locations": {
+        "D13": [
+          {
+            "anchor": "orig-cf-l0001",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-cf-l0001",
+            "count": 1
+          }
+        ],
+        "ID-1": [
+          {
+            "anchor": "orig-cf-l1567",
+            "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-cf-l1567",
+            "count": 1
+          }
+        ],
+        "ID-2": [
+          {
+            "anchor": "orig-cf-l1577",
+            "destination": "docs/plans/MS-MSITEM-PLAN.md#orig-cf-l1577",
+            "count": 1
+          }
+        ],
+        "ID-3": [
+          {
+            "anchor": "orig-cf-l1592",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-cf-l1592",
+            "count": 1
+          }
+        ],
+        "ID-4": [
+          {
+            "anchor": "orig-cf-l1604",
+            "destination": "docs/plans/MS-MSITEM-PLAN.md#orig-cf-l1604",
+            "count": 1
+          }
+        ],
+        "ID-5": [
+          {
+            "anchor": "orig-cf-l1616",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-cf-l1616",
+            "count": 1
+          }
+        ],
+        "ID-6": [
+          {
+            "anchor": "orig-cf-l1634",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-cf-l1634",
+            "count": 1
+          }
+        ],
+        "ID-7": [
+          {
+            "anchor": "orig-cf-l1650",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-cf-l1650",
+            "count": 1
+          }
+        ],
+        "ID-8": [
+          {
+            "anchor": "orig-cf-l1656",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-cf-l1656",
+            "count": 1
+          }
+        ],
+        "ID-9": [
+          {
+            "anchor": "orig-cf-l1662",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-cf-l1662",
+            "count": 1
+          }
+        ],
+        "PROC-INV-1": [
+          {
+            "anchor": "orig-cf-l0001",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-cf-l0001",
+            "count": 1
+          }
+        ],
+        "R1": [
+          {
+            "anchor": "orig-cf-l0082",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-cf-l0082",
+            "count": 1
+          }
+        ],
+        "R2": [
+          {
+            "anchor": "orig-cf-l0100",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-cf-l0100",
+            "count": 1
+          }
+        ],
+        "R3": [
+          {
+            "anchor": "orig-cf-l0117",
+            "destination": "docs/plans/MS-MSITEM-PLAN.md#orig-cf-l0117",
+            "count": 1
+          }
+        ],
+        "R4": [
+          {
+            "anchor": "orig-cf-l0140",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-cf-l0140",
+            "count": 1
+          }
+        ],
+        "R5": [
+          {
+            "anchor": "orig-cf-l0160",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-cf-l0160",
+            "count": 1
+          }
+        ],
+        "R6": [
+          {
+            "anchor": "orig-cf-l0178",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-cf-l0178",
+            "count": 1
+          }
+        ],
+        "R7": [
+          {
+            "anchor": "orig-cf-l0193",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-cf-l0193",
+            "count": 1
+          }
+        ],
+        "T-01": [
+          {
+            "anchor": "orig-cf-l1404",
+            "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-cf-l1404",
+            "count": 1
+          }
+        ],
+        "T-02": [
+          {
+            "anchor": "orig-cf-l1420",
+            "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-cf-l1420",
+            "count": 1
+          }
+        ],
+        "T-03": [
+          {
+            "anchor": "orig-cf-l1437",
+            "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-cf-l1437",
+            "count": 1
+          }
+        ],
+        "T-04": [
+          {
+            "anchor": "orig-cf-l1457",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-cf-l1457",
+            "count": 1
+          }
+        ],
+        "T-05": [
+          {
+            "anchor": "orig-cf-l1469",
+            "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-cf-l1469",
+            "count": 1
+          }
+        ],
+        "T-06": [
+          {
+            "anchor": "orig-cf-l1481",
+            "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-cf-l1481",
+            "count": 1
+          }
+        ],
+        "T-07": [
+          {
+            "anchor": "orig-cf-l1497",
+            "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-cf-l1497",
+            "count": 1
+          }
+        ],
+        "T-08": [
+          {
+            "anchor": "orig-cf-l1509",
+            "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-cf-l1509",
+            "count": 1
+          }
+        ],
+        "T-09": [
+          {
+            "anchor": "orig-cf-l1515",
+            "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-cf-l1515",
+            "count": 1
+          }
+        ],
+        "T-10": [
+          {
+            "anchor": "orig-cf-l1521",
+            "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-cf-l1521",
+            "count": 1
+          }
+        ],
+        "T-11": [
+          {
+            "anchor": "orig-cf-l1527",
+            "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-cf-l1527",
+            "count": 1
+          }
+        ],
+        "T-12": [
+          {
+            "anchor": "orig-cf-l1533",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-cf-l1533",
+            "count": 1
+          }
+        ],
+        "T-13": [
+          {
+            "anchor": "orig-cf-l1539",
+            "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-cf-l1539",
+            "count": 1
+          }
+        ],
+        "T-14": [
+          {
+            "anchor": "orig-cf-l1545",
+            "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-cf-l1545",
+            "count": 1
+          }
+        ],
+        "T-15": [
+          {
+            "anchor": "orig-cf-l1551",
+            "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-cf-l1551",
+            "count": 1
+          }
+        ],
+        "T-16": [
+          {
+            "anchor": "orig-cf-l1557",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-cf-l1557",
+            "count": 1
+          }
+        ]
+      }
+    },
+    "P0A": {
+      "path": "docs/plans/Ronova_L6E_P0-A_Truth_Authority_Implementation_Spec_V1.3_Internal_Root.md",
+      "occurrences": 17,
+      "distinct_spellings": 13,
+      "counts": {
+        "A1": 1,
+        "A2": 1,
+        "A3": 1,
+        "A4": 1,
+        "A5": 1,
+        "A6": 1,
+        "A7": 1,
+        "A8": 1,
+        "D1": 1,
+        "D13": 2,
+        "D6": 1,
+        "D9": 1,
+        "PROC-INV-1": 4
+      },
+      "locations": {
+        "A1": [
+          {
+            "anchor": "orig-p0a-l0094",
+            "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-p0a-l0094",
+            "count": 1
+          }
+        ],
+        "A2": [
+          {
+            "anchor": "orig-p0a-l0105",
+            "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-p0a-l0105",
+            "count": 1
+          }
+        ],
+        "A3": [
+          {
+            "anchor": "orig-p0a-l0121",
+            "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-p0a-l0121",
+            "count": 1
+          }
+        ],
+        "A4": [
+          {
+            "anchor": "orig-p0a-l0131",
+            "destination": "docs/plans/MS-MSITEM-PLAN.md#orig-p0a-l0131",
+            "count": 1
+          }
+        ],
+        "A5": [
+          {
+            "anchor": "orig-p0a-l0152",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-p0a-l0152",
+            "count": 1
+          }
+        ],
+        "A6": [
+          {
+            "anchor": "orig-p0a-l0160",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-p0a-l0160",
+            "count": 1
+          }
+        ],
+        "A7": [
+          {
+            "anchor": "orig-p0a-l0171",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-p0a-l0171",
+            "count": 1
+          }
+        ],
+        "A8": [
+          {
+            "anchor": "orig-p0a-l0183",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-p0a-l0183",
+            "count": 1
+          }
+        ],
+        "D1": [
+          {
+            "anchor": "orig-p0a-l0026",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-p0a-l0026",
+            "count": 1
+          }
+        ],
+        "D13": [
+          {
+            "anchor": "orig-p0a-l0001",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-p0a-l0001",
+            "count": 1
+          },
+          {
+            "anchor": "orig-p0a-l0026",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-p0a-l0026",
+            "count": 1
+          }
+        ],
+        "D6": [
+          {
+            "anchor": "orig-p0a-l0903",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-p0a-l0903",
+            "count": 1
+          }
+        ],
+        "D9": [
+          {
+            "anchor": "orig-p0a-l0903",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-p0a-l0903",
+            "count": 1
+          }
+        ],
+        "PROC-INV-1": [
+          {
+            "anchor": "orig-p0a-l0001",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-p0a-l0001",
+            "count": 1
+          },
+          {
+            "anchor": "orig-p0a-l0183",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-p0a-l0183",
+            "count": 1
+          },
+          {
+            "anchor": "orig-p0a-l2112",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-p0a-l2112",
+            "count": 1
+          },
+          {
+            "anchor": "orig-p0a-l2139",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-p0a-l2139",
+            "count": 1
+          }
+        ]
+      }
+    },
+    "L6": {
+      "path": "docs/plans/Ronova_L6_Architecture_Master_Plan_V2.4_Internal_Root.md",
+      "occurrences": 256,
+      "distinct_spellings": 35,
+      "counts": {
+        "D1": 13,
+        "D10": 3,
+        "D11": 2,
+        "D12": 1,
+        "D13": 16,
+        "D2": 15,
+        "D3": 14,
+        "D4": 9,
+        "D5": 17,
+        "D6": 21,
+        "D7": 8,
+        "D8": 13,
+        "D9": 4,
+        "INV-6": 8,
+        "L5-INV-1": 10,
+        "L5-INV-2": 5,
+        "L5-INV-3": 3,
+        "L5-INV-4": 7,
+        "L5-INV-5": 3,
+        "L5-INV-6": 8,
+        "L5-INV-7": 6,
+        "L5-INV-8": 6,
+        "L5-INV-9": 14,
+        "L6-INV-1": 2,
+        "L6-INV-10": 5,
+        "L6-INV-2": 2,
+        "L6-INV-3": 4,
+        "L6-INV-4": 2,
+        "L6-INV-5": 2,
+        "L6-INV-6": 2,
+        "L6-INV-7": 2,
+        "L6-INV-8": 2,
+        "L6-INV-9": 2,
+        "PROC-INV-1": 24,
+        "R1": 1
+      },
+      "locations": {
+        "D1": [
+          {
+            "anchor": "orig-l6-l0030",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0030",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l0045",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0045",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l0060",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0060",
+            "count": 2
+          },
+          {
+            "anchor": "orig-l6-l0142",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0142",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l0198",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0198",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l0206",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0206",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l0629",
+            "destination": "docs/plans/MS-MSITEM-PLAN.md#orig-l6-l0629",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l0960",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0960",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1238",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1238",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1293",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1293",
+            "count": 2
+          },
+          {
+            "anchor": "orig-l6-l1443",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1443",
+            "count": 1
+          }
+        ],
+        "D10": [
+          {
+            "anchor": "orig-l6-l0060",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0060",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l0391",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0391",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1074",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1074",
+            "count": 1
+          }
+        ],
+        "D11": [
+          {
+            "anchor": "orig-l6-l0001",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0001",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l0060",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0060",
+            "count": 1
+          }
+        ],
+        "D12": [
+          {
+            "anchor": "orig-l6-l0060",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0060",
+            "count": 1
+          }
+        ],
+        "D13": [
+          {
+            "anchor": "orig-l6-l0001",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0001",
+            "count": 3
+          },
+          {
+            "anchor": "orig-l6-l0060",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0060",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l0500",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0500",
+            "count": 2
+          },
+          {
+            "anchor": "orig-l6-l0604",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0604",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l0767",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0767",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l0834",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0834",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1148",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1148",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1215",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1215",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1238",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1238",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1326",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1326",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1443",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1443",
+            "count": 2
+          },
+          {
+            "anchor": "orig-l6-l1455",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1455",
+            "count": 1
+          }
+        ],
+        "D2": [
+          {
+            "anchor": "orig-l6-l0045",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0045",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l0060",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0060",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l0155",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0155",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l0206",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0206",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l0500",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0500",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l0604",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0604",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l0663",
+            "destination": "docs/plans/MS-MSITEM-PLAN.md#orig-l6-l0663",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l0685",
+            "destination": "docs/plans/MS-MSITEM-PLAN.md#orig-l6-l0685",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l0960",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0960",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l0992",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0992",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1074",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1074",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1215",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1215",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1238",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1238",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1293",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1293",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1326",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1326",
+            "count": 1
+          }
+        ],
+        "D3": [
+          {
+            "anchor": "orig-l6-l0045",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0045",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l0178",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0178",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l0206",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0206",
+            "count": 2
+          },
+          {
+            "anchor": "orig-l6-l0391",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0391",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l0498",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0498",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l0500",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0500",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l0604",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0604",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1007",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1007",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1119",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1119",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1215",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1215",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1238",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1238",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1293",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1293",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1326",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1326",
+            "count": 1
+          }
+        ],
+        "D4": [
+          {
+            "anchor": "orig-l6-l0045",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0045",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l0155",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0155",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l0170",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0170",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l0206",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0206",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l0391",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0391",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l0947",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0947",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1119",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1119",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1238",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1238",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1293",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1293",
+            "count": 1
+          }
+        ],
+        "D5": [
+          {
+            "anchor": "orig-l6-l0045",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0045",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l0142",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0142",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l0148",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0148",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l0206",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0206",
+            "count": 2
+          },
+          {
+            "anchor": "orig-l6-l0627",
+            "destination": "docs/plans/MS-MSITEM-PLAN.md#orig-l6-l0627",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l0629",
+            "destination": "docs/plans/MS-MSITEM-PLAN.md#orig-l6-l0629",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l0637",
+            "destination": "docs/plans/MS-MSITEM-PLAN.md#orig-l6-l0637",
+            "count": 3
+          },
+          {
+            "anchor": "orig-l6-l0960",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0960",
+            "count": 3
+          },
+          {
+            "anchor": "orig-l6-l1074",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1074",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1119",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1119",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1148",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1148",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1293",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1293",
+            "count": 1
+          }
+        ],
+        "D6": [
+          {
+            "anchor": "orig-l6-l0045",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0045",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l0060",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0060",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l0148",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0148",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l0206",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0206",
+            "count": 3
+          },
+          {
+            "anchor": "orig-l6-l0498",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0498",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l0500",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0500",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l0547",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0547",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l0604",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0604",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l0750",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0750",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l0960",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0960",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l0992",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0992",
+            "count": 2
+          },
+          {
+            "anchor": "orig-l6-l1007",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1007",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1074",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1074",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1119",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1119",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1186",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1186",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1238",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1238",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1293",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1293",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1326",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1326",
+            "count": 1
+          }
+        ],
+        "D7": [
+          {
+            "anchor": "orig-l6-l0045",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0045",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l0060",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0060",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l0170",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0170",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l0206",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0206",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1007",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1007",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1119",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1119",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1293",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1293",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1455",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1455",
+            "count": 1
+          }
+        ],
+        "D8": [
+          {
+            "anchor": "orig-l6-l0045",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0045",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l0060",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0060",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l0148",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0148",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l0500",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0500",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l0960",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0960",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1055",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1055",
+            "count": 2
+          },
+          {
+            "anchor": "orig-l6-l1074",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1074",
+            "count": 2
+          },
+          {
+            "anchor": "orig-l6-l1215",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1215",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1238",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1238",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1283",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1283",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1293",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1293",
+            "count": 1
+          }
+        ],
+        "D9": [
+          {
+            "anchor": "orig-l6-l0001",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0001",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l0060",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0060",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l0750",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0750",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1074",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1074",
+            "count": 1
+          }
+        ],
+        "INV-6": [
+          {
+            "anchor": "orig-l6-l1020",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1020",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1074",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1074",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1293",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1293",
+            "count": 2
+          },
+          {
+            "anchor": "orig-l6-l1358",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1358",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1455",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1455",
+            "count": 3
+          }
+        ],
+        "L5-INV-1": [
+          {
+            "anchor": "orig-l6-l0500",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0500",
+            "count": 2
+          },
+          {
+            "anchor": "orig-l6-l0604",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0604",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1074",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1074",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1204",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1204",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1293",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1293",
+            "count": 2
+          },
+          {
+            "anchor": "orig-l6-l1326",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1326",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1358",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1358",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1455",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1455",
+            "count": 1
+          }
+        ],
+        "L5-INV-2": [
+          {
+            "anchor": "orig-l6-l0500",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0500",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l0604",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0604",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l0685",
+            "destination": "docs/plans/MS-MSITEM-PLAN.md#orig-l6-l0685",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1293",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1293",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1326",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1326",
+            "count": 1
+          }
+        ],
+        "L5-INV-3": [
+          {
+            "anchor": "orig-l6-l0500",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0500",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l0604",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0604",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1326",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1326",
+            "count": 1
+          }
+        ],
+        "L5-INV-4": [
+          {
+            "anchor": "orig-l6-l0184",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0184",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l0351",
+            "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-l6-l0351",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l0500",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0500",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l0604",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0604",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1119",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1119",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1293",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1293",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1326",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1326",
+            "count": 1
+          }
+        ],
+        "L5-INV-5": [
+          {
+            "anchor": "orig-l6-l0500",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0500",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l0604",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0604",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1326",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1326",
+            "count": 1
+          }
+        ],
+        "L5-INV-6": [
+          {
+            "anchor": "orig-l6-l0500",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0500",
+            "count": 2
+          },
+          {
+            "anchor": "orig-l6-l0604",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0604",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1204",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1204",
+            "count": 2
+          },
+          {
+            "anchor": "orig-l6-l1293",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1293",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1326",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1326",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1455",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1455",
+            "count": 1
+          }
+        ],
+        "L5-INV-7": [
+          {
+            "anchor": "orig-l6-l0500",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0500",
+            "count": 2
+          },
+          {
+            "anchor": "orig-l6-l0604",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0604",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1204",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1204",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1326",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1326",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1455",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1455",
+            "count": 1
+          }
+        ],
+        "L5-INV-8": [
+          {
+            "anchor": "orig-l6-l0500",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0500",
+            "count": 2
+          },
+          {
+            "anchor": "orig-l6-l0604",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0604",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1204",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1204",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1326",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1326",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1455",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1455",
+            "count": 1
+          }
+        ],
+        "L5-INV-9": [
+          {
+            "anchor": "orig-l6-l0500",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0500",
+            "count": 2
+          },
+          {
+            "anchor": "orig-l6-l0604",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0604",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l0750",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0750",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1074",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1074",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1148",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1148",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1186",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1186",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1204",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1204",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1215",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1215",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1293",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1293",
+            "count": 2
+          },
+          {
+            "anchor": "orig-l6-l1326",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1326",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1455",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1455",
+            "count": 2
+          }
+        ],
+        "L6-INV-1": [
+          {
+            "anchor": "orig-l6-l0859",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0859",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1341",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1341",
+            "count": 1
+          }
+        ],
+        "L6-INV-10": [
+          {
+            "anchor": "orig-l6-l0859",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0859",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1186",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1186",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1215",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1215",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1341",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1341",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1430",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1430",
+            "count": 1
+          }
+        ],
+        "L6-INV-2": [
+          {
+            "anchor": "orig-l6-l0859",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0859",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1341",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1341",
+            "count": 1
+          }
+        ],
+        "L6-INV-3": [
+          {
+            "anchor": "orig-l6-l0859",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0859",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1293",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1293",
+            "count": 2
+          },
+          {
+            "anchor": "orig-l6-l1341",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1341",
+            "count": 1
+          }
+        ],
+        "L6-INV-4": [
+          {
+            "anchor": "orig-l6-l0859",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0859",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1341",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1341",
+            "count": 1
+          }
+        ],
+        "L6-INV-5": [
+          {
+            "anchor": "orig-l6-l0859",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0859",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1341",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1341",
+            "count": 1
+          }
+        ],
+        "L6-INV-6": [
+          {
+            "anchor": "orig-l6-l0859",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0859",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1341",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1341",
+            "count": 1
+          }
+        ],
+        "L6-INV-7": [
+          {
+            "anchor": "orig-l6-l0859",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0859",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1341",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1341",
+            "count": 1
+          }
+        ],
+        "L6-INV-8": [
+          {
+            "anchor": "orig-l6-l0859",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0859",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1341",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1341",
+            "count": 1
+          }
+        ],
+        "L6-INV-9": [
+          {
+            "anchor": "orig-l6-l0859",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0859",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1341",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1341",
+            "count": 1
+          }
+        ],
+        "PROC-INV-1": [
+          {
+            "anchor": "orig-l6-l0001",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0001",
+            "count": 2
+          },
+          {
+            "anchor": "orig-l6-l0060",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0060",
+            "count": 2
+          },
+          {
+            "anchor": "orig-l6-l0206",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0206",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l0500",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0500",
+            "count": 3
+          },
+          {
+            "anchor": "orig-l6-l0604",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0604",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l0767",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0767",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l0859",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0859",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1074",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1074",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1204",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1204",
+            "count": 3
+          },
+          {
+            "anchor": "orig-l6-l1293",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1293",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1326",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1326",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1341",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1341",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1358",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1358",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1430",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1430",
+            "count": 1
+          },
+          {
+            "anchor": "orig-l6-l1443",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1443",
+            "count": 2
+          },
+          {
+            "anchor": "orig-l6-l1455",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1455",
+            "count": 2
+          }
+        ],
+        "R1": [
+          {
+            "anchor": "orig-l6-l0206",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0206",
+            "count": 1
+          }
+        ]
+      }
+    },
+    "ROAD": {
+      "path": "docs/plans/Ronova_L6_L6E_Full_Enhancement_Roadmap_V1.0_Internal_Root.md",
+      "occurrences": 4,
+      "distinct_spellings": 2,
+      "counts": {
+        "D1": 1,
+        "D13": 3
+      },
+      "locations": {
+        "D1": [
+          {
+            "anchor": "orig-road-l0026",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-road-l0026",
+            "count": 1
+          }
+        ],
+        "D13": [
+          {
+            "anchor": "orig-road-l0026",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-road-l0026",
+            "count": 1
+          },
+          {
+            "anchor": "orig-road-l0080",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-road-l0080",
+            "count": 1
+          },
+          {
+            "anchor": "orig-road-l0366",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-road-l0366",
+            "count": 1
+          }
+        ]
+      }
+    },
+    "MSC": {
+      "path": "docs/plans/Ronova_MS_Compliance_and_Enhancement_Plan_V1.0.md",
+      "occurrences": 113,
+      "distinct_spellings": 86,
+      "counts": {
+        "D8": 1,
+        "D91": 1,
+        "R-A1": 2,
+        "R-A2": 1,
+        "R-A3": 1,
+        "R-A4": 1,
+        "R-A5": 2,
+        "R-A6": 1,
+        "R-B1": 2,
+        "R-B2": 2,
+        "R-B3": 1,
+        "R-B4": 1,
+        "R-C1": 1,
+        "R-C2": 1,
+        "R-C3": 1,
+        "R-C4": 1,
+        "R-C5": 1,
+        "R-D1": 1,
+        "R-D2": 1,
+        "R-D3": 1,
+        "R-D4": 1,
+        "R-D5": 2,
+        "R-D6": 1,
+        "R-E1": 1,
+        "R-E2": 1,
+        "R-E3": 1,
+        "R-E4": 1,
+        "R-F1": 1,
+        "R-F2": 1,
+        "R-F3": 1,
+        "R-G1": 3,
+        "R-G2": 1,
+        "R-G3": 2,
+        "R-G4": 1,
+        "R-G5": 1,
+        "R-G6": 2,
+        "R-H1": 2,
+        "R-H2": 2,
+        "R-H3": 1,
+        "R-H4": 1,
+        "R-I1": 2,
+        "R-I2": 1,
+        "R-J1": 2,
+        "R-J2": 1,
+        "R-J3": 1,
+        "R-J4": 1,
+        "R-J5": 2,
+        "R-J6": 1,
+        "R-K1": 1,
+        "R-K2": 1,
+        "R-L1": 2,
+        "R-L2": 1,
+        "R-M1": 1,
+        "R-M2": 1,
+        "R-M3": 1,
+        "R-M4": 3,
+        "R-M5": 1,
+        "R-M6": 1,
+        "R-N1": 1,
+        "R-N2": 1,
+        "R-N3": 1,
+        "R-O1": 2,
+        "R-O2": 1,
+        "R-O3": 1,
+        "R-P1": 1,
+        "R-P2": 1,
+        "R-P3": 1,
+        "R-P4": 1,
+        "R-P5": 2,
+        "R-P6": 1,
+        "R-Q": 1,
+        "R-Q1": 1,
+        "R-Q2": 3,
+        "R-Q3": 1,
+        "R-Q4": 1,
+        "R-Q5": 2,
+        "R-R1": 1,
+        "R-R2": 1,
+        "R-R3": 2,
+        "R-R4": 1,
+        "R-R5": 1,
+        "R-S1": 2,
+        "R-S2": 3,
+        "R-S3": 1,
+        "R-S4": 2,
+        "R4": 1
+      },
+      "locations": {
+        "D8": [
+          {
+            "anchor": "orig-msc-l0212",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-msc-l0212",
+            "count": 1
+          }
+        ],
+        "D91": [
+          {
+            "anchor": "orig-msc-l0022",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-msc-l0022",
+            "count": 1
+          }
+        ],
+        "R-A1": [
+          {
+            "anchor": "orig-msc-l0001",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-msc-l0001",
+            "count": 1
+          },
+          {
+            "anchor": "orig-msc-l0039",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-msc-l0039",
+            "count": 1
+          }
+        ],
+        "R-A2": [
+          {
+            "anchor": "orig-msc-l0039",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-msc-l0039",
+            "count": 1
+          }
+        ],
+        "R-A3": [
+          {
+            "anchor": "orig-msc-l0039",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-msc-l0039",
+            "count": 1
+          }
+        ],
+        "R-A4": [
+          {
+            "anchor": "orig-msc-l0039",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-msc-l0039",
+            "count": 1
+          }
+        ],
+        "R-A5": [
+          {
+            "anchor": "orig-msc-l0039",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-msc-l0039",
+            "count": 1
+          },
+          {
+            "anchor": "orig-msc-l0193",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-msc-l0193",
+            "count": 1
+          }
+        ],
+        "R-A6": [
+          {
+            "anchor": "orig-msc-l0039",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-msc-l0039",
+            "count": 1
+          }
+        ],
+        "R-B1": [
+          {
+            "anchor": "orig-msc-l0050",
+            "destination": "docs/plans/MS-MSITEM-PLAN.md#orig-msc-l0050",
+            "count": 1
+          },
+          {
+            "anchor": "orig-msc-l0258",
+            "destination": "docs/plans/MS-MSITEM-PLAN.md#orig-msc-l0258",
+            "count": 1
+          }
+        ],
+        "R-B2": [
+          {
+            "anchor": "orig-msc-l0050",
+            "destination": "docs/plans/MS-MSITEM-PLAN.md#orig-msc-l0050",
+            "count": 1
+          },
+          {
+            "anchor": "orig-msc-l0258",
+            "destination": "docs/plans/MS-MSITEM-PLAN.md#orig-msc-l0258",
+            "count": 1
+          }
+        ],
+        "R-B3": [
+          {
+            "anchor": "orig-msc-l0050",
+            "destination": "docs/plans/MS-MSITEM-PLAN.md#orig-msc-l0050",
+            "count": 1
+          }
+        ],
+        "R-B4": [
+          {
+            "anchor": "orig-msc-l0050",
+            "destination": "docs/plans/MS-MSITEM-PLAN.md#orig-msc-l0050",
+            "count": 1
+          }
+        ],
+        "R-C1": [
+          {
+            "anchor": "orig-msc-l0059",
+            "destination": "docs/plans/MS-MSITEM-PLAN.md#orig-msc-l0059",
+            "count": 1
+          }
+        ],
+        "R-C2": [
+          {
+            "anchor": "orig-msc-l0059",
+            "destination": "docs/plans/MS-MSITEM-PLAN.md#orig-msc-l0059",
+            "count": 1
+          }
+        ],
+        "R-C3": [
+          {
+            "anchor": "orig-msc-l0059",
+            "destination": "docs/plans/MS-MSITEM-PLAN.md#orig-msc-l0059",
+            "count": 1
+          }
+        ],
+        "R-C4": [
+          {
+            "anchor": "orig-msc-l0059",
+            "destination": "docs/plans/MS-MSITEM-PLAN.md#orig-msc-l0059",
+            "count": 1
+          }
+        ],
+        "R-C5": [
+          {
+            "anchor": "orig-msc-l0059",
+            "destination": "docs/plans/MS-MSITEM-PLAN.md#orig-msc-l0059",
+            "count": 1
+          }
+        ],
+        "R-D1": [
+          {
+            "anchor": "orig-msc-l0069",
+            "destination": "docs/plans/MS-MSITEM-PLAN.md#orig-msc-l0069",
+            "count": 1
+          }
+        ],
+        "R-D2": [
+          {
+            "anchor": "orig-msc-l0069",
+            "destination": "docs/plans/MS-MSITEM-PLAN.md#orig-msc-l0069",
+            "count": 1
+          }
+        ],
+        "R-D3": [
+          {
+            "anchor": "orig-msc-l0069",
+            "destination": "docs/plans/MS-MSITEM-PLAN.md#orig-msc-l0069",
+            "count": 1
+          }
+        ],
+        "R-D4": [
+          {
+            "anchor": "orig-msc-l0069",
+            "destination": "docs/plans/MS-MSITEM-PLAN.md#orig-msc-l0069",
+            "count": 1
+          }
+        ],
+        "R-D5": [
+          {
+            "anchor": "orig-msc-l0069",
+            "destination": "docs/plans/MS-MSITEM-PLAN.md#orig-msc-l0069",
+            "count": 1
+          },
+          {
+            "anchor": "orig-msc-l0360",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-msc-l0360",
+            "count": 1
+          }
+        ],
+        "R-D6": [
+          {
+            "anchor": "orig-msc-l0069",
+            "destination": "docs/plans/MS-MSITEM-PLAN.md#orig-msc-l0069",
+            "count": 1
+          }
+        ],
+        "R-E1": [
+          {
+            "anchor": "orig-msc-l0080",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-msc-l0080",
+            "count": 1
+          }
+        ],
+        "R-E2": [
+          {
+            "anchor": "orig-msc-l0080",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-msc-l0080",
+            "count": 1
+          }
+        ],
+        "R-E3": [
+          {
+            "anchor": "orig-msc-l0080",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-msc-l0080",
+            "count": 1
+          }
+        ],
+        "R-E4": [
+          {
+            "anchor": "orig-msc-l0080",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-msc-l0080",
+            "count": 1
+          }
+        ],
+        "R-F1": [
+          {
+            "anchor": "orig-msc-l0089",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-msc-l0089",
+            "count": 1
+          }
+        ],
+        "R-F2": [
+          {
+            "anchor": "orig-msc-l0089",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-msc-l0089",
+            "count": 1
+          }
+        ],
+        "R-F3": [
+          {
+            "anchor": "orig-msc-l0089",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-msc-l0089",
+            "count": 1
+          }
+        ],
+        "R-G1": [
+          {
+            "anchor": "orig-msc-l0097",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-msc-l0097",
+            "count": 1
+          },
+          {
+            "anchor": "orig-msc-l0193",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-msc-l0193",
+            "count": 1
+          },
+          {
+            "anchor": "orig-msc-l0294",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-msc-l0294",
+            "count": 1
+          }
+        ],
+        "R-G2": [
+          {
+            "anchor": "orig-msc-l0097",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-msc-l0097",
+            "count": 1
+          }
+        ],
+        "R-G3": [
+          {
+            "anchor": "orig-msc-l0097",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-msc-l0097",
+            "count": 1
+          },
+          {
+            "anchor": "orig-msc-l0294",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-msc-l0294",
+            "count": 1
+          }
+        ],
+        "R-G4": [
+          {
+            "anchor": "orig-msc-l0097",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-msc-l0097",
+            "count": 1
+          }
+        ],
+        "R-G5": [
+          {
+            "anchor": "orig-msc-l0097",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-msc-l0097",
+            "count": 1
+          }
+        ],
+        "R-G6": [
+          {
+            "anchor": "orig-msc-l0097",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-msc-l0097",
+            "count": 1
+          },
+          {
+            "anchor": "orig-msc-l0294",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-msc-l0294",
+            "count": 1
+          }
+        ],
+        "R-H1": [
+          {
+            "anchor": "orig-msc-l0108",
+            "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-msc-l0108",
+            "count": 1
+          },
+          {
+            "anchor": "orig-msc-l0269",
+            "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-msc-l0269",
+            "count": 1
+          }
+        ],
+        "R-H2": [
+          {
+            "anchor": "orig-msc-l0108",
+            "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-msc-l0108",
+            "count": 1
+          },
+          {
+            "anchor": "orig-msc-l0193",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-msc-l0193",
+            "count": 1
+          }
+        ],
+        "R-H3": [
+          {
+            "anchor": "orig-msc-l0108",
+            "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-msc-l0108",
+            "count": 1
+          }
+        ],
+        "R-H4": [
+          {
+            "anchor": "orig-msc-l0108",
+            "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-msc-l0108",
+            "count": 1
+          }
+        ],
+        "R-I1": [
+          {
+            "anchor": "orig-msc-l0108",
+            "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-msc-l0108",
+            "count": 1
+          },
+          {
+            "anchor": "orig-msc-l0269",
+            "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-msc-l0269",
+            "count": 1
+          }
+        ],
+        "R-I2": [
+          {
+            "anchor": "orig-msc-l0108",
+            "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-msc-l0108",
+            "count": 1
+          }
+        ],
+        "R-J1": [
+          {
+            "anchor": "orig-msc-l0119",
+            "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-msc-l0119",
+            "count": 1
+          },
+          {
+            "anchor": "orig-msc-l0280",
+            "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-msc-l0280",
+            "count": 1
+          }
+        ],
+        "R-J2": [
+          {
+            "anchor": "orig-msc-l0119",
+            "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-msc-l0119",
+            "count": 1
+          }
+        ],
+        "R-J3": [
+          {
+            "anchor": "orig-msc-l0119",
+            "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-msc-l0119",
+            "count": 1
+          }
+        ],
+        "R-J4": [
+          {
+            "anchor": "orig-msc-l0119",
+            "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-msc-l0119",
+            "count": 1
+          }
+        ],
+        "R-J5": [
+          {
+            "anchor": "orig-msc-l0119",
+            "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-msc-l0119",
+            "count": 1
+          },
+          {
+            "anchor": "orig-msc-l0360",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-msc-l0360",
+            "count": 1
+          }
+        ],
+        "R-J6": [
+          {
+            "anchor": "orig-msc-l0119",
+            "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-msc-l0119",
+            "count": 1
+          }
+        ],
+        "R-K1": [
+          {
+            "anchor": "orig-msc-l0119",
+            "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-msc-l0119",
+            "count": 1
+          }
+        ],
+        "R-K2": [
+          {
+            "anchor": "orig-msc-l0119",
+            "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-msc-l0119",
+            "count": 1
+          }
+        ],
+        "R-L1": [
+          {
+            "anchor": "orig-msc-l0132",
+            "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-msc-l0132",
+            "count": 1
+          },
+          {
+            "anchor": "orig-msc-l0280",
+            "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-msc-l0280",
+            "count": 1
+          }
+        ],
+        "R-L2": [
+          {
+            "anchor": "orig-msc-l0132",
+            "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-msc-l0132",
+            "count": 1
+          }
+        ],
+        "R-M1": [
+          {
+            "anchor": "orig-msc-l0132",
+            "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-msc-l0132",
+            "count": 1
+          }
+        ],
+        "R-M2": [
+          {
+            "anchor": "orig-msc-l0132",
+            "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-msc-l0132",
+            "count": 1
+          }
+        ],
+        "R-M3": [
+          {
+            "anchor": "orig-msc-l0132",
+            "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-msc-l0132",
+            "count": 1
+          }
+        ],
+        "R-M4": [
+          {
+            "anchor": "orig-msc-l0132",
+            "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-msc-l0132",
+            "count": 1
+          },
+          {
+            "anchor": "orig-msc-l0193",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-msc-l0193",
+            "count": 1
+          },
+          {
+            "anchor": "orig-msc-l0280",
+            "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-msc-l0280",
+            "count": 1
+          }
+        ],
+        "R-M5": [
+          {
+            "anchor": "orig-msc-l0132",
+            "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-msc-l0132",
+            "count": 1
+          }
+        ],
+        "R-M6": [
+          {
+            "anchor": "orig-msc-l0132",
+            "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-msc-l0132",
+            "count": 1
+          }
+        ],
+        "R-N1": [
+          {
+            "anchor": "orig-msc-l0145",
+            "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-msc-l0145",
+            "count": 1
+          }
+        ],
+        "R-N2": [
+          {
+            "anchor": "orig-msc-l0145",
+            "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-msc-l0145",
+            "count": 1
+          }
+        ],
+        "R-N3": [
+          {
+            "anchor": "orig-msc-l0145",
+            "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-msc-l0145",
+            "count": 1
+          }
+        ],
+        "R-O1": [
+          {
+            "anchor": "orig-msc-l0153",
+            "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-msc-l0153",
+            "count": 1
+          },
+          {
+            "anchor": "orig-msc-l0193",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-msc-l0193",
+            "count": 1
+          }
+        ],
+        "R-O2": [
+          {
+            "anchor": "orig-msc-l0153",
+            "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-msc-l0153",
+            "count": 1
+          }
+        ],
+        "R-O3": [
+          {
+            "anchor": "orig-msc-l0153",
+            "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-msc-l0153",
+            "count": 1
+          }
+        ],
+        "R-P1": [
+          {
+            "anchor": "orig-msc-l0161",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-msc-l0161",
+            "count": 1
+          }
+        ],
+        "R-P2": [
+          {
+            "anchor": "orig-msc-l0161",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-msc-l0161",
+            "count": 1
+          }
+        ],
+        "R-P3": [
+          {
+            "anchor": "orig-msc-l0161",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-msc-l0161",
+            "count": 1
+          }
+        ],
+        "R-P4": [
+          {
+            "anchor": "orig-msc-l0161",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-msc-l0161",
+            "count": 1
+          }
+        ],
+        "R-P5": [
+          {
+            "anchor": "orig-msc-l0161",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-msc-l0161",
+            "count": 1
+          },
+          {
+            "anchor": "orig-msc-l0306",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-msc-l0306",
+            "count": 1
+          }
+        ],
+        "R-P6": [
+          {
+            "anchor": "orig-msc-l0161",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-msc-l0161",
+            "count": 1
+          }
+        ],
+        "R-Q": [
+          {
+            "anchor": "orig-msc-l0306",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-msc-l0306",
+            "count": 1
+          }
+        ],
+        "R-Q1": [
+          {
+            "anchor": "orig-msc-l0161",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-msc-l0161",
+            "count": 1
+          }
+        ],
+        "R-Q2": [
+          {
+            "anchor": "orig-msc-l0161",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-msc-l0161",
+            "count": 1
+          },
+          {
+            "anchor": "orig-msc-l0193",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-msc-l0193",
+            "count": 1
+          },
+          {
+            "anchor": "orig-msc-l0360",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-msc-l0360",
+            "count": 1
+          }
+        ],
+        "R-Q3": [
+          {
+            "anchor": "orig-msc-l0161",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-msc-l0161",
+            "count": 1
+          }
+        ],
+        "R-Q4": [
+          {
+            "anchor": "orig-msc-l0161",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-msc-l0161",
+            "count": 1
+          }
+        ],
+        "R-Q5": [
+          {
+            "anchor": "orig-msc-l0161",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-msc-l0161",
+            "count": 1
+          },
+          {
+            "anchor": "orig-msc-l0193",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-msc-l0193",
+            "count": 1
+          }
+        ],
+        "R-R1": [
+          {
+            "anchor": "orig-msc-l0177",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-msc-l0177",
+            "count": 1
+          }
+        ],
+        "R-R2": [
+          {
+            "anchor": "orig-msc-l0177",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-msc-l0177",
+            "count": 1
+          }
+        ],
+        "R-R3": [
+          {
+            "anchor": "orig-msc-l0177",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-msc-l0177",
+            "count": 1
+          },
+          {
+            "anchor": "orig-msc-l0306",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-msc-l0306",
+            "count": 1
+          }
+        ],
+        "R-R4": [
+          {
+            "anchor": "orig-msc-l0177",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-msc-l0177",
+            "count": 1
+          }
+        ],
+        "R-R5": [
+          {
+            "anchor": "orig-msc-l0177",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-msc-l0177",
+            "count": 1
+          }
+        ],
+        "R-S1": [
+          {
+            "anchor": "orig-msc-l0177",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-msc-l0177",
+            "count": 1
+          },
+          {
+            "anchor": "orig-msc-l0360",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-msc-l0360",
+            "count": 1
+          }
+        ],
+        "R-S2": [
+          {
+            "anchor": "orig-msc-l0177",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-msc-l0177",
+            "count": 1
+          },
+          {
+            "anchor": "orig-msc-l0193",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-msc-l0193",
+            "count": 1
+          },
+          {
+            "anchor": "orig-msc-l0243",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-msc-l0243",
+            "count": 1
+          }
+        ],
+        "R-S3": [
+          {
+            "anchor": "orig-msc-l0177",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-msc-l0177",
+            "count": 1
+          }
+        ],
+        "R-S4": [
+          {
+            "anchor": "orig-msc-l0001",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-msc-l0001",
+            "count": 1
+          },
+          {
+            "anchor": "orig-msc-l0177",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-msc-l0177",
+            "count": 1
+          }
+        ],
+        "R4": [
+          {
+            "anchor": "orig-msc-l0306",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-msc-l0306",
+            "count": 1
+          }
+        ]
+      }
+    },
+    "MSR": {
+      "path": "docs/plans/Ronova_MS_Remediation_Spec_V1.0.md",
+      "occurrences": 13,
+      "distinct_spellings": 6,
+      "counts": {
+        "R17": 2,
+        "R22": 2,
+        "R26": 2,
+        "R31": 2,
+        "R57": 2,
+        "R58": 3
+      },
+      "locations": {
+        "R17": [
+          {
+            "anchor": "orig-msr-l0001",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-msr-l0001",
+            "count": 1
+          },
+          {
+            "anchor": "orig-msr-l0094",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-msr-l0094",
+            "count": 1
+          }
+        ],
+        "R22": [
+          {
+            "anchor": "orig-msr-l0001",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-msr-l0001",
+            "count": 1
+          },
+          {
+            "anchor": "orig-msr-l0037",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-msr-l0037",
+            "count": 1
+          }
+        ],
+        "R26": [
+          {
+            "anchor": "orig-msr-l0001",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-msr-l0001",
+            "count": 1
+          },
+          {
+            "anchor": "orig-msr-l0302",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-msr-l0302",
+            "count": 1
+          }
+        ],
+        "R31": [
+          {
+            "anchor": "orig-msr-l0001",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-msr-l0001",
+            "count": 1
+          },
+          {
+            "anchor": "orig-msr-l0234",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-msr-l0234",
+            "count": 1
+          }
+        ],
+        "R57": [
+          {
+            "anchor": "orig-msr-l0001",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-msr-l0001",
+            "count": 1
+          },
+          {
+            "anchor": "orig-msr-l0153",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-msr-l0153",
+            "count": 1
+          }
+        ],
+        "R58": [
+          {
+            "anchor": "orig-msr-l0001",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-msr-l0001",
+            "count": 2
+          },
+          {
+            "anchor": "orig-msr-l0346",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-msr-l0346",
+            "count": 1
+          }
+        ]
+      }
+    },
+    "RULE": {
+      "path": "docs/plans/Ronova_MS_Rulebound_Enhancement_Plan_V2.0.md",
+      "occurrences": 269,
+      "distinct_spellings": 76,
+      "counts": {
+        "A1": 7,
+        "A2": 1,
+        "A3": 1,
+        "A4": 6,
+        "A5": 1,
+        "D1": 1,
+        "D2": 1,
+        "D3": 1,
+        "D4": 1,
+        "R1": 23,
+        "R10": 6,
+        "R11": 1,
+        "R12": 2,
+        "R13": 5,
+        "R14": 4,
+        "R15": 1,
+        "R16": 1,
+        "R17": 10,
+        "R18": 2,
+        "R19": 1,
+        "R2": 11,
+        "R20": 1,
+        "R21": 4,
+        "R22": 11,
+        "R23": 1,
+        "R24": 3,
+        "R25": 2,
+        "R26": 7,
+        "R27": 1,
+        "R28": 1,
+        "R29": 1,
+        "R3": 8,
+        "R30": 3,
+        "R31": 9,
+        "R32": 4,
+        "R33": 2,
+        "R34": 1,
+        "R35": 1,
+        "R36": 3,
+        "R37": 1,
+        "R38": 1,
+        "R39": 1,
+        "R4": 2,
+        "R40": 1,
+        "R41": 3,
+        "R42": 5,
+        "R43": 1,
+        "R44": 1,
+        "R45": 1,
+        "R46": 4,
+        "R47": 3,
+        "R48": 1,
+        "R49": 3,
+        "R5": 9,
+        "R50": 3,
+        "R51": 3,
+        "R52": 2,
+        "R53": 2,
+        "R54": 1,
+        "R55": 1,
+        "R56": 1,
+        "R57": 8,
+        "R58": 13,
+        "R59": 1,
+        "R59′": 7,
+        "R6": 1,
+        "R60": 4,
+        "R61": 3,
+        "R62": 6,
+        "R63": 6,
+        "R64": 4,
+        "R65": 2,
+        "R66": 7,
+        "R7": 1,
+        "R8": 4,
+        "R9": 2
+      },
+      "locations": {
+        "A1": [
+          {
+            "anchor": "orig-rule-l0734",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0734",
+            "count": 3
+          },
+          {
+            "anchor": "orig-rule-l0767",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0767",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0845",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0845",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0869",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0869",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0926",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0926",
+            "count": 1
+          }
+        ],
+        "A2": [
+          {
+            "anchor": "orig-rule-l0734",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0734",
+            "count": 1
+          }
+        ],
+        "A3": [
+          {
+            "anchor": "orig-rule-l0734",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0734",
+            "count": 1
+          }
+        ],
+        "A4": [
+          {
+            "anchor": "orig-rule-l0734",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0734",
+            "count": 2
+          },
+          {
+            "anchor": "orig-rule-l0767",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0767",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0845",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0845",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0869",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0869",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0926",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0926",
+            "count": 1
+          }
+        ],
+        "A5": [
+          {
+            "anchor": "orig-rule-l0734",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0734",
+            "count": 1
+          }
+        ],
+        "D1": [
+          {
+            "anchor": "orig-rule-l0798",
+            "destination": "docs/plans/MS-MSITEM-PLAN.md#orig-rule-l0798",
+            "count": 1
+          }
+        ],
+        "D2": [
+          {
+            "anchor": "orig-rule-l0798",
+            "destination": "docs/plans/MS-MSITEM-PLAN.md#orig-rule-l0798",
+            "count": 1
+          }
+        ],
+        "D3": [
+          {
+            "anchor": "orig-rule-l0798",
+            "destination": "docs/plans/MS-MSITEM-PLAN.md#orig-rule-l0798",
+            "count": 1
+          }
+        ],
+        "D4": [
+          {
+            "anchor": "orig-rule-l0798",
+            "destination": "docs/plans/MS-MSITEM-PLAN.md#orig-rule-l0798",
+            "count": 1
+          }
+        ],
+        "R1": [
+          {
+            "anchor": "orig-rule-l0047",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0047",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0098",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0098",
+            "count": 4
+          },
+          {
+            "anchor": "orig-rule-l0297",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0297",
+            "count": 2
+          },
+          {
+            "anchor": "orig-rule-l0345",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0345",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0353",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0353",
+            "count": 2
+          },
+          {
+            "anchor": "orig-rule-l0559",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0559",
+            "count": 5
+          },
+          {
+            "anchor": "orig-rule-l0698",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0698",
+            "count": 2
+          },
+          {
+            "anchor": "orig-rule-l0716",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0716",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0912",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0912",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0917",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0917",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0978",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0978",
+            "count": 2
+          },
+          {
+            "anchor": "orig-rule-l1008",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l1008",
+            "count": 1
+          }
+        ],
+        "R10": [
+          {
+            "anchor": "orig-rule-l0141",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0141",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0267",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0267",
+            "count": 3
+          },
+          {
+            "anchor": "orig-rule-l0845",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0845",
+            "count": 2
+          }
+        ],
+        "R11": [
+          {
+            "anchor": "orig-rule-l0141",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0141",
+            "count": 1
+          }
+        ],
+        "R12": [
+          {
+            "anchor": "orig-rule-l0141",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0141",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0816",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0816",
+            "count": 1
+          }
+        ],
+        "R13": [
+          {
+            "anchor": "orig-rule-l0141",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0141",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0267",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0267",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0353",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0353",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0767",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0767",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0845",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0845",
+            "count": 1
+          }
+        ],
+        "R14": [
+          {
+            "anchor": "orig-rule-l0141",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0141",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0267",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0267",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0716",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0716",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0845",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0845",
+            "count": 1
+          }
+        ],
+        "R15": [
+          {
+            "anchor": "orig-rule-l0141",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0141",
+            "count": 1
+          }
+        ],
+        "R16": [
+          {
+            "anchor": "orig-rule-l0141",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0141",
+            "count": 1
+          }
+        ],
+        "R17": [
+          {
+            "anchor": "orig-rule-l0066",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0066",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0141",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0141",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0317",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0317",
+            "count": 2
+          },
+          {
+            "anchor": "orig-rule-l0353",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0353",
+            "count": 2
+          },
+          {
+            "anchor": "orig-rule-l0476",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0476",
+            "count": 3
+          },
+          {
+            "anchor": "orig-rule-l0716",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0716",
+            "count": 1
+          }
+        ],
+        "R18": [
+          {
+            "anchor": "orig-rule-l0141",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0141",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0748",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0748",
+            "count": 1
+          }
+        ],
+        "R19": [
+          {
+            "anchor": "orig-rule-l0141",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0141",
+            "count": 1
+          }
+        ],
+        "R2": [
+          {
+            "anchor": "orig-rule-l0098",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0098",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0112",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0112",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0353",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0353",
+            "count": 2
+          },
+          {
+            "anchor": "orig-rule-l0559",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0559",
+            "count": 2
+          },
+          {
+            "anchor": "orig-rule-l0698",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0698",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0716",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0716",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0917",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0917",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0926",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0926",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0978",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0978",
+            "count": 1
+          }
+        ],
+        "R20": [
+          {
+            "anchor": "orig-rule-l0141",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0141",
+            "count": 1
+          }
+        ],
+        "R21": [
+          {
+            "anchor": "orig-rule-l0112",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0112",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0159",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0159",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0267",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0267",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0845",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0845",
+            "count": 1
+          }
+        ],
+        "R22": [
+          {
+            "anchor": "orig-rule-l0066",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0066",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0112",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0112",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0159",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0159",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0267",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0267",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0317",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0317",
+            "count": 2
+          },
+          {
+            "anchor": "orig-rule-l0353",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0353",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0390",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0390",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0828",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0828",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0845",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0845",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0869",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0869",
+            "count": 1
+          }
+        ],
+        "R23": [
+          {
+            "anchor": "orig-rule-l0159",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0159",
+            "count": 1
+          }
+        ],
+        "R24": [
+          {
+            "anchor": "orig-rule-l0159",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0159",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0716",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0716",
+            "count": 2
+          }
+        ],
+        "R25": [
+          {
+            "anchor": "orig-rule-l0159",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0159",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0716",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0716",
+            "count": 1
+          }
+        ],
+        "R26": [
+          {
+            "anchor": "orig-rule-l0159",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0159",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0317",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0317",
+            "count": 2
+          },
+          {
+            "anchor": "orig-rule-l0353",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0353",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0436",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0436",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0716",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0716",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0767",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0767",
+            "count": 1
+          }
+        ],
+        "R27": [
+          {
+            "anchor": "orig-rule-l0159",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0159",
+            "count": 1
+          }
+        ],
+        "R28": [
+          {
+            "anchor": "orig-rule-l0159",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0159",
+            "count": 1
+          }
+        ],
+        "R29": [
+          {
+            "anchor": "orig-rule-l0159",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0159",
+            "count": 1
+          }
+        ],
+        "R3": [
+          {
+            "anchor": "orig-rule-l0098",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0098",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0297",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0297",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0353",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0353",
+            "count": 2
+          },
+          {
+            "anchor": "orig-rule-l0698",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0698",
+            "count": 2
+          },
+          {
+            "anchor": "orig-rule-l0716",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0716",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0978",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0978",
+            "count": 1
+          }
+        ],
+        "R30": [
+          {
+            "anchor": "orig-rule-l0159",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0159",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0267",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0267",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0845",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0845",
+            "count": 1
+          }
+        ],
+        "R31": [
+          {
+            "anchor": "orig-rule-l0159",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0159",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0317",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0317",
+            "count": 2
+          },
+          {
+            "anchor": "orig-rule-l0353",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0353",
+            "count": 2
+          },
+          {
+            "anchor": "orig-rule-l0428",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0428",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0611",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0611",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0767",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0767",
+            "count": 2
+          }
+        ],
+        "R32": [
+          {
+            "anchor": "orig-rule-l0175",
+            "destination": "docs/plans/MS-MSITEM-PLAN.md#orig-rule-l0175",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0550",
+            "destination": "docs/plans/MS-MSITEM-PLAN.md#orig-rule-l0550",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0767",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0767",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0798",
+            "destination": "docs/plans/MS-MSITEM-PLAN.md#orig-rule-l0798",
+            "count": 1
+          }
+        ],
+        "R33": [
+          {
+            "anchor": "orig-rule-l0175",
+            "destination": "docs/plans/MS-MSITEM-PLAN.md#orig-rule-l0175",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0798",
+            "destination": "docs/plans/MS-MSITEM-PLAN.md#orig-rule-l0798",
+            "count": 1
+          }
+        ],
+        "R34": [
+          {
+            "anchor": "orig-rule-l0175",
+            "destination": "docs/plans/MS-MSITEM-PLAN.md#orig-rule-l0175",
+            "count": 1
+          }
+        ],
+        "R35": [
+          {
+            "anchor": "orig-rule-l0175",
+            "destination": "docs/plans/MS-MSITEM-PLAN.md#orig-rule-l0175",
+            "count": 1
+          }
+        ],
+        "R36": [
+          {
+            "anchor": "orig-rule-l0175",
+            "destination": "docs/plans/MS-MSITEM-PLAN.md#orig-rule-l0175",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0748",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0748",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0837",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0837",
+            "count": 1
+          }
+        ],
+        "R37": [
+          {
+            "anchor": "orig-rule-l0175",
+            "destination": "docs/plans/MS-MSITEM-PLAN.md#orig-rule-l0175",
+            "count": 1
+          }
+        ],
+        "R38": [
+          {
+            "anchor": "orig-rule-l0175",
+            "destination": "docs/plans/MS-MSITEM-PLAN.md#orig-rule-l0175",
+            "count": 1
+          }
+        ],
+        "R39": [
+          {
+            "anchor": "orig-rule-l0175",
+            "destination": "docs/plans/MS-MSITEM-PLAN.md#orig-rule-l0175",
+            "count": 1
+          }
+        ],
+        "R4": [
+          {
+            "anchor": "orig-rule-l0098",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0098",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l1008",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l1008",
+            "count": 1
+          }
+        ],
+        "R40": [
+          {
+            "anchor": "orig-rule-l0188",
+            "destination": "docs/plans/MS-MSITEM-PLAN.md#orig-rule-l0188",
+            "count": 1
+          }
+        ],
+        "R41": [
+          {
+            "anchor": "orig-rule-l0188",
+            "destination": "docs/plans/MS-MSITEM-PLAN.md#orig-rule-l0188",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0267",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0267",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0845",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0845",
+            "count": 1
+          }
+        ],
+        "R42": [
+          {
+            "anchor": "orig-rule-l0188",
+            "destination": "docs/plans/MS-MSITEM-PLAN.md#orig-rule-l0188",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0636",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0636",
+            "count": 2
+          },
+          {
+            "anchor": "orig-rule-l0716",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0716",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0767",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0767",
+            "count": 1
+          }
+        ],
+        "R43": [
+          {
+            "anchor": "orig-rule-l0188",
+            "destination": "docs/plans/MS-MSITEM-PLAN.md#orig-rule-l0188",
+            "count": 1
+          }
+        ],
+        "R44": [
+          {
+            "anchor": "orig-rule-l0188",
+            "destination": "docs/plans/MS-MSITEM-PLAN.md#orig-rule-l0188",
+            "count": 1
+          }
+        ],
+        "R45": [
+          {
+            "anchor": "orig-rule-l0198",
+            "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-rule-l0198",
+            "count": 1
+          }
+        ],
+        "R46": [
+          {
+            "anchor": "orig-rule-l0198",
+            "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-rule-l0198",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0538",
+            "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-rule-l0538",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0767",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0767",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0837",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0837",
+            "count": 1
+          }
+        ],
+        "R47": [
+          {
+            "anchor": "orig-rule-l0198",
+            "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-rule-l0198",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0538",
+            "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-rule-l0538",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0767",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0767",
+            "count": 1
+          }
+        ],
+        "R48": [
+          {
+            "anchor": "orig-rule-l0198",
+            "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-rule-l0198",
+            "count": 1
+          }
+        ],
+        "R49": [
+          {
+            "anchor": "orig-rule-l0198",
+            "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-rule-l0198",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0538",
+            "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-rule-l0538",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0767",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0767",
+            "count": 1
+          }
+        ],
+        "R5": [
+          {
+            "anchor": "orig-rule-l0133",
+            "destination": "docs/plans/MS-MSITEM-PLAN.md#orig-rule-l0133",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0611",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0611",
+            "count": 3
+          },
+          {
+            "anchor": "orig-rule-l0683",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0683",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0698",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0698",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0716",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0716",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0807",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0807",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l1008",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l1008",
+            "count": 1
+          }
+        ],
+        "R50": [
+          {
+            "anchor": "orig-rule-l0198",
+            "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-rule-l0198",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0538",
+            "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-rule-l0538",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0767",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0767",
+            "count": 1
+          }
+        ],
+        "R51": [
+          {
+            "anchor": "orig-rule-l0198",
+            "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-rule-l0198",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0538",
+            "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-rule-l0538",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0767",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0767",
+            "count": 1
+          }
+        ],
+        "R52": [
+          {
+            "anchor": "orig-rule-l0198",
+            "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-rule-l0198",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0512",
+            "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-rule-l0512",
+            "count": 1
+          }
+        ],
+        "R53": [
+          {
+            "anchor": "orig-rule-l0198",
+            "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-rule-l0198",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0716",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0716",
+            "count": 1
+          }
+        ],
+        "R54": [
+          {
+            "anchor": "orig-rule-l0198",
+            "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-rule-l0198",
+            "count": 1
+          }
+        ],
+        "R55": [
+          {
+            "anchor": "orig-rule-l0198",
+            "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-rule-l0198",
+            "count": 1
+          }
+        ],
+        "R56": [
+          {
+            "anchor": "orig-rule-l0198",
+            "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-rule-l0198",
+            "count": 1
+          }
+        ],
+        "R57": [
+          {
+            "anchor": "orig-rule-l0066",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0066",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0215",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0215",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0317",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0317",
+            "count": 2
+          },
+          {
+            "anchor": "orig-rule-l0353",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0353",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0442",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0442",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0450",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0450",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0767",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0767",
+            "count": 1
+          }
+        ],
+        "R58": [
+          {
+            "anchor": "orig-rule-l0215",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0215",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0317",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0317",
+            "count": 4
+          },
+          {
+            "anchor": "orig-rule-l0353",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0353",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0442",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0442",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0476",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0476",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0506",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0506",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0767",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0767",
+            "count": 3
+          },
+          {
+            "anchor": "orig-rule-l0816",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0816",
+            "count": 1
+          }
+        ],
+        "R59": [
+          {
+            "anchor": "orig-rule-l0215",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0215",
+            "count": 1
+          }
+        ],
+        "R59′": [
+          {
+            "anchor": "orig-rule-l0235",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0235",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0353",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0353",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0506",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0506",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0734",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0734",
+            "count": 2
+          },
+          {
+            "anchor": "orig-rule-l0767",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0767",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0869",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0869",
+            "count": 1
+          }
+        ],
+        "R6": [
+          {
+            "anchor": "orig-rule-l0133",
+            "destination": "docs/plans/MS-MSITEM-PLAN.md#orig-rule-l0133",
+            "count": 1
+          }
+        ],
+        "R60": [
+          {
+            "anchor": "orig-rule-l0112",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0112",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0215",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0215",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0512",
+            "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-rule-l0512",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0926",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0926",
+            "count": 1
+          }
+        ],
+        "R61": [
+          {
+            "anchor": "orig-rule-l0224",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0224",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0816",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0816",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0957",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0957",
+            "count": 1
+          }
+        ],
+        "R62": [
+          {
+            "anchor": "orig-rule-l0224",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0224",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0267",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0267",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0550",
+            "destination": "docs/plans/MS-MSITEM-PLAN.md#orig-rule-l0550",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0845",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0845",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0957",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0957",
+            "count": 2
+          }
+        ],
+        "R63": [
+          {
+            "anchor": "orig-rule-l0224",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0224",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0512",
+            "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-rule-l0512",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0550",
+            "destination": "docs/plans/MS-MSITEM-PLAN.md#orig-rule-l0550",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0698",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0698",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0957",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0957",
+            "count": 2
+          }
+        ],
+        "R64": [
+          {
+            "anchor": "orig-rule-l0224",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0224",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0550",
+            "destination": "docs/plans/MS-MSITEM-PLAN.md#orig-rule-l0550",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0767",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0767",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0957",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0957",
+            "count": 1
+          }
+        ],
+        "R65": [
+          {
+            "anchor": "orig-rule-l0224",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0224",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0957",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0957",
+            "count": 1
+          }
+        ],
+        "R66": [
+          {
+            "anchor": "orig-rule-l0047",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0047",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0224",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0224",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0345",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0345",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0543",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0543",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0767",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0767",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0957",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0957",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l1008",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l1008",
+            "count": 1
+          }
+        ],
+        "R7": [
+          {
+            "anchor": "orig-rule-l0133",
+            "destination": "docs/plans/MS-MSITEM-PLAN.md#orig-rule-l0133",
+            "count": 1
+          }
+        ],
+        "R8": [
+          {
+            "anchor": "orig-rule-l0141",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0141",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0267",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0267",
+            "count": 2
+          },
+          {
+            "anchor": "orig-rule-l0652",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0652",
+            "count": 1
+          }
+        ],
+        "R9": [
+          {
+            "anchor": "orig-rule-l0141",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0141",
+            "count": 1
+          },
+          {
+            "anchor": "orig-rule-l0267",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0267",
+            "count": 1
+          }
+        ]
+      }
+    },
+    "NON": {
+      "path": "docs/plans/Ronova_NonViolating_Enhancement_Plan_V1.0.md",
+      "occurrences": 11,
+      "distinct_spellings": 8,
+      "counts": {
+        "A1": 2,
+        "A2": 1,
+        "A3": 3,
+        "A4": 1,
+        "D1": 1,
+        "D2": 1,
+        "D3": 1,
+        "D91": 1
+      },
+      "locations": {
+        "A1": [
+          {
+            "anchor": "orig-non-l0069",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-non-l0069",
+            "count": 1
+          },
+          {
+            "anchor": "orig-non-l0089",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-non-l0089",
+            "count": 1
+          }
+        ],
+        "A2": [
+          {
+            "anchor": "orig-non-l0089",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-non-l0089",
+            "count": 1
+          }
+        ],
+        "A3": [
+          {
+            "anchor": "orig-non-l0038",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-non-l0038",
+            "count": 1
+          },
+          {
+            "anchor": "orig-non-l0089",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-non-l0089",
+            "count": 1
+          },
+          {
+            "anchor": "orig-non-l0276",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-non-l0276",
+            "count": 1
+          }
+        ],
+        "A4": [
+          {
+            "anchor": "orig-non-l0089",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-non-l0089",
+            "count": 1
+          }
+        ],
+        "D1": [
+          {
+            "anchor": "orig-non-l0145",
+            "destination": "docs/plans/MS-MSITEM-PLAN.md#orig-non-l0145",
+            "count": 1
+          }
+        ],
+        "D2": [
+          {
+            "anchor": "orig-non-l0145",
+            "destination": "docs/plans/MS-MSITEM-PLAN.md#orig-non-l0145",
+            "count": 1
+          }
+        ],
+        "D3": [
+          {
+            "anchor": "orig-non-l0145",
+            "destination": "docs/plans/MS-MSITEM-PLAN.md#orig-non-l0145",
+            "count": 1
+          }
+        ],
+        "D91": [
+          {
+            "anchor": "orig-non-l0165",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-non-l0165",
+            "count": 1
+          }
+        ]
+      }
+    },
+    "DS": {
+      "path": "docs/DESIGN-SPEC.md",
+      "occurrences": 236,
+      "distinct_spellings": 80,
+      "counts": {
+        "A1": 11,
+        "A2": 3,
+        "A3": 2,
+        "A4": 6,
+        "A5": 7,
+        "A6": 2,
+        "A7": 2,
+        "A8": 6,
+        "D1": 9,
+        "D10": 1,
+        "D100": 1,
+        "D105": 1,
+        "D106": 7,
+        "D11": 2,
+        "D12": 1,
+        "D13": 9,
+        "D2": 2,
+        "D3": 6,
+        "D32": 2,
+        "D33": 3,
+        "D4": 1,
+        "D5": 2,
+        "D53": 3,
+        "D55": 1,
+        "D6": 5,
+        "D62": 1,
+        "D65": 2,
+        "D66": 2,
+        "D7": 3,
+        "D71": 1,
+        "D73": 2,
+        "D76": 1,
+        "D77": 1,
+        "D78": 2,
+        "D79": 1,
+        "D8": 2,
+        "D81": 1,
+        "D82": 2,
+        "D86": 4,
+        "D87": 1,
+        "D89": 1,
+        "D9": 4,
+        "D91": 5,
+        "D92": 1,
+        "D94": 3,
+        "D96": 1,
+        "D98": 5,
+        "D99": 1,
+        "ID-2": 2,
+        "ID-6": 1,
+        "ID-9": 1,
+        "L5-INV-1": 2,
+        "L5-INV-2": 1,
+        "L5-INV-3": 1,
+        "L5-INV-4": 2,
+        "L5-INV-5": 2,
+        "L5-INV-6": 3,
+        "L5-INV-7": 1,
+        "L5-INV-8": 6,
+        "L5-INV-9": 2,
+        "L6-INV-1": 6,
+        "L6-INV-10": 5,
+        "L6-INV-2": 1,
+        "L6-INV-3": 3,
+        "L6-INV-4": 1,
+        "L6-INV-5": 1,
+        "L6-INV-6": 1,
+        "L6-INV-7": 1,
+        "L6-INV-8": 1,
+        "L6-INV-9": 1,
+        "PROC-INV-1": 12,
+        "R1": 9,
+        "R2": 4,
+        "R3": 3,
+        "R4": 4,
+        "R5": 2,
+        "R6": 2,
+        "R7": 11,
+        "T-07": 1,
+        "T-13": 1
+      },
+      "locations": {
+        "A1": [
+          {
+            "anchor": "orig-ds-l0385",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0385",
+            "count": 3
+          },
+          {
+            "anchor": "orig-ds-l0463",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0463",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l0871",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0871",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l0890",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0890",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l0932",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0932",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l0962",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0962",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l1007",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l1007",
+            "count": 2
+          },
+          {
+            "anchor": "orig-ds-l1040",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l1040",
+            "count": 1
+          }
+        ],
+        "A2": [
+          {
+            "anchor": "orig-ds-l0385",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0385",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l1007",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l1007",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l1107",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l1107",
+            "count": 1
+          }
+        ],
+        "A3": [
+          {
+            "anchor": "orig-ds-l0385",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0385",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l1007",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l1007",
+            "count": 1
+          }
+        ],
+        "A4": [
+          {
+            "anchor": "orig-ds-l0385",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0385",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l0463",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0463",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l1007",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l1007",
+            "count": 2
+          },
+          {
+            "anchor": "orig-ds-l1040",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l1040",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l1107",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l1107",
+            "count": 1
+          }
+        ],
+        "A5": [
+          {
+            "anchor": "orig-ds-l0385",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0385",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l0962",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0962",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l1007",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l1007",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l1040",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l1040",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l1100",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l1100",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l1126",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l1126",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l1160",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l1160",
+            "count": 1
+          }
+        ],
+        "A6": [
+          {
+            "anchor": "orig-ds-l0385",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0385",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l0962",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0962",
+            "count": 1
+          }
+        ],
+        "A7": [
+          {
+            "anchor": "orig-ds-l0385",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0385",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l0962",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0962",
+            "count": 1
+          }
+        ],
+        "A8": [
+          {
+            "anchor": "orig-ds-l0385",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0385",
+            "count": 3
+          },
+          {
+            "anchor": "orig-ds-l0871",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0871",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l0890",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0890",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l0932",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0932",
+            "count": 1
+          }
+        ],
+        "D1": [
+          {
+            "anchor": "orig-ds-l0019",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0019",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l0177",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0177",
+            "count": 3
+          },
+          {
+            "anchor": "orig-ds-l0329",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0329",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l0364",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0364",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l0871",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0871",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l0932",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0932",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l0962",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0962",
+            "count": 1
+          }
+        ],
+        "D10": [
+          {
+            "anchor": "orig-ds-l0177",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0177",
+            "count": 1
+          }
+        ],
+        "D100": [
+          {
+            "anchor": "orig-ds-l0075",
+            "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-ds-l0075",
+            "count": 1
+          }
+        ],
+        "D105": [
+          {
+            "anchor": "orig-ds-l0844",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0844",
+            "count": 1
+          }
+        ],
+        "D106": [
+          {
+            "anchor": "orig-ds-l0044",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0044",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l0329",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0329",
+            "count": 2
+          },
+          {
+            "anchor": "orig-ds-l0364",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0364",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l0844",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0844",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l0871",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0871",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l0932",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0932",
+            "count": 1
+          }
+        ],
+        "D11": [
+          {
+            "anchor": "orig-ds-l0101",
+            "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-ds-l0101",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l0177",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0177",
+            "count": 1
+          }
+        ],
+        "D12": [
+          {
+            "anchor": "orig-ds-l0177",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0177",
+            "count": 1
+          }
+        ],
+        "D13": [
+          {
+            "anchor": "orig-ds-l0019",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0019",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l0177",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0177",
+            "count": 3
+          },
+          {
+            "anchor": "orig-ds-l0267",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0267",
+            "count": 2
+          },
+          {
+            "anchor": "orig-ds-l0463",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0463",
+            "count": 2
+          },
+          {
+            "anchor": "orig-ds-l0871",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0871",
+            "count": 1
+          }
+        ],
+        "D2": [
+          {
+            "anchor": "orig-ds-l0177",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0177",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l0283",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0283",
+            "count": 1
+          }
+        ],
+        "D3": [
+          {
+            "anchor": "orig-ds-l0177",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0177",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l0283",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0283",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l0962",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0962",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l1040",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l1040",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l1126",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l1126",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l1160",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l1160",
+            "count": 1
+          }
+        ],
+        "D32": [
+          {
+            "anchor": "orig-ds-l0329",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0329",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l0364",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0364",
+            "count": 1
+          }
+        ],
+        "D33": [
+          {
+            "anchor": "orig-ds-l0319",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0319",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l0364",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0364",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l0871",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0871",
+            "count": 1
+          }
+        ],
+        "D4": [
+          {
+            "anchor": "orig-ds-l0177",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0177",
+            "count": 1
+          }
+        ],
+        "D5": [
+          {
+            "anchor": "orig-ds-l0177",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0177",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l0962",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0962",
+            "count": 1
+          }
+        ],
+        "D53": [
+          {
+            "anchor": "orig-ds-l0329",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0329",
+            "count": 2
+          },
+          {
+            "anchor": "orig-ds-l0871",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0871",
+            "count": 1
+          }
+        ],
+        "D55": [
+          {
+            "anchor": "orig-ds-l0844",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0844",
+            "count": 1
+          }
+        ],
+        "D6": [
+          {
+            "anchor": "orig-ds-l0177",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0177",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l0283",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0283",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l0516",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0516",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l0962",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0962",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l1040",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l1040",
+            "count": 1
+          }
+        ],
+        "D62": [
+          {
+            "anchor": "orig-ds-l0617",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0617",
+            "count": 1
+          }
+        ],
+        "D65": [
+          {
+            "anchor": "orig-ds-l0329",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0329",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l0844",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0844",
+            "count": 1
+          }
+        ],
+        "D66": [
+          {
+            "anchor": "orig-ds-l0329",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0329",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l1072",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l1072",
+            "count": 1
+          }
+        ],
+        "D7": [
+          {
+            "anchor": "orig-ds-l0177",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0177",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l0962",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0962",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l1040",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l1040",
+            "count": 1
+          }
+        ],
+        "D71": [
+          {
+            "anchor": "orig-ds-l0844",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0844",
+            "count": 1
+          }
+        ],
+        "D73": [
+          {
+            "anchor": "orig-ds-l0730",
+            "destination": "docs/plans/MS-MSITEM-PLAN.md#orig-ds-l0730",
+            "count": 2
+          }
+        ],
+        "D76": [
+          {
+            "anchor": "orig-ds-l1107",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l1107",
+            "count": 1
+          }
+        ],
+        "D77": [
+          {
+            "anchor": "orig-ds-l1107",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l1107",
+            "count": 1
+          }
+        ],
+        "D78": [
+          {
+            "anchor": "orig-ds-l0329",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0329",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l0844",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0844",
+            "count": 1
+          }
+        ],
+        "D79": [
+          {
+            "anchor": "orig-ds-l0329",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0329",
+            "count": 1
+          }
+        ],
+        "D8": [
+          {
+            "anchor": "orig-ds-l0177",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0177",
+            "count": 2
+          }
+        ],
+        "D81": [
+          {
+            "anchor": "orig-ds-l0537",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0537",
+            "count": 1
+          }
+        ],
+        "D82": [
+          {
+            "anchor": "orig-ds-l0537",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0537",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l0844",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0844",
+            "count": 1
+          }
+        ],
+        "D86": [
+          {
+            "anchor": "orig-ds-l0044",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0044",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l0329",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0329",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l0844",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0844",
+            "count": 2
+          }
+        ],
+        "D87": [
+          {
+            "anchor": "orig-ds-l0329",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0329",
+            "count": 1
+          }
+        ],
+        "D89": [
+          {
+            "anchor": "orig-ds-l0698",
+            "destination": "docs/plans/MS-MSITEM-PLAN.md#orig-ds-l0698",
+            "count": 1
+          }
+        ],
+        "D9": [
+          {
+            "anchor": "orig-ds-l0177",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0177",
+            "count": 2
+          },
+          {
+            "anchor": "orig-ds-l0962",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0962",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l1040",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l1040",
+            "count": 1
+          }
+        ],
+        "D91": [
+          {
+            "anchor": "orig-ds-l0787",
+            "destination": "docs/plans/MS-MSITEM-PLAN.md#orig-ds-l0787",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l0962",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0962",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l1040",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l1040",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l1126",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l1126",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l1160",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l1160",
+            "count": 1
+          }
+        ],
+        "D92": [
+          {
+            "anchor": "orig-ds-l0659",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0659",
+            "count": 1
+          }
+        ],
+        "D94": [
+          {
+            "anchor": "orig-ds-l0844",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0844",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l1066",
+            "destination": "docs/plans/MS-MSITEM-PLAN.md#orig-ds-l1066",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l1083",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l1083",
+            "count": 1
+          }
+        ],
+        "D96": [
+          {
+            "anchor": "orig-ds-l0537",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0537",
+            "count": 1
+          }
+        ],
+        "D98": [
+          {
+            "anchor": "orig-ds-l0044",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0044",
+            "count": 2
+          },
+          {
+            "anchor": "orig-ds-l0329",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0329",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l0844",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0844",
+            "count": 2
+          }
+        ],
+        "D99": [
+          {
+            "anchor": "orig-ds-l0329",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0329",
+            "count": 1
+          }
+        ],
+        "ID-2": [
+          {
+            "anchor": "orig-ds-l0677",
+            "destination": "docs/plans/MS-MSITEM-PLAN.md#orig-ds-l0677",
+            "count": 2
+          }
+        ],
+        "ID-6": [
+          {
+            "anchor": "orig-ds-l0659",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0659",
+            "count": 1
+          }
+        ],
+        "ID-9": [
+          {
+            "anchor": "orig-ds-l0463",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0463",
+            "count": 1
+          }
+        ],
+        "L5-INV-1": [
+          {
+            "anchor": "orig-ds-l0283",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0283",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l0871",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0871",
+            "count": 1
+          }
+        ],
+        "L5-INV-2": [
+          {
+            "anchor": "orig-ds-l0283",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0283",
+            "count": 1
+          }
+        ],
+        "L5-INV-3": [
+          {
+            "anchor": "orig-ds-l0283",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0283",
+            "count": 1
+          }
+        ],
+        "L5-INV-4": [
+          {
+            "anchor": "orig-ds-l0283",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0283",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l0962",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0962",
+            "count": 1
+          }
+        ],
+        "L5-INV-5": [
+          {
+            "anchor": "orig-ds-l0283",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0283",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l1107",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l1107",
+            "count": 1
+          }
+        ],
+        "L5-INV-6": [
+          {
+            "anchor": "orig-ds-l0283",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0283",
+            "count": 2
+          },
+          {
+            "anchor": "orig-ds-l0890",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0890",
+            "count": 1
+          }
+        ],
+        "L5-INV-7": [
+          {
+            "anchor": "orig-ds-l0283",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0283",
+            "count": 1
+          }
+        ],
+        "L5-INV-8": [
+          {
+            "anchor": "orig-ds-l0283",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0283",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l0962",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0962",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l1021",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l1021",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l1040",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l1040",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l1126",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l1126",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l1160",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l1160",
+            "count": 1
+          }
+        ],
+        "L5-INV-9": [
+          {
+            "anchor": "orig-ds-l0283",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0283",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l0962",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0962",
+            "count": 1
+          }
+        ],
+        "L6-INV-1": [
+          {
+            "anchor": "orig-ds-l0299",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0299",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l0871",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0871",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l0962",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0962",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l1040",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l1040",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l1126",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l1126",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l1160",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l1160",
+            "count": 1
+          }
+        ],
+        "L6-INV-10": [
+          {
+            "anchor": "orig-ds-l0168",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0168",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l0299",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0299",
+            "count": 2
+          },
+          {
+            "anchor": "orig-ds-l0844",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0844",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l0890",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0890",
+            "count": 1
+          }
+        ],
+        "L6-INV-2": [
+          {
+            "anchor": "orig-ds-l0299",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0299",
+            "count": 1
+          }
+        ],
+        "L6-INV-3": [
+          {
+            "anchor": "orig-ds-l0299",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0299",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l0962",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0962",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l1040",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l1040",
+            "count": 1
+          }
+        ],
+        "L6-INV-4": [
+          {
+            "anchor": "orig-ds-l0299",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0299",
+            "count": 1
+          }
+        ],
+        "L6-INV-5": [
+          {
+            "anchor": "orig-ds-l0299",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0299",
+            "count": 1
+          }
+        ],
+        "L6-INV-6": [
+          {
+            "anchor": "orig-ds-l0299",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0299",
+            "count": 1
+          }
+        ],
+        "L6-INV-7": [
+          {
+            "anchor": "orig-ds-l0299",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0299",
+            "count": 1
+          }
+        ],
+        "L6-INV-8": [
+          {
+            "anchor": "orig-ds-l0299",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0299",
+            "count": 1
+          }
+        ],
+        "L6-INV-9": [
+          {
+            "anchor": "orig-ds-l0299",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0299",
+            "count": 1
+          }
+        ],
+        "PROC-INV-1": [
+          {
+            "anchor": "orig-ds-l0177",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0177",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l0267",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0267",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l0283",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0283",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l0385",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0385",
+            "count": 2
+          },
+          {
+            "anchor": "orig-ds-l0425",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0425",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l0463",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0463",
+            "count": 2
+          },
+          {
+            "anchor": "orig-ds-l0871",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0871",
+            "count": 2
+          },
+          {
+            "anchor": "orig-ds-l0932",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0932",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l1007",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l1007",
+            "count": 1
+          }
+        ],
+        "R1": [
+          {
+            "anchor": "orig-ds-l0364",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0364",
+            "count": 2
+          },
+          {
+            "anchor": "orig-ds-l0871",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0871",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l0932",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0932",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l0950",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0950",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l0962",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0962",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l0986",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0986",
+            "count": 2
+          },
+          {
+            "anchor": "orig-ds-l1160",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l1160",
+            "count": 1
+          }
+        ],
+        "R2": [
+          {
+            "anchor": "orig-ds-l0364",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0364",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l0950",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0950",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l0986",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0986",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l1160",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l1160",
+            "count": 1
+          }
+        ],
+        "R3": [
+          {
+            "anchor": "orig-ds-l0364",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0364",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l0950",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0950",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l1160",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l1160",
+            "count": 1
+          }
+        ],
+        "R4": [
+          {
+            "anchor": "orig-ds-l0364",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0364",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l0659",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0659",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l0950",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0950",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l1160",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l1160",
+            "count": 1
+          }
+        ],
+        "R5": [
+          {
+            "anchor": "orig-ds-l0075",
+            "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-ds-l0075",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l0364",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0364",
+            "count": 1
+          }
+        ],
+        "R6": [
+          {
+            "anchor": "orig-ds-l0364",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0364",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l0844",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0844",
+            "count": 1
+          }
+        ],
+        "R7": [
+          {
+            "anchor": "orig-ds-l0364",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0364",
+            "count": 2
+          },
+          {
+            "anchor": "orig-ds-l0463",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0463",
+            "count": 4
+          },
+          {
+            "anchor": "orig-ds-l0871",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0871",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l0932",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0932",
+            "count": 1
+          },
+          {
+            "anchor": "orig-ds-l1007",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l1007",
+            "count": 3
+          }
+        ],
+        "T-07": [
+          {
+            "anchor": "orig-ds-l0659",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0659",
+            "count": 1
+          }
+        ],
+        "T-13": [
+          {
+            "anchor": "orig-ds-l0488",
+            "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0488",
+            "count": 1
+          }
+        ]
+      }
+    }
+  }
+}

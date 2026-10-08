@@ -1,0 +1,4 @@
+# Restart is required after changing these values.
+protectionMode=DUAL_AGENT
+containExternalRetransform=true
+reassertMillis=30000

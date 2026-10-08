@@ -1,0 +1,357 @@
+plugins {
+    id 'eclipse'
+    id 'idea'
+    id 'maven-publish'
+    id 'net.minecraftforge.gradle' version '6.0.54'
+    id 'org.spongepowered.mixin' version '0.7-SNAPSHOT'
+}
+
+version = mod_version
+group = mod_group_id
+base { archivesName = mod_id }
+
+sourceSets {
+    validationFixture {
+        java.srcDir 'validation/7.14a/fixture/src/main/java'
+        resources.srcDir 'validation/7.14a/fixture/src/main/resources'
+        compileClasspath += sourceSets.main.output
+        runtimeClasspath += sourceSets.main.output
+    }
+}
+
+minecraft {
+    mappings channel: mapping_channel, version: mapping_version
+    copyIdeResources = true
+
+    runs {
+        configureEach {
+            workingDirectory project.file('run')
+            property 'forge.logging.console.level', 'info'
+            property 'mixin.env.remapRefMap', 'true'
+            mods { "${mod_id}" { source sourceSets.main } }
+        }
+        client {}
+        server { args '--nogui' }
+    }
+}
+
+repositories {
+    def offlineRepository = System.getenv('RONOVA_OFFLINE_MAVEN')
+    if (offlineRepository != null && !offlineRepository.isBlank()) {
+        maven {
+            url = uri(offlineRepository)
+            metadataSources {
+                mavenPom()
+                gradleMetadata()
+                artifact()
+            }
+        }
+    }
+    maven { url = 'https://repo.spongepowered.org/repository/maven-public/' }
+}
+
+configurations {
+    agentBootstrap
+    validationFixtureImplementation.extendsFrom implementation
+    validationFixtureCompileOnly.extendsFrom compileOnly
+    validationFixtureRuntimeOnly.extendsFrom runtimeOnly
+    configureEach {
+        resolutionStrategy.eachDependency { details ->
+            if (details.requested.group == 'org.apache.logging.log4j'
+                    && details.requested.version == '2.11.+') {
+                details.useVersion '2.19.0'
+                details.because 'Use the Forge 1.20.1 runtime version available in the reproducible build cache'
+            }
+        }
+    }
+}
+
+dependencies {
+    minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
+    annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
+    agentBootstrap 'org.ow2.asm:asm:9.7'
+    agentBootstrap 'org.ow2.asm:asm-tree:9.7'
+}
+
+mixin {
+    add sourceSets.main, 'ronova.refmap.json'
+    config 'ronova.mixins.json'
+}
+
+tasks.named('processResources', ProcessResources).configure {
+    def props = [
+        minecraft_version: minecraft_version,
+        minecraft_version_range: minecraft_version_range,
+        forge_version: forge_version,
+        forge_version_range: forge_version_range,
+        loader_version_range: loader_version_range,
+        mod_id: mod_id,
+        mod_name: mod_name,
+        mod_license: mod_license,
+        mod_version: mod_version,
+        mod_authors: mod_authors,
+        mod_description: mod_description
+    ]
+    inputs.properties props
+    filesMatching(['META-INF/mods.toml']) { expand props }
+}
+
+def agentBootstrapJar = tasks.register('agentBootstrapJar', Jar) {
+    archiveFileName = 'asm-support.jar'
+    destinationDirectory = layout.buildDirectory.dir('agent-bootstrap')
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+    from({ configurations.agentBootstrap.collect { zipTree(it) } }) {
+        include 'org/objectweb/asm/**'
+    }
+}
+
+def agentHookJar = tasks.register('agentHookJar', Jar) {
+    dependsOn tasks.named('compileJava')
+    archiveFileName = 'hook-support.jar'
+    destinationDirectory = layout.buildDirectory.dir('agent-bootstrap')
+    from(sourceSets.main.output.classesDirs) {
+        include 'dev/ronova/coremod/agent/BootstrapHooks.class'
+    }
+}
+def taskHookJar = tasks.register('taskHookJar', Jar) {
+    dependsOn tasks.named('compileJava')
+    archiveFileName = 'task-hook-support.jar'
+    destinationDirectory = layout.buildDirectory.dir('agent-bootstrap')
+    from(sourceSets.main.output.classesDirs) { include 'dev/ronova/coremod/agent/BootstrapTaskHooks*.class' }
+}
+
+tasks.named('jar', Jar).configure {
+    dependsOn agentBootstrapJar, agentHookJar, taskHookJar
+    // Only the current annotation-processor output may supply field mappings.
+    // An old resource copy can silently hide newly added accessors.
+    filesMatching('ronova.refmap.json') {
+        duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+    }
+    from(agentBootstrapJar.flatMap { it.archiveFile }) {
+        into 'META-INF/ronova'
+    }
+    from(agentHookJar.flatMap { it.archiveFile }) {
+        into 'META-INF/ronova'
+    }
+    from(taskHookJar.flatMap { it.archiveFile }) { into 'META-INF/ronova' }
+    manifest {
+        attributes([
+            'Specification-Title': mod_id,
+            'Specification-Version': '1',
+            'Implementation-Title': mod_name,
+            'Implementation-Version': mod_version,
+            'Implementation-Vendor': mod_authors,
+            'MixinConfigs': 'ronova.mixins.json',
+            'Premain-Class': 'dev.ronova.coremod.agent.RonovaAgent',
+            'Agent-Class': 'dev.ronova.coremod.agent.RonovaAgent',
+            'Can-Redefine-Classes': 'true',
+            'Can-Retransform-Classes': 'true'
+        ])
+    }
+    finalizedBy 'reobfJar'
+}
+
+def validationFixtureJar = tasks.register('validationFixtureJar', Jar) {
+    group = 'verification'
+    description = 'Builds the separately packaged 7.14A Forge validation fixture.'
+    dependsOn tasks.named('validationFixtureClasses')
+    archiveBaseName = 'ronova-7.14a-fixture'
+    archiveVersion = '1.0.0'
+    // Keep the fixture beside production archives so the validation runner has
+    // one stable, inspectable path for the exact-artifact scenarios.
+    destinationDirectory = layout.buildDirectory.dir('libs')
+    from sourceSets.validationFixture.output
+    manifest {
+        attributes([
+            'Specification-Title': 'Ronova 7.14A Validation Fixture',
+            'MixinConfigs': 'ronova-fixture.mixins.json',
+            'Specification-Version': '1',
+            'Implementation-Title': 'Ronova 7.14A Validation Fixture',
+            'Implementation-Version': '1.0.0',
+            'Implementation-Vendor': mod_authors
+        ])
+    }
+}
+
+// ForgeGradle reobfuscates this JAR in place, independently of the production JAR.
+reobf.create('validationFixtureJar')
+def validationProbeAgentJar = tasks.register('validationProbeAgentJar', Jar) {
+    dependsOn tasks.named('validationFixtureClasses')
+    archiveFileName = 'ronova-validation-probe-agent.jar'
+    destinationDirectory = layout.buildDirectory.dir('libs')
+    from(sourceSets.validationFixture.output.classesDirs) {
+        include 'dev/ronova/coremod/validation/agent/ProbeAgent.class'
+    }
+    manifest { attributes('Premain-Class': 'dev.ronova.coremod.validation.agent.ProbeAgent', 'Can-Retransform-Classes': 'true') }
+}
+validationFixtureJar.configure { dependsOn validationProbeAgentJar }
+tasks.configureEach { task ->
+    if (task.name != 'reobfJar') return
+    inputs.file('native/build_code_seals.py')
+    inputs.file('native/code_seal_inventory.py')
+    inputs.file('native/src/ronova_native.cpp')
+    inputs.file('native/src/storage_transaction.hpp')
+    doLast {
+        project.exec {
+            commandLine 'python', file('native/build_code_seals.py').absolutePath,
+                tasks.named('jar').get().archiveFile.get().asFile.absolutePath
+        }
+    }
+}
+validationFixtureJar.configure {
+    finalizedBy tasks.named('reobfValidationFixtureJar')
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+    options.release = 17
+}
+
+def standaloneSelfTests = [
+    'dev.ronova.coremod.observation.TaskExecutionGraphSelfTest',
+    'dev.ronova.coremod.observation.CopyProvenanceIndexSelfTest',
+    'dev.ronova.coremod.observation.StaticSnapshotLocatorSelfTest',
+    'dev.ronova.coremod.observation.RecordMutationTaskSelfTest',
+    'dev.ronova.coremod.observation.DeferredReceiptBufferSelfTest',
+    'dev.ronova.coremod.observation.RetiredWorldAdmissionSelfTest',
+    'dev.ronova.coremod.observation.StorageMutationSequenceSelfTest',
+    'dev.ronova.coremod.observation.SavedDataSaveTraceSelfTest',
+    'dev.ronova.coremod.observation.SavedDataEncodedWriteSelfTest',
+    'dev.ronova.coremod.observation.NbtWriteReferencesSelfTest',
+    'dev.ronova.coremod.observation.RecoveryFileReadbackSelfTest',
+    'dev.ronova.coremod.observation.NbtStoragePreservationSelfTest',
+    'dev.ronova.coremod.observation.NbtEncodingPathsSelfTest',
+    'dev.ronova.coremod.observation.NbtStorageImageSelfTest',
+    'dev.ronova.coremod.observation.StorageImageTaskSelfTest',
+    'dev.ronova.coremod.observation.LoadedSnapshotRecordBindingSelfTest',
+    'dev.ronova.coremod.observation.RecoverySourceLocationSelfTest',
+    'dev.ronova.coremod.observation.RecoveryLocationResolverSelfTest',
+    'dev.ronova.coremod.observation.RecordRetryScheduleSelfTest',
+    'dev.ronova.coremod.observation.InstanceFieldCursorSelfTest',
+    'dev.ronova.coremod.network.StrengthStatusDetailSelfTest',
+    'dev.ronova.coremod.util.WeakIdentityMapSelfTest',
+    'dev.ronova.coremod.engine.RegisteredIntIndexSlotsSelfTest',
+    'dev.ronova.coremod.observation.DiscoveryCursorSelfTest',
+    'dev.ronova.coremod.policy.RecoveryChainPolicySelfTest',
+    'dev.ronova.coremod.runtime.CompletionTrackerSelfTest',
+    'dev.ronova.coremod.contract.ClassLineageResolverSelfTest',
+    'dev.ronova.coremod.baseline.BaselineTelemetrySelfTest',
+    'dev.ronova.coremod.agent.AgentTransformerSelfTest',
+    'dev.ronova.coremod.agent.SemanticGateVerifierSelfTest',
+    'dev.ronova.coremod.client.ClientAuthorityStateSelfTest',
+    'dev.ronova.coremod.client.ProjectionStreamSelfTest',
+    'dev.ronova.coremod.client.ClientActionControllerSelfTest',
+    'dev.ronova.coremod.client.BladeBlockGestureSelfTest',
+    'dev.ronova.coremod.client.ClientRecoveryGuardSelfTest',
+    'dev.ronova.coremod.client.MappedNamespaceSelfTest',
+    'dev.ronova.coremod.client.model.RonovaBladeModelSelfTest',
+    'dev.ronova.coremod.command.BrigadierAbiSelfTest',
+    'dev.ronova.coremod.authority.AuthoritySplitSelfTest',
+    'dev.ronova.coremod.contract.ContractWiringSelfTest',
+    'dev.ronova.coremod.contract.DominionContractSelfTest',
+    'dev.ronova.coremod.contract.SubjectResolverSelfTest',
+    'dev.ronova.coremod.obligation.CandidateRestrictionsSelfTest',
+    'dev.ronova.coremod.client.StrengthControlStateSelfTest',
+    'dev.ronova.coremod.engine.ExecutionScopePolicySelfTest',
+    'dev.ronova.coremod.engine.R0BoundarySelfTest',
+    'dev.ronova.coremod.engine.RuntimeIndexSelfTest',
+    'dev.ronova.coremod.engine.SphericalRangeSelfTest',
+    'dev.ronova.coremod.engine.spawn.BoundedRetryQueueSelfTest',
+    'dev.ronova.coremod.integrity.EnforcementRuntimeSelfTest',
+    'dev.ronova.coremod.mixin.MixinMetadataSelfTest',
+    'dev.ronova.coremod.nativebridge.NativeRootWiringSelfTest',
+    'dev.ronova.coremod.nativebridge.NativeSnapshotCodecSelfTest',
+    'dev.ronova.coremod.network.FriendlyByteBufLambdaAbiSelfTest',
+    'dev.ronova.coremod.network.ForgeNetworkAbiSelfTest',
+    'dev.ronova.coremod.network.ProjectionReceiptSelfTest',
+    'dev.ronova.coremod.network.ProjectionTransmissionSelfTest',
+    'dev.ronova.coremod.network.ClientParticipationSelfTest',
+    'dev.ronova.coremod.network.SessionJournalSelfTest',
+    'dev.ronova.coremod.observation.RawObservationSeparationSelfTest',
+    'dev.ronova.coremod.observation.TopologyGraphSelfTest',
+    'dev.ronova.coremod.persistence.DurableRootStoreSelfTest',
+    'dev.ronova.coremod.persistence.InheritedMappedMemberSelfTest',
+    'dev.ronova.coremod.persistence.StrengthPolicyPersistenceSelfTest',
+    'dev.ronova.coremod.presence.PresenceSplitSelfTest',
+    'dev.ronova.coremod.presence.PresenceBudgetSeparationSelfTest',
+    'dev.ronova.coremod.policy.StrengthPolicySelfTest',
+    'dev.ronova.coremod.policy.RuntimeCapabilityProjectionSelfTest',
+    'dev.ronova.coremod.policy.TerminalActionPolicySelfTest',
+    'dev.ronova.coremod.budget.FrameBudgetGovernorSelfTest',
+    'dev.ronova.coremod.budget.FairLaneCursorSelfTest',
+    'dev.ronova.coremod.budget.BudgetRollbackSelfTest',
+    'dev.ronova.coremod.budget.BudgetSemanticsSelfTest',
+    'dev.ronova.coremod.projection.ProjectionCoordinatorSelfTest',
+    'dev.ronova.coremod.projection.HotPathProjectionSelfTest',
+    'dev.ronova.coremod.projection.ProjectionWiringSelfTest',
+    'dev.ronova.coremod.runtime.RootCommandBusSelfTest',
+    'dev.ronova.coremod.runtime.DeferredAuthorityTaskSelfTest',
+    'dev.ronova.coremod.runtime.IngressWorkRegistrySelfTest',
+    'dev.ronova.coremod.runtime.OperationPlanRunnerSelfTest',
+    'dev.ronova.coremod.runtime.StateFeedbackScheduleSelfTest',
+    'dev.ronova.coremod.obligation.ObligationRegistrySelfTest',
+    'dev.ronova.coremod.obligation.RestorationGapBufferSelfTest',
+    'dev.ronova.coremod.budget.HostResourceGovernorSelfTest',
+    'dev.ronova.coremod.surface.SurfaceRegistrySelfTest',
+    'dev.ronova.coremod.root.api.QualificationContractSelfTest',
+    'dev.ronova.coremod.root.api.RootExecutionFenceSelfTest',
+    'dev.ronova.coremod.root.api.EffectContractSelfTest',
+    'dev.ronova.coremod.root.api.StorageCapacitySelfTest',
+    'dev.ronova.coremod.bootstrap.BootstrapLifecycleSelfTest',
+    'dev.ronova.coremod.agent.JdkTaskBoundarySelfTest',
+    'dev.ronova.coremod.runtime.R31ArchitectureSelfTest',
+    'dev.ronova.coremod.runtime.R32ArchitectureSelfTest',
+    'dev.ronova.coremod.runtime.R4ArchitectureSelfTest',
+    'dev.ronova.coremod.terminal.TerminalWatchSetSelfTest'
+]
+
+def packagedSelfTestClasspath = files(tasks.named('jar').flatMap { it.archiveFile })
+    .plus(sourceSets.test.output)
+    .plus(configurations.testRuntimeClasspath)
+def developmentSelfTestClasspath = sourceSets.main.output
+    .plus(sourceSets.test.output)
+    .plus(configurations.testRuntimeClasspath)
+def mappedRuntimeSelfTests = [
+    'dev.ronova.coremod.observation.NbtStoragePreservationSelfTest',
+    'dev.ronova.coremod.observation.NbtEncodingPathsSelfTest',
+    'dev.ronova.coremod.observation.NbtStorageImageSelfTest',
+    'dev.ronova.coremod.observation.StorageImageTaskSelfTest',
+    'dev.ronova.coremod.persistence.DurableRootStoreSelfTest',
+    'dev.ronova.coremod.persistence.StrengthPolicyPersistenceSelfTest'
+] as Set
+
+def standaloneSelfTestTasks = standaloneSelfTests.collect { testClass ->
+    def simpleName = testClass.substring(testClass.lastIndexOf('.') + 1)
+    tasks.register("run${simpleName}", JavaExec) {
+        group = 'verification'
+        description = mappedRuntimeSelfTests.contains(testClass)
+            ? "Runs ${testClass} against the development main output for mapped Minecraft compatibility."
+            : "Runs ${testClass} against the reobfuscated production artifact."
+        dependsOn tasks.named('testClasses'), tasks.named('reobfJar')
+        mainClass.set(testClass)
+        classpath = mappedRuntimeSelfTests.contains(testClass)
+            ? developmentSelfTestClasspath : packagedSelfTestClasspath
+    }
+}
+
+tasks.register('selfTest') {
+    group = 'verification'
+    description = 'Runs every standalone regression test shipped with Ronova.'
+    dependsOn standaloneSelfTestTasks
+}
+
+tasks.register('inspectDurableRoot', JavaExec) {
+    group = 'verification'
+    description = 'Read-only validation of explicitly supplied archived Root images.'
+    dependsOn tasks.named('testClasses')
+    mainClass.set('dev.ronova.coremod.persistence.DurableRootStoreSelfTest')
+    classpath = developmentSelfTestClasspath
+    doFirst {
+        if (!project.hasProperty('rootImages')) throw new GradleException('Pass -ProotImages=path1;path2')
+        args = ['--inspect-root'] + project.property('rootImages').toString().split(';').toList()
+    }
+}
+
+tasks.named('check').configure {
+    dependsOn tasks.named('selfTest')
+}

@@ -1,0 +1,2261 @@
+{
+  "current_limits": [
+    "不改依赖/Mod/Forge 文件",
+    "不针对",
+    "不删对方文件",
+    "不起外部进程"
+  ],
+  "changes": [
+    {
+      "source": "docs/plans/README.md",
+      "range": [
+        7,
+        26
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-index-l0007",
+      "flags": [
+        "governance",
+        "historical-position"
+      ],
+      "original_ids": {}
+    },
+    {
+      "source": "docs/plans/README.md",
+      "range": [
+        27,
+        39
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-index-l0027",
+      "flags": [
+        "governance",
+        "historical-position"
+      ],
+      "original_ids": {
+        "D1": 1,
+        "D13": 1
+      }
+    },
+    {
+      "source": "docs/plans/Ronova_7.14A_Baseline_All_Enhancements_Master_V1.4_Internal_Root.md",
+      "range": [
+        1,
+        24
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-bl-l0001",
+      "flags": [
+        "process"
+      ],
+      "original_ids": {
+        "D13": 1,
+        "PROC-INV-1": 1
+      }
+    },
+    {
+      "source": "docs/plans/Ronova_7.14A_Baseline_All_Enhancements_Master_V1.4_Internal_Root.md",
+      "range": [
+        101,
+        120
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-bl-l0101",
+      "flags": [
+        "process"
+      ],
+      "original_ids": {
+        "PROC-INV-1": 1
+      }
+    },
+    {
+      "source": "docs/plans/Ronova_7.14A_Baseline_All_Enhancements_Master_V1.4_Internal_Root.md",
+      "range": [
+        121,
+        138
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-bl-l0121",
+      "flags": [
+        "process"
+      ],
+      "original_ids": {
+        "PROC-INV-1": 1
+      }
+    },
+    {
+      "source": "docs/plans/Ronova_7.14A_Baseline_All_Enhancements_Master_V1.4_Internal_Root.md",
+      "range": [
+        1089,
+        1105
+      ],
+      "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-bl-l1089",
+      "flags": [
+        "governance"
+      ],
+      "original_ids": {}
+    },
+    {
+      "source": "docs/plans/Ronova_7.14A_Baseline_All_Enhancements_Master_V1.4_Internal_Root.md",
+      "range": [
+        1257,
+        1285
+      ],
+      "destination": "docs/plans/MS-MSITEM-PLAN.md#orig-bl-l1257",
+      "flags": [
+        "governance"
+      ],
+      "original_ids": {}
+    },
+    {
+      "source": "docs/plans/Ronova_7.14A_Baseline_All_Enhancements_Master_V1.4_Internal_Root.md",
+      "range": [
+        1994,
+        2013
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-bl-l1994",
+      "flags": [
+        "process"
+      ],
+      "original_ids": {}
+    },
+    {
+      "source": "docs/plans/Ronova_7.14A_Baseline_All_Enhancements_Master_V1.4_Internal_Root.md",
+      "range": [
+        2458,
+        2498
+      ],
+      "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-bl-l2458",
+      "flags": [
+        "governance"
+      ],
+      "original_ids": {}
+    },
+    {
+      "source": "docs/plans/Ronova_7.14A_Baseline_All_Enhancements_Master_V1.4_Internal_Root.md",
+      "range": [
+        2499,
+        2522
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-bl-l2499",
+      "flags": [
+        "process"
+      ],
+      "original_ids": {}
+    },
+    {
+      "source": "docs/plans/Ronova_7.14A_Baseline_All_Enhancements_Master_V1.4_Internal_Root.md",
+      "range": [
+        2632,
+        2646
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-bl-l2632",
+      "flags": [
+        "process"
+      ],
+      "original_ids": {
+        "PROC-INV-1": 1
+      }
+    },
+    {
+      "source": "docs/plans/Ronova_7.14A_Baseline_All_Enhancements_Master_V1.4_Internal_Root.md",
+      "range": [
+        2647,
+        2662
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-bl-l2647",
+      "flags": [
+        "process"
+      ],
+      "original_ids": {
+        "PROC-INV-1": 1
+      }
+    },
+    {
+      "source": "docs/plans/Ronova_7.14A_Baseline_All_Enhancements_Master_V1.4_Internal_Root.md",
+      "range": [
+        2663,
+        2681
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-bl-l2663",
+      "flags": [
+        "process"
+      ],
+      "original_ids": {}
+    },
+    {
+      "source": "docs/plans/Ronova_7.14A_Baseline_All_Enhancements_Master_V1.4_Internal_Root.md",
+      "range": [
+        2787,
+        2798
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-bl-l2787",
+      "flags": [
+        "process"
+      ],
+      "original_ids": {}
+    },
+    {
+      "source": "docs/plans/Ronova_7.14A_Baseline_All_Enhancements_Master_V1.4_Internal_Root.md",
+      "range": [
+        2927,
+        2942
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-bl-l2927",
+      "flags": [
+        "process",
+        "governance"
+      ],
+      "original_ids": {
+        "PROC-INV-1": 1
+      }
+    },
+    {
+      "source": "docs/plans/Ronova_7.14A_Baseline_All_Enhancements_Master_V1.4_Internal_Root.md",
+      "range": [
+        3010,
+        3022
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-bl-l3010",
+      "flags": [
+        "governance"
+      ],
+      "original_ids": {}
+    },
+    {
+      "source": "docs/plans/Ronova_7.16_Plus_JVM_Extreme_Strength_Enhancement_Master_V2.6_Internal_Root.md",
+      "range": [
+        1,
+        36
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-v26-l0001",
+      "flags": [
+        "governance"
+      ],
+      "original_ids": {}
+    },
+    {
+      "source": "docs/plans/Ronova_7.16_Plus_JVM_Extreme_Strength_Enhancement_Master_V2.6_Internal_Root.md",
+      "range": [
+        132,
+        155
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-v26-l0132",
+      "flags": [
+        "governance"
+      ],
+      "original_ids": {
+        "D33": 1,
+        "D1": 1,
+        "D13": 1
+      }
+    },
+    {
+      "source": "docs/plans/Ronova_7.16_Plus_JVM_Extreme_Strength_Enhancement_Master_V2.6_Internal_Root.md",
+      "range": [
+        174,
+        184
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-v26-l0174",
+      "flags": [
+        "process"
+      ],
+      "original_ids": {}
+    },
+    {
+      "source": "docs/plans/Ronova_7.16_Plus_JVM_Extreme_Strength_Enhancement_Master_V2.6_Internal_Root.md",
+      "range": [
+        571,
+        583
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-v26-l0571",
+      "flags": [
+        "governance"
+      ],
+      "original_ids": {
+        "D99": 1,
+        "D100": 1,
+        "D101": 1,
+        "D102": 1,
+        "D103": 1,
+        "D104": 1,
+        "D105": 1,
+        "D106": 1
+      }
+    },
+    {
+      "source": "docs/plans/Ronova_7.16_Plus_JVM_Extreme_Strength_Enhancement_Master_V2.6_Internal_Root.md",
+      "range": [
+        884,
+        930
+      ],
+      "destination": "docs/plans/MS-MSITEM-PLAN.md#orig-v26-l0884",
+      "flags": [
+        "governance"
+      ],
+      "original_ids": {}
+    },
+    {
+      "source": "docs/plans/Ronova_7.16_Plus_JVM_Extreme_Strength_Enhancement_Master_V2.6_Internal_Root.md",
+      "range": [
+        1211,
+        1221
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-v26-l1211",
+      "flags": [
+        "governance"
+      ],
+      "original_ids": {}
+    },
+    {
+      "source": "docs/plans/Ronova_7.16_Plus_JVM_Extreme_Strength_Enhancement_Master_V2.6_Internal_Root.md",
+      "range": [
+        1362,
+        1396
+      ],
+      "destination": "docs/plans/MS-MSITEM-PLAN.md#orig-v26-l1362",
+      "flags": [
+        "classification"
+      ],
+      "original_ids": {}
+    },
+    {
+      "source": "docs/plans/Ronova_7.16_Plus_JVM_Extreme_Strength_Enhancement_Master_V2.6_Internal_Root.md",
+      "range": [
+        1397,
+        1412
+      ],
+      "destination": "docs/plans/MS-MSITEM-PLAN.md#orig-v26-l1397",
+      "flags": [
+        "governance"
+      ],
+      "original_ids": {}
+    },
+    {
+      "source": "docs/plans/Ronova_7.16_Plus_JVM_Extreme_Strength_Enhancement_Master_V2.6_Internal_Root.md",
+      "range": [
+        2182,
+        2223
+      ],
+      "destination": "docs/plans/MS-MSITEM-PLAN.md#orig-v26-l2182",
+      "flags": [
+        "governance"
+      ],
+      "original_ids": {}
+    },
+    {
+      "source": "docs/plans/Ronova_7.16_Plus_JVM_Extreme_Strength_Enhancement_Master_V2.6_Internal_Root.md",
+      "range": [
+        2420,
+        2462
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-v26-l2420",
+      "flags": [
+        "governance"
+      ],
+      "original_ids": {}
+    },
+    {
+      "source": "docs/plans/Ronova_7.16_Plus_JVM_Extreme_Strength_Enhancement_Master_V2.6_Internal_Root.md",
+      "range": [
+        2895,
+        2926
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-v26-l2895",
+      "flags": [
+        "process",
+        "governance"
+      ],
+      "original_ids": {
+        "D5": 2,
+        "D1": 1,
+        "D13": 1
+      }
+    },
+    {
+      "source": "docs/plans/Ronova_7.16_Plus_JVM_Extreme_Strength_Enhancement_Master_V2.6_Internal_Root.md",
+      "range": [
+        3202,
+        3219
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-v26-l3202",
+      "flags": [
+        "governance"
+      ],
+      "original_ids": {}
+    },
+    {
+      "source": "docs/plans/Ronova_7.17_Extreme_Full_Plane_Enhancement_Plan_V1.0_Internal_Root.md",
+      "range": [
+        107,
+        128
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-full-l0107",
+      "flags": [
+        "governance"
+      ],
+      "original_ids": {}
+    },
+    {
+      "source": "docs/plans/Ronova_7.17_Extreme_Full_Plane_Enhancement_Plan_V1.0_Internal_Root.md",
+      "range": [
+        160,
+        188
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-full-l0160",
+      "flags": [
+        "governance"
+      ],
+      "original_ids": {}
+    },
+    {
+      "source": "docs/plans/Ronova_7.17_Extreme_Tier_Strength_Implementation_Plan_V1.0_Internal_Root.md",
+      "range": [
+        1,
+        26
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-tier-l0001",
+      "flags": [
+        "governance"
+      ],
+      "original_ids": {}
+    },
+    {
+      "source": "docs/plans/Ronova_7.17_Extreme_Tier_Strength_Implementation_Plan_V1.0_Internal_Root.md",
+      "range": [
+        749,
+        761
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-tier-l0749",
+      "flags": [
+        "process"
+      ],
+      "original_ids": {
+        "D13": 1,
+        "PROC-INV-1": 1
+      }
+    },
+    {
+      "source": "docs/plans/Ronova_7.17_Generic_Recovery_Chain_Implementation_Plan_V1.0_Internal_Root.md",
+      "range": [
+        1,
+        44
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rec-l0001",
+      "flags": [
+        "governance"
+      ],
+      "original_ids": {}
+    },
+    {
+      "source": "docs/plans/Ronova_7.17_Generic_Recovery_Chain_Implementation_Plan_V1.0_Internal_Root.md",
+      "range": [
+        348,
+        380
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rec-l0348",
+      "flags": [
+        "governance"
+      ],
+      "original_ids": {}
+    },
+    {
+      "source": "docs/plans/Ronova_Compliant_Maximum_Strength_Plan_V1.0.md",
+      "range": [
+        9,
+        29
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-max-l0009",
+      "flags": [
+        "process",
+        "historical-position"
+      ],
+      "original_ids": {}
+    },
+    {
+      "source": "docs/plans/Ronova_Compliant_Maximum_Strength_Plan_V1.0.md",
+      "range": [
+        30,
+        47
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-max-l0030",
+      "flags": [
+        "process",
+        "classification",
+        "historical-position"
+      ],
+      "original_ids": {}
+    },
+    {
+      "source": "docs/plans/Ronova_Compliant_Maximum_Strength_Plan_V1.0.md",
+      "range": [
+        48,
+        49
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-max-l0048",
+      "flags": [
+        "process",
+        "historical-position"
+      ],
+      "original_ids": {}
+    },
+    {
+      "source": "docs/plans/Ronova_Compliant_Maximum_Strength_Plan_V1.0.md",
+      "range": [
+        50,
+        60
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-max-l0050",
+      "flags": [
+        "process",
+        "historical-position"
+      ],
+      "original_ids": {}
+    },
+    {
+      "source": "docs/plans/Ronova_Compliant_Maximum_Strength_Plan_V1.0.md",
+      "range": [
+        72,
+        88
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-max-l0072",
+      "flags": [
+        "process",
+        "classification",
+        "historical-position"
+      ],
+      "original_ids": {}
+    },
+    {
+      "source": "docs/plans/Ronova_Compliant_Maximum_Strength_Plan_V1.0.md",
+      "range": [
+        125,
+        132
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-max-l0125",
+      "flags": [
+        "process",
+        "historical-position"
+      ],
+      "original_ids": {}
+    },
+    {
+      "source": "docs/plans/Ronova_Compliant_Maximum_Strength_Plan_V1.0.md",
+      "range": [
+        212,
+        217
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-max-l0212",
+      "flags": [
+        "process",
+        "historical-position"
+      ],
+      "original_ids": {}
+    },
+    {
+      "source": "docs/plans/Ronova_Compliant_Maximum_Strength_Plan_V1.0.md",
+      "range": [
+        295,
+        303
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-max-l0295",
+      "flags": [
+        "process",
+        "historical-position"
+      ],
+      "original_ids": {}
+    },
+    {
+      "source": "docs/plans/Ronova_Compliant_Maximum_Strength_Plan_V1.0.md",
+      "range": [
+        304,
+        322
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-max-l0304",
+      "flags": [
+        "process",
+        "historical-position"
+      ],
+      "original_ids": {}
+    },
+    {
+      "source": "docs/plans/Ronova_Compliant_Maximum_Strength_Plan_V1.0.md",
+      "range": [
+        323,
+        351
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-max-l0323",
+      "flags": [
+        "process",
+        "historical-position"
+      ],
+      "original_ids": {}
+    },
+    {
+      "source": "docs/plans/Ronova_Compliant_Maximum_Strength_Plan_V1.0.md",
+      "range": [
+        352,
+        364
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-max-l0352",
+      "flags": [
+        "process",
+        "historical-position"
+      ],
+      "original_ids": {}
+    },
+    {
+      "source": "docs/plans/Ronova_Compliant_Maximum_Strength_Plan_V1.0.md",
+      "range": [
+        365,
+        381
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-max-l0365",
+      "flags": [
+        "classification",
+        "historical-position"
+      ],
+      "original_ids": {}
+    },
+    {
+      "source": "docs/plans/Ronova_L6E-0_Contract_Freeze_V1.3_Internal_Root.md",
+      "range": [
+        1,
+        26
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-cf-l0001",
+      "flags": [
+        "process"
+      ],
+      "original_ids": {
+        "D13": 1,
+        "PROC-INV-1": 1
+      }
+    },
+    {
+      "source": "docs/plans/Ronova_L6E-0_Contract_Freeze_V1.3_Internal_Root.md",
+      "range": [
+        56,
+        77
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-cf-l0056",
+      "flags": [
+        "governance"
+      ],
+      "original_ids": {}
+    },
+    {
+      "source": "docs/plans/Ronova_L6E-0_Contract_Freeze_V1.3_Internal_Root.md",
+      "range": [
+        193,
+        210
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-cf-l0193",
+      "flags": [
+        "process"
+      ],
+      "original_ids": {
+        "R7": 1
+      }
+    },
+    {
+      "source": "docs/plans/Ronova_L6E-0_Contract_Freeze_V1.3_Internal_Root.md",
+      "range": [
+        282,
+        305
+      ],
+      "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-cf-l0282",
+      "flags": [
+        "governance"
+      ],
+      "original_ids": {}
+    },
+    {
+      "source": "docs/plans/Ronova_L6E-0_Contract_Freeze_V1.3_Internal_Root.md",
+      "range": [
+        508,
+        537
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-cf-l0508",
+      "flags": [
+        "governance"
+      ],
+      "original_ids": {}
+    },
+    {
+      "source": "docs/plans/Ronova_L6E-0_Contract_Freeze_V1.3_Internal_Root.md",
+      "range": [
+        965,
+        978
+      ],
+      "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-cf-l0965",
+      "flags": [
+        "governance"
+      ],
+      "original_ids": {}
+    },
+    {
+      "source": "docs/plans/Ronova_L6E-0_Contract_Freeze_V1.3_Internal_Root.md",
+      "range": [
+        1404,
+        1419
+      ],
+      "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-cf-l1404",
+      "flags": [
+        "governance"
+      ],
+      "original_ids": {
+        "T-01": 1
+      }
+    },
+    {
+      "source": "docs/plans/Ronova_L6E-0_Contract_Freeze_V1.3_Internal_Root.md",
+      "range": [
+        1557,
+        1562
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-cf-l1557",
+      "flags": [
+        "process"
+      ],
+      "original_ids": {
+        "T-16": 1
+      }
+    },
+    {
+      "source": "docs/plans/Ronova_L6E-0_Contract_Freeze_V1.3_Internal_Root.md",
+      "range": [
+        1662,
+        1667
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-cf-l1662",
+      "flags": [
+        "process"
+      ],
+      "original_ids": {
+        "ID-9": 1
+      }
+    },
+    {
+      "source": "docs/plans/Ronova_L6E_P0-A_Truth_Authority_Implementation_Spec_V1.3_Internal_Root.md",
+      "range": [
+        1,
+        25
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-p0a-l0001",
+      "flags": [
+        "process"
+      ],
+      "original_ids": {
+        "D13": 1,
+        "PROC-INV-1": 1
+      }
+    },
+    {
+      "source": "docs/plans/Ronova_L6E_P0-A_Truth_Authority_Implementation_Spec_V1.3_Internal_Root.md",
+      "range": [
+        26,
+        51
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-p0a-l0026",
+      "flags": [
+        "governance"
+      ],
+      "original_ids": {
+        "D1": 1,
+        "D13": 1
+      }
+    },
+    {
+      "source": "docs/plans/Ronova_L6E_P0-A_Truth_Authority_Implementation_Spec_V1.3_Internal_Root.md",
+      "range": [
+        121,
+        130
+      ],
+      "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-p0a-l0121",
+      "flags": [
+        "governance"
+      ],
+      "original_ids": {
+        "A3": 1
+      }
+    },
+    {
+      "source": "docs/plans/Ronova_L6E_P0-A_Truth_Authority_Implementation_Spec_V1.3_Internal_Root.md",
+      "range": [
+        183,
+        200
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-p0a-l0183",
+      "flags": [
+        "process"
+      ],
+      "original_ids": {
+        "A8": 1,
+        "PROC-INV-1": 1
+      }
+    },
+    {
+      "source": "docs/plans/Ronova_L6E_P0-A_Truth_Authority_Implementation_Spec_V1.3_Internal_Root.md",
+      "range": [
+        606,
+        633
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-p0a-l0606",
+      "flags": [
+        "process"
+      ],
+      "original_ids": {}
+    },
+    {
+      "source": "docs/plans/Ronova_L6E_P0-A_Truth_Authority_Implementation_Spec_V1.3_Internal_Root.md",
+      "range": [
+        1244,
+        1260
+      ],
+      "destination": "docs/plans/MS-MSITEM-PLAN.md#orig-p0a-l1244",
+      "flags": [
+        "governance"
+      ],
+      "original_ids": {}
+    },
+    {
+      "source": "docs/plans/Ronova_L6E_P0-A_Truth_Authority_Implementation_Spec_V1.3_Internal_Root.md",
+      "range": [
+        1657,
+        1672
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-p0a-l1657",
+      "flags": [
+        "process"
+      ],
+      "original_ids": {}
+    },
+    {
+      "source": "docs/plans/Ronova_L6E_P0-A_Truth_Authority_Implementation_Spec_V1.3_Internal_Root.md",
+      "range": [
+        1778,
+        1793
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-p0a-l1778",
+      "flags": [
+        "process"
+      ],
+      "original_ids": {}
+    },
+    {
+      "source": "docs/plans/Ronova_L6E_P0-A_Truth_Authority_Implementation_Spec_V1.3_Internal_Root.md",
+      "range": [
+        2112,
+        2138
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-p0a-l2112",
+      "flags": [
+        "process"
+      ],
+      "original_ids": {
+        "PROC-INV-1": 1
+      }
+    },
+    {
+      "source": "docs/plans/Ronova_L6E_P0-A_Truth_Authority_Implementation_Spec_V1.3_Internal_Root.md",
+      "range": [
+        2139,
+        2157
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-p0a-l2139",
+      "flags": [
+        "process"
+      ],
+      "original_ids": {
+        "PROC-INV-1": 1
+      }
+    },
+    {
+      "source": "docs/plans/Ronova_L6E_P0-A_Truth_Authority_Implementation_Spec_V1.3_Internal_Root.md",
+      "range": [
+        2230,
+        2239
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-p0a-l2230",
+      "flags": [
+        "process"
+      ],
+      "original_ids": {}
+    },
+    {
+      "source": "docs/plans/Ronova_L6_Architecture_Master_Plan_V2.4_Internal_Root.md",
+      "range": [
+        1,
+        29
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0001",
+      "flags": [
+        "process",
+        "governance"
+      ],
+      "original_ids": {
+        "D9": 1,
+        "D11": 1,
+        "D13": 3,
+        "PROC-INV-1": 2
+      }
+    },
+    {
+      "source": "docs/plans/Ronova_L6_Architecture_Master_Plan_V2.4_Internal_Root.md",
+      "range": [
+        45,
+        59
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0045",
+      "flags": [
+        "governance"
+      ],
+      "original_ids": {
+        "D1": 1,
+        "D2": 1,
+        "D3": 1,
+        "D4": 1,
+        "D5": 1,
+        "D6": 1,
+        "D7": 1,
+        "D8": 1
+      }
+    },
+    {
+      "source": "docs/plans/Ronova_L6_Architecture_Master_Plan_V2.4_Internal_Root.md",
+      "range": [
+        60,
+        88
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0060",
+      "flags": [
+        "process"
+      ],
+      "original_ids": {
+        "D1": 2,
+        "D8": 1,
+        "D9": 1,
+        "D10": 1,
+        "D11": 1,
+        "D12": 1,
+        "D13": 1,
+        "PROC-INV-1": 2,
+        "D2": 1,
+        "D6": 1,
+        "D7": 1
+      }
+    },
+    {
+      "source": "docs/plans/Ronova_L6_Architecture_Master_Plan_V2.4_Internal_Root.md",
+      "range": [
+        91,
+        101
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0091",
+      "flags": [
+        "process"
+      ],
+      "original_ids": {}
+    },
+    {
+      "source": "docs/plans/Ronova_L6_Architecture_Master_Plan_V2.4_Internal_Root.md",
+      "range": [
+        162,
+        169
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0162",
+      "flags": [
+        "process"
+      ],
+      "original_ids": {}
+    },
+    {
+      "source": "docs/plans/Ronova_L6_Architecture_Master_Plan_V2.4_Internal_Root.md",
+      "range": [
+        170,
+        177
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0170",
+      "flags": [
+        "process"
+      ],
+      "original_ids": {
+        "D7": 1,
+        "D4": 1
+      }
+    },
+    {
+      "source": "docs/plans/Ronova_L6_Architecture_Master_Plan_V2.4_Internal_Root.md",
+      "range": [
+        206,
+        334
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0206",
+      "flags": [
+        "process"
+      ],
+      "original_ids": {
+        "D4": 1,
+        "D6": 3,
+        "D1": 1,
+        "D5": 2,
+        "D3": 2,
+        "D2": 1,
+        "D7": 1,
+        "R1": 1,
+        "PROC-INV-1": 1
+      }
+    },
+    {
+      "source": "docs/plans/Ronova_L6_Architecture_Master_Plan_V2.4_Internal_Root.md",
+      "range": [
+        500,
+        546
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0500",
+      "flags": [
+        "process"
+      ],
+      "original_ids": {
+        "D13": 2,
+        "L5-INV-1": 2,
+        "L5-INV-7": 2,
+        "L5-INV-8": 2,
+        "L5-INV-9": 2,
+        "PROC-INV-1": 3,
+        "L5-INV-6": 2,
+        "D3": 1,
+        "L5-INV-2": 1,
+        "D2": 1,
+        "L5-INV-3": 1,
+        "D8": 1,
+        "L5-INV-4": 1,
+        "L5-INV-5": 1,
+        "D6": 1
+      }
+    },
+    {
+      "source": "docs/plans/Ronova_L6_Architecture_Master_Plan_V2.4_Internal_Root.md",
+      "range": [
+        604,
+        618
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0604",
+      "flags": [
+        "process"
+      ],
+      "original_ids": {
+        "L5-INV-1": 1,
+        "D3": 1,
+        "L5-INV-2": 1,
+        "D2": 1,
+        "L5-INV-3": 1,
+        "L5-INV-4": 1,
+        "L5-INV-5": 1,
+        "L5-INV-6": 1,
+        "L5-INV-7": 1,
+        "L5-INV-8": 1,
+        "L5-INV-9": 1,
+        "D6": 1,
+        "PROC-INV-1": 1,
+        "D13": 1
+      }
+    },
+    {
+      "source": "docs/plans/Ronova_L6_Architecture_Master_Plan_V2.4_Internal_Root.md",
+      "range": [
+        767,
+        790
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0767",
+      "flags": [
+        "process"
+      ],
+      "original_ids": {
+        "D13": 1,
+        "PROC-INV-1": 1
+      }
+    },
+    {
+      "source": "docs/plans/Ronova_L6_Architecture_Master_Plan_V2.4_Internal_Root.md",
+      "range": [
+        834,
+        846
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0834",
+      "flags": [
+        "process"
+      ],
+      "original_ids": {
+        "D13": 1
+      }
+    },
+    {
+      "source": "docs/plans/Ronova_L6_Architecture_Master_Plan_V2.4_Internal_Root.md",
+      "range": [
+        859,
+        875
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l0859",
+      "flags": [
+        "process"
+      ],
+      "original_ids": {
+        "L6-INV-1": 1,
+        "L6-INV-2": 1,
+        "L6-INV-3": 1,
+        "L6-INV-4": 1,
+        "L6-INV-5": 1,
+        "L6-INV-6": 1,
+        "L6-INV-7": 1,
+        "L6-INV-8": 1,
+        "L6-INV-9": 1,
+        "L6-INV-10": 1,
+        "PROC-INV-1": 1
+      }
+    },
+    {
+      "source": "docs/plans/Ronova_L6_Architecture_Master_Plan_V2.4_Internal_Root.md",
+      "range": [
+        1020,
+        1041
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1020",
+      "flags": [
+        "process"
+      ],
+      "original_ids": {
+        "INV-6": 1
+      }
+    },
+    {
+      "source": "docs/plans/Ronova_L6_Architecture_Master_Plan_V2.4_Internal_Root.md",
+      "range": [
+        1074,
+        1110
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1074",
+      "flags": [
+        "process"
+      ],
+      "original_ids": {
+        "D5": 1,
+        "D8": 2,
+        "D10": 1,
+        "D2": 1,
+        "D6": 1,
+        "L5-INV-9": 1,
+        "L5-INV-1": 1,
+        "PROC-INV-1": 1,
+        "INV-6": 1,
+        "D9": 1
+      }
+    },
+    {
+      "source": "docs/plans/Ronova_L6_Architecture_Master_Plan_V2.4_Internal_Root.md",
+      "range": [
+        1204,
+        1212
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1204",
+      "flags": [
+        "process"
+      ],
+      "original_ids": {
+        "L5-INV-1": 1,
+        "L5-INV-7": 1,
+        "L5-INV-8": 1,
+        "L5-INV-9": 1,
+        "PROC-INV-1": 3,
+        "L5-INV-6": 2
+      }
+    },
+    {
+      "source": "docs/plans/Ronova_L6_Architecture_Master_Plan_V2.4_Internal_Root.md",
+      "range": [
+        1238,
+        1258
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1238",
+      "flags": [
+        "process"
+      ],
+      "original_ids": {
+        "D2": 1,
+        "D1": 1,
+        "D4": 1,
+        "D3": 1,
+        "D8": 1,
+        "D6": 1,
+        "D13": 1
+      }
+    },
+    {
+      "source": "docs/plans/Ronova_L6_Architecture_Master_Plan_V2.4_Internal_Root.md",
+      "range": [
+        1293,
+        1323
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1293",
+      "flags": [
+        "process"
+      ],
+      "original_ids": {
+        "D1": 2,
+        "D2": 1,
+        "L5-INV-2": 1,
+        "D6": 1,
+        "L5-INV-9": 2,
+        "D7": 1,
+        "L6-INV-3": 2,
+        "D3": 1,
+        "L5-INV-1": 2,
+        "D4": 1,
+        "D5": 1,
+        "D8": 1,
+        "L5-INV-4": 1,
+        "L5-INV-6": 1,
+        "PROC-INV-1": 1,
+        "INV-6": 2
+      }
+    },
+    {
+      "source": "docs/plans/Ronova_L6_Architecture_Master_Plan_V2.4_Internal_Root.md",
+      "range": [
+        1326,
+        1340
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1326",
+      "flags": [
+        "process"
+      ],
+      "original_ids": {
+        "L5-INV-1": 1,
+        "D3": 1,
+        "L5-INV-2": 1,
+        "D2": 1,
+        "L5-INV-3": 1,
+        "L5-INV-4": 1,
+        "L5-INV-5": 1,
+        "L5-INV-6": 1,
+        "L5-INV-7": 1,
+        "L5-INV-8": 1,
+        "L5-INV-9": 1,
+        "D6": 1,
+        "PROC-INV-1": 1,
+        "D13": 1
+      }
+    },
+    {
+      "source": "docs/plans/Ronova_L6_Architecture_Master_Plan_V2.4_Internal_Root.md",
+      "range": [
+        1341,
+        1357
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1341",
+      "flags": [
+        "process"
+      ],
+      "original_ids": {
+        "L6-INV-1": 1,
+        "L6-INV-2": 1,
+        "L6-INV-3": 1,
+        "L6-INV-4": 1,
+        "L6-INV-5": 1,
+        "L6-INV-6": 1,
+        "L6-INV-7": 1,
+        "L6-INV-8": 1,
+        "L6-INV-9": 1,
+        "L6-INV-10": 1,
+        "PROC-INV-1": 1
+      }
+    },
+    {
+      "source": "docs/plans/Ronova_L6_Architecture_Master_Plan_V2.4_Internal_Root.md",
+      "range": [
+        1358,
+        1367
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1358",
+      "flags": [
+        "process"
+      ],
+      "original_ids": {
+        "L5-INV-1": 1,
+        "PROC-INV-1": 1,
+        "INV-6": 1
+      }
+    },
+    {
+      "source": "docs/plans/Ronova_L6_Architecture_Master_Plan_V2.4_Internal_Root.md",
+      "range": [
+        1368,
+        1379
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1368",
+      "flags": [
+        "process"
+      ],
+      "original_ids": {}
+    },
+    {
+      "source": "docs/plans/Ronova_L6_Architecture_Master_Plan_V2.4_Internal_Root.md",
+      "range": [
+        1430,
+        1442
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1430",
+      "flags": [
+        "process"
+      ],
+      "original_ids": {
+        "L6-INV-10": 1,
+        "PROC-INV-1": 1
+      }
+    },
+    {
+      "source": "docs/plans/Ronova_L6_Architecture_Master_Plan_V2.4_Internal_Root.md",
+      "range": [
+        1443,
+        1454
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1443",
+      "flags": [
+        "process"
+      ],
+      "original_ids": {
+        "D1": 1,
+        "D13": 2,
+        "PROC-INV-1": 2
+      }
+    },
+    {
+      "source": "docs/plans/Ronova_L6_Architecture_Master_Plan_V2.4_Internal_Root.md",
+      "range": [
+        1455,
+        1468
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-l6-l1455",
+      "flags": [
+        "process"
+      ],
+      "original_ids": {
+        "L5-INV-9": 2,
+        "L5-INV-1": 1,
+        "L5-INV-7": 1,
+        "L5-INV-8": 1,
+        "L5-INV-6": 1,
+        "INV-6": 3,
+        "D7": 1,
+        "D13": 1,
+        "PROC-INV-1": 2
+      }
+    },
+    {
+      "source": "docs/plans/Ronova_L6_L6E_Full_Enhancement_Roadmap_V1.0_Internal_Root.md",
+      "range": [
+        26,
+        42
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-road-l0026",
+      "flags": [
+        "governance"
+      ],
+      "original_ids": {
+        "D1": 1,
+        "D13": 1
+      }
+    },
+    {
+      "source": "docs/plans/Ronova_L6_L6E_Full_Enhancement_Roadmap_V1.0_Internal_Root.md",
+      "range": [
+        194,
+        210
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-road-l0194",
+      "flags": [
+        "governance"
+      ],
+      "original_ids": {}
+    },
+    {
+      "source": "docs/plans/Ronova_L6_L6E_Full_Enhancement_Roadmap_V1.0_Internal_Root.md",
+      "range": [
+        211,
+        239
+      ],
+      "destination": "docs/plans/MS-MSITEM-PLAN.md#orig-road-l0211",
+      "flags": [
+        "governance"
+      ],
+      "original_ids": {}
+    },
+    {
+      "source": "docs/plans/Ronova_MS_Compliance_and_Enhancement_Plan_V1.0.md",
+      "range": [
+        1,
+        21
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-msc-l0001",
+      "flags": [
+        "governance",
+        "historical-position"
+      ],
+      "original_ids": {
+        "R-A1": 1,
+        "R-S4": 1
+      }
+    },
+    {
+      "source": "docs/plans/Ronova_MS_Compliance_and_Enhancement_Plan_V1.0.md",
+      "range": [
+        39,
+        49
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-msc-l0039",
+      "flags": [
+        "process",
+        "classification",
+        "historical-position"
+      ],
+      "original_ids": {
+        "R-A1": 1,
+        "R-A2": 1,
+        "R-A3": 1,
+        "R-A4": 1,
+        "R-A5": 1,
+        "R-A6": 1
+      }
+    },
+    {
+      "source": "docs/plans/Ronova_MS_Compliance_and_Enhancement_Plan_V1.0.md",
+      "range": [
+        193,
+        209
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-msc-l0193",
+      "flags": [
+        "process",
+        "classification",
+        "historical-position"
+      ],
+      "original_ids": {
+        "R-A5": 1,
+        "R-Q2": 1,
+        "R-O1": 1,
+        "R-Q5": 1,
+        "R-G1": 1,
+        "R-H2": 1,
+        "R-M4": 1,
+        "R-S2": 1
+      }
+    },
+    {
+      "source": "docs/plans/Ronova_MS_Compliance_and_Enhancement_Plan_V1.0.md",
+      "range": [
+        212,
+        242
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-msc-l0212",
+      "flags": [
+        "process",
+        "historical-position"
+      ],
+      "original_ids": {
+        "D8": 1
+      }
+    },
+    {
+      "source": "docs/plans/Ronova_MS_Compliance_and_Enhancement_Plan_V1.0.md",
+      "range": [
+        360,
+        374
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-msc-l0360",
+      "flags": [
+        "governance",
+        "historical-position"
+      ],
+      "original_ids": {
+        "R-D5": 1,
+        "R-J5": 1,
+        "R-S1": 1,
+        "R-Q2": 1
+      }
+    },
+    {
+      "source": "docs/plans/Ronova_MS_Remediation_Spec_V1.0.md",
+      "range": [
+        304,
+        320
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-msr-l0304",
+      "flags": [
+        "classification",
+        "historical-position"
+      ],
+      "original_ids": {}
+    },
+    {
+      "source": "docs/plans/Ronova_MS_Rulebound_Enhancement_Plan_V2.0.md",
+      "range": [
+        1,
+        18
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0001",
+      "flags": [
+        "classification",
+        "historical-position"
+      ],
+      "original_ids": {}
+    },
+    {
+      "source": "docs/plans/Ronova_MS_Rulebound_Enhancement_Plan_V2.0.md",
+      "range": [
+        34,
+        46
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0034",
+      "flags": [
+        "classification",
+        "historical-position"
+      ],
+      "original_ids": {}
+    },
+    {
+      "source": "docs/plans/Ronova_MS_Rulebound_Enhancement_Plan_V2.0.md",
+      "range": [
+        112,
+        132
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0112",
+      "flags": [
+        "process",
+        "historical-position"
+      ],
+      "original_ids": {
+        "R2": 1,
+        "R60": 1,
+        "R21": 1,
+        "R22": 1
+      }
+    },
+    {
+      "source": "docs/plans/Ronova_MS_Rulebound_Enhancement_Plan_V2.0.md",
+      "range": [
+        247,
+        266
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0247",
+      "flags": [
+        "process",
+        "classification",
+        "historical-position"
+      ],
+      "original_ids": {}
+    },
+    {
+      "source": "docs/plans/Ronova_MS_Rulebound_Enhancement_Plan_V2.0.md",
+      "range": [
+        267,
+        296
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0267",
+      "flags": [
+        "process",
+        "classification",
+        "historical-position"
+      ],
+      "original_ids": {
+        "R8": 2,
+        "R13": 1,
+        "R14": 1,
+        "R9": 1,
+        "R10": 3,
+        "R62": 1,
+        "R41": 1,
+        "R21": 1,
+        "R22": 1,
+        "R30": 1
+      }
+    },
+    {
+      "source": "docs/plans/Ronova_MS_Rulebound_Enhancement_Plan_V2.0.md",
+      "range": [
+        353,
+        389
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0353",
+      "flags": [
+        "process",
+        "historical-position"
+      ],
+      "original_ids": {
+        "R1": 2,
+        "R2": 2,
+        "R3": 2,
+        "R22": 1,
+        "R17": 2,
+        "R57": 1,
+        "R31": 2,
+        "R26": 1,
+        "R58": 1,
+        "R13": 1,
+        "R59′": 1
+      }
+    },
+    {
+      "source": "docs/plans/Ronova_MS_Rulebound_Enhancement_Plan_V2.0.md",
+      "range": [
+        734,
+        747
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0734",
+      "flags": [
+        "process",
+        "historical-position"
+      ],
+      "original_ids": {
+        "A1": 3,
+        "A2": 1,
+        "A3": 1,
+        "A4": 2,
+        "R59′": 2,
+        "A5": 1
+      }
+    },
+    {
+      "source": "docs/plans/Ronova_MS_Rulebound_Enhancement_Plan_V2.0.md",
+      "range": [
+        767,
+        797
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0767",
+      "flags": [
+        "process",
+        "historical-position"
+      ],
+      "original_ids": {
+        "R31": 2,
+        "R26": 1,
+        "R58": 3,
+        "R57": 1,
+        "R59′": 1,
+        "R46": 1,
+        "R47": 1,
+        "R49": 1,
+        "R50": 1,
+        "R51": 1,
+        "R66": 1,
+        "R32": 1,
+        "R64": 1,
+        "R42": 1,
+        "A1": 1,
+        "A4": 1,
+        "R13": 1
+      }
+    },
+    {
+      "source": "docs/plans/Ronova_MS_Rulebound_Enhancement_Plan_V2.0.md",
+      "range": [
+        845,
+        868
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0845",
+      "flags": [
+        "process",
+        "historical-position"
+      ],
+      "original_ids": {
+        "R13": 1,
+        "R14": 1,
+        "R62": 1,
+        "R41": 1,
+        "R21": 1,
+        "R22": 1,
+        "R10": 2,
+        "A1": 1,
+        "A4": 1,
+        "R30": 1
+      }
+    },
+    {
+      "source": "docs/plans/Ronova_MS_Rulebound_Enhancement_Plan_V2.0.md",
+      "range": [
+        869,
+        911
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0869",
+      "flags": [
+        "process",
+        "historical-position"
+      ],
+      "original_ids": {
+        "R22": 1,
+        "A1": 1,
+        "A4": 1,
+        "R59′": 1
+      }
+    },
+    {
+      "source": "docs/plans/Ronova_MS_Rulebound_Enhancement_Plan_V2.0.md",
+      "range": [
+        926,
+        948
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0926",
+      "flags": [
+        "process",
+        "historical-position"
+      ],
+      "original_ids": {
+        "R2": 1,
+        "R60": 1,
+        "A1": 1,
+        "A4": 1
+      }
+    },
+    {
+      "source": "docs/plans/Ronova_MS_Rulebound_Enhancement_Plan_V2.0.md",
+      "range": [
+        978,
+        986
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l0978",
+      "flags": [
+        "process",
+        "historical-position"
+      ],
+      "original_ids": {
+        "R1": 2,
+        "R2": 1,
+        "R3": 1
+      }
+    },
+    {
+      "source": "docs/plans/Ronova_MS_Rulebound_Enhancement_Plan_V2.0.md",
+      "range": [
+        1008,
+        1026
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-rule-l1008",
+      "flags": [
+        "classification",
+        "historical-position"
+      ],
+      "original_ids": {
+        "R1": 1,
+        "R4": 1,
+        "R5": 1,
+        "R66": 1
+      }
+    },
+    {
+      "source": "docs/plans/Ronova_NonViolating_Enhancement_Plan_V1.0.md",
+      "range": [
+        1,
+        24
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-non-l0001",
+      "flags": [
+        "classification",
+        "historical-position"
+      ],
+      "original_ids": {}
+    },
+    {
+      "source": "docs/plans/Ronova_NonViolating_Enhancement_Plan_V1.0.md",
+      "range": [
+        25,
+        37
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-non-l0025",
+      "flags": [
+        "process",
+        "classification",
+        "historical-position"
+      ],
+      "original_ids": {}
+    },
+    {
+      "source": "docs/plans/Ronova_NonViolating_Enhancement_Plan_V1.0.md",
+      "range": [
+        38,
+        56
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-non-l0038",
+      "flags": [
+        "classification",
+        "historical-position"
+      ],
+      "original_ids": {
+        "A3": 1
+      }
+    },
+    {
+      "source": "docs/plans/Ronova_NonViolating_Enhancement_Plan_V1.0.md",
+      "range": [
+        89,
+        101
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-non-l0089",
+      "flags": [
+        "process",
+        "historical-position"
+      ],
+      "original_ids": {
+        "A1": 1,
+        "A2": 1,
+        "A3": 1,
+        "A4": 1
+      }
+    },
+    {
+      "source": "docs/plans/Ronova_NonViolating_Enhancement_Plan_V1.0.md",
+      "range": [
+        102,
+        128
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-non-l0102",
+      "flags": [
+        "process",
+        "classification",
+        "historical-position"
+      ],
+      "original_ids": {}
+    },
+    {
+      "source": "docs/plans/Ronova_NonViolating_Enhancement_Plan_V1.0.md",
+      "range": [
+        129,
+        144
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-non-l0129",
+      "flags": [
+        "process",
+        "historical-position"
+      ],
+      "original_ids": {}
+    },
+    {
+      "source": "docs/plans/Ronova_NonViolating_Enhancement_Plan_V1.0.md",
+      "range": [
+        196,
+        216
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-non-l0196",
+      "flags": [
+        "process",
+        "classification",
+        "historical-position"
+      ],
+      "original_ids": {}
+    },
+    {
+      "source": "docs/plans/Ronova_NonViolating_Enhancement_Plan_V1.0.md",
+      "range": [
+        217,
+        253
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-non-l0217",
+      "flags": [
+        "process",
+        "historical-position"
+      ],
+      "original_ids": {}
+    },
+    {
+      "source": "docs/plans/Ronova_NonViolating_Enhancement_Plan_V1.0.md",
+      "range": [
+        254,
+        275
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-non-l0254",
+      "flags": [
+        "classification",
+        "historical-position"
+      ],
+      "original_ids": {}
+    },
+    {
+      "source": "docs/plans/Ronova_NonViolating_Enhancement_Plan_V1.0.md",
+      "range": [
+        276,
+        296
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-non-l0276",
+      "flags": [
+        "classification",
+        "historical-position"
+      ],
+      "original_ids": {
+        "A3": 1
+      }
+    },
+    {
+      "source": "docs/DESIGN-SPEC.md",
+      "range": [
+        1,
+        18
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0001",
+      "flags": [
+        "governance",
+        "historical-position"
+      ],
+      "original_ids": {}
+    },
+    {
+      "source": "docs/DESIGN-SPEC.md",
+      "range": [
+        33,
+        43
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0033",
+      "flags": [
+        "governance",
+        "historical-position"
+      ],
+      "original_ids": {}
+    },
+    {
+      "source": "docs/DESIGN-SPEC.md",
+      "range": [
+        125,
+        133
+      ],
+      "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#orig-ds-l0125",
+      "flags": [
+        "governance",
+        "historical-position"
+      ],
+      "original_ids": {}
+    },
+    {
+      "source": "docs/DESIGN-SPEC.md",
+      "range": [
+        177,
+        196
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0177",
+      "flags": [
+        "process",
+        "governance",
+        "historical-position"
+      ],
+      "original_ids": {
+        "D1": 3,
+        "D13": 3,
+        "D2": 1,
+        "D3": 1,
+        "D4": 1,
+        "D5": 1,
+        "D6": 1,
+        "D7": 1,
+        "D8": 2,
+        "D9": 2,
+        "D10": 1,
+        "D11": 1,
+        "D12": 1,
+        "PROC-INV-1": 1
+      }
+    },
+    {
+      "source": "docs/DESIGN-SPEC.md",
+      "range": [
+        267,
+        282
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0267",
+      "flags": [
+        "process",
+        "historical-position"
+      ],
+      "original_ids": {
+        "PROC-INV-1": 1,
+        "D13": 2
+      }
+    },
+    {
+      "source": "docs/DESIGN-SPEC.md",
+      "range": [
+        283,
+        298
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0283",
+      "flags": [
+        "process",
+        "historical-position"
+      ],
+      "original_ids": {
+        "PROC-INV-1": 1,
+        "L5-INV-6": 2,
+        "L5-INV-1": 1,
+        "D3": 1,
+        "L5-INV-2": 1,
+        "D2": 1,
+        "L5-INV-3": 1,
+        "L5-INV-4": 1,
+        "L5-INV-5": 1,
+        "L5-INV-7": 1,
+        "L5-INV-8": 1,
+        "L5-INV-9": 1,
+        "D6": 1
+      }
+    },
+    {
+      "source": "docs/DESIGN-SPEC.md",
+      "range": [
+        385,
+        424
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0385",
+      "flags": [
+        "process",
+        "governance",
+        "historical-position"
+      ],
+      "original_ids": {
+        "A1": 3,
+        "A8": 3,
+        "PROC-INV-1": 2,
+        "A2": 1,
+        "A3": 1,
+        "A4": 1,
+        "A5": 1,
+        "A6": 1,
+        "A7": 1
+      }
+    },
+    {
+      "source": "docs/DESIGN-SPEC.md",
+      "range": [
+        425,
+        460
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0425",
+      "flags": [
+        "process",
+        "historical-position"
+      ],
+      "original_ids": {
+        "PROC-INV-1": 1
+      }
+    },
+    {
+      "source": "docs/DESIGN-SPEC.md",
+      "range": [
+        463,
+        487
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0463",
+      "flags": [
+        "process",
+        "historical-position"
+      ],
+      "original_ids": {
+        "R7": 4,
+        "D13": 2,
+        "PROC-INV-1": 2,
+        "ID-9": 1,
+        "A1": 1,
+        "A4": 1
+      }
+    },
+    {
+      "source": "docs/DESIGN-SPEC.md",
+      "range": [
+        488,
+        503
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0488",
+      "flags": [
+        "governance",
+        "historical-position"
+      ],
+      "original_ids": {
+        "T-13": 1
+      }
+    },
+    {
+      "source": "docs/DESIGN-SPEC.md",
+      "range": [
+        871,
+        889
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0871",
+      "flags": [
+        "process",
+        "historical-position"
+      ],
+      "original_ids": {
+        "D1": 1,
+        "D13": 1,
+        "PROC-INV-1": 2,
+        "L5-INV-1": 1,
+        "L6-INV-1": 1,
+        "R1": 1,
+        "R7": 1,
+        "D33": 1,
+        "D53": 1,
+        "D106": 1,
+        "A1": 1,
+        "A8": 1
+      }
+    },
+    {
+      "source": "docs/DESIGN-SPEC.md",
+      "range": [
+        890,
+        906
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0890",
+      "flags": [
+        "process",
+        "historical-position"
+      ],
+      "original_ids": {
+        "L6-INV-10": 1,
+        "A1": 1,
+        "A8": 1,
+        "L5-INV-6": 1
+      }
+    },
+    {
+      "source": "docs/DESIGN-SPEC.md",
+      "range": [
+        918,
+        931
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0918",
+      "flags": [
+        "classification",
+        "historical-position"
+      ],
+      "original_ids": {}
+    },
+    {
+      "source": "docs/DESIGN-SPEC.md",
+      "range": [
+        932,
+        947
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0932",
+      "flags": [
+        "process",
+        "historical-position"
+      ],
+      "original_ids": {
+        "D1": 1,
+        "D106": 1,
+        "PROC-INV-1": 1,
+        "A1": 1,
+        "A8": 1,
+        "R1": 1,
+        "R7": 1
+      }
+    },
+    {
+      "source": "docs/DESIGN-SPEC.md",
+      "range": [
+        950,
+        961
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l0950",
+      "flags": [
+        "process",
+        "historical-position"
+      ],
+      "original_ids": {
+        "R1": 1,
+        "R2": 1,
+        "R3": 1,
+        "R4": 1
+      }
+    },
+    {
+      "source": "docs/DESIGN-SPEC.md",
+      "range": [
+        1007,
+        1020
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l1007",
+      "flags": [
+        "process",
+        "historical-position"
+      ],
+      "original_ids": {
+        "R7": 3,
+        "PROC-INV-1": 1,
+        "A1": 2,
+        "A2": 1,
+        "A3": 1,
+        "A4": 2,
+        "A5": 1
+      }
+    },
+    {
+      "source": "docs/DESIGN-SPEC.md",
+      "range": [
+        1040,
+        1065
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l1040",
+      "flags": [
+        "process",
+        "historical-position"
+      ],
+      "original_ids": {
+        "A5": 1,
+        "L6-INV-1": 1,
+        "D3": 1,
+        "D91": 1,
+        "L5-INV-8": 1,
+        "A1": 1,
+        "A4": 1,
+        "D6": 1,
+        "D9": 1,
+        "L6-INV-3": 1,
+        "D7": 1
+      }
+    },
+    {
+      "source": "docs/DESIGN-SPEC.md",
+      "range": [
+        1126,
+        1150
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l1126",
+      "flags": [
+        "process",
+        "historical-position"
+      ],
+      "original_ids": {
+        "A5": 1,
+        "L6-INV-1": 1,
+        "D3": 1,
+        "D91": 1,
+        "L5-INV-8": 1
+      }
+    },
+    {
+      "source": "docs/DESIGN-SPEC.md",
+      "range": [
+        1160,
+        1169
+      ],
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#orig-ds-l1160",
+      "flags": [
+        "process",
+        "historical-position"
+      ],
+      "original_ids": {
+        "R1": 1,
+        "R2": 1,
+        "R3": 1,
+        "R4": 1,
+        "A5": 1,
+        "L6-INV-1": 1,
+        "D3": 1,
+        "D91": 1,
+        "L5-INV-8": 1
+      }
+    }
+  ]
+}

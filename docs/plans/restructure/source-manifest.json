@@ -1,0 +1,166 @@
+{
+  "date": "2026-09-14",
+  "sources": [
+    {
+      "alias": "INDEX",
+      "path": "docs/plans/README.md",
+      "archive": "docs/archive/plans-before-ms-restructure-r66/README.md",
+      "bytes": 5010,
+      "lines": 63,
+      "sha256": "aa6d2bf1a0835722823d1e8314210e8504701afa9c5bd4b39517405927f802a1",
+      "sections": 5
+    },
+    {
+      "alias": "BL",
+      "path": "docs/plans/Ronova_7.14A_Baseline_All_Enhancements_Master_V1.4_Internal_Root.md",
+      "archive": "docs/archive/plans-before-ms-restructure-r66/Ronova_7.14A_Baseline_All_Enhancements_Master_V1.4_Internal_Root.md",
+      "bytes": 73679,
+      "lines": 3022,
+      "sha256": "cac45dcc62e38bb90a26661464272801462ee0b3482b894bedc55d8d419fe523",
+      "sections": 144
+    },
+    {
+      "alias": "V26",
+      "path": "docs/plans/Ronova_7.16_Plus_JVM_Extreme_Strength_Enhancement_Master_V2.6_Internal_Root.md",
+      "archive": "docs/archive/plans-before-ms-restructure-r66/Ronova_7.16_Plus_JVM_Extreme_Strength_Enhancement_Master_V2.6_Internal_Root.md",
+      "bytes": 207866,
+      "lines": 3460,
+      "sha256": "905ff0b353fce4764805ae1075259a2dba77904f9468e88768ccb05998efcf37",
+      "sections": 171
+    },
+    {
+      "alias": "FULL",
+      "path": "docs/plans/Ronova_7.17_Extreme_Full_Plane_Enhancement_Plan_V1.0_Internal_Root.md",
+      "archive": "docs/archive/plans-before-ms-restructure-r66/Ronova_7.17_Extreme_Full_Plane_Enhancement_Plan_V1.0_Internal_Root.md",
+      "bytes": 36800,
+      "lines": 337,
+      "sha256": "62d45c727873273dfec65a39e6c846311898eefe8b5c10f268a203af7421b90a",
+      "sections": 22
+    },
+    {
+      "alias": "TIER",
+      "path": "docs/plans/Ronova_7.17_Extreme_Tier_Strength_Implementation_Plan_V1.0_Internal_Root.md",
+      "archive": "docs/archive/plans-before-ms-restructure-r66/Ronova_7.17_Extreme_Tier_Strength_Implementation_Plan_V1.0_Internal_Root.md",
+      "bytes": 46583,
+      "lines": 833,
+      "sha256": "028e5849c3741f7f29abb191dce6eecb9f8b8631614584329fd50df2fc522855",
+      "sections": 53
+    },
+    {
+      "alias": "REC",
+      "path": "docs/plans/Ronova_7.17_Generic_Recovery_Chain_Implementation_Plan_V1.0_Internal_Root.md",
+      "archive": "docs/archive/plans-before-ms-restructure-r66/Ronova_7.17_Generic_Recovery_Chain_Implementation_Plan_V1.0_Internal_Root.md",
+      "bytes": 35947,
+      "lines": 487,
+      "sha256": "85c993b68fb0cdd4647483fb9da937ce9b2cd95f10a7d9a6a54e6f8d1bfa62a1",
+      "sections": 25
+    },
+    {
+      "alias": "MAX",
+      "path": "docs/plans/Ronova_Compliant_Maximum_Strength_Plan_V1.0.md",
+      "archive": "docs/archive/plans-before-ms-restructure-r66/Ronova_Compliant_Maximum_Strength_Plan_V1.0.md",
+      "bytes": 22184,
+      "lines": 381,
+      "sha256": "00af477883318e2ce5500178c4dc3d48867e980bba773bffa184d26b4617005f",
+      "sections": 38
+    },
+    {
+      "alias": "CF",
+      "path": "docs/plans/Ronova_L6E-0_Contract_Freeze_V1.3_Internal_Root.md",
+      "archive": "docs/archive/plans-before-ms-restructure-r66/Ronova_L6E-0_Contract_Freeze_V1.3_Internal_Root.md",
+      "bytes": 42431,
+      "lines": 1695,
+      "sha256": "b09cbc535fbc0d6ec1f8d72dc90a5f9e67fa13a49b57c6d3b65975c4811d9d2b",
+      "sections": 95
+    },
+    {
+      "alias": "P0A",
+      "path": "docs/plans/Ronova_L6E_P0-A_Truth_Authority_Implementation_Spec_V1.3_Internal_Root.md",
+      "archive": "docs/archive/plans-before-ms-restructure-r66/Ronova_L6E_P0-A_Truth_Authority_Implementation_Spec_V1.3_Internal_Root.md",
+      "bytes": 55825,
+      "lines": 2298,
+      "sha256": "a0a70e129f1c053bba8f6b6aec1f1947590fe51d5703550e53a137c96a0149ca",
+      "sections": 139
+    },
+    {
+      "alias": "L6",
+      "path": "docs/plans/Ronova_L6_Architecture_Master_Plan_V2.4_Internal_Root.md",
+      "archive": "docs/archive/plans-before-ms-restructure-r66/Ronova_L6_Architecture_Master_Plan_V2.4_Internal_Root.md",
+      "bytes": 134413,
+      "lines": 1468,
+      "sha256": "16100e2fc2779ee2cb29b784d3201c4f76e0a0cbd58fbe3da720c070d7edf278",
+      "sections": 100
+    },
+    {
+      "alias": "ROAD",
+      "path": "docs/plans/Ronova_L6_L6E_Full_Enhancement_Roadmap_V1.0_Internal_Root.md",
+      "archive": "docs/archive/plans-before-ms-restructure-r66/Ronova_L6_L6E_Full_Enhancement_Roadmap_V1.0_Internal_Root.md",
+      "bytes": 56571,
+      "lines": 429,
+      "sha256": "6a4c2cf0e620f3eb2646f958ae6b318c4471db2f5e8a638fd75079c50fd830a4",
+      "sections": 35
+    },
+    {
+      "alias": "MSC",
+      "path": "docs/plans/Ronova_MS_Compliance_and_Enhancement_Plan_V1.0.md",
+      "archive": "docs/archive/plans-before-ms-restructure-r66/Ronova_MS_Compliance_and_Enhancement_Plan_V1.0.md",
+      "bytes": 28438,
+      "lines": 374,
+      "sha256": "8f190feed151a5928c0dc35f4f9e968ad3f7cf751768cd875d8488223100c409",
+      "sections": 30
+    },
+    {
+      "alias": "MSR",
+      "path": "docs/plans/Ronova_MS_Remediation_Spec_V1.0.md",
+      "archive": "docs/archive/plans-before-ms-restructure-r66/Ronova_MS_Remediation_Spec_V1.0.md",
+      "bytes": 24760,
+      "lines": 414,
+      "sha256": "d855674727e223ae56f01c4649c558ff97a6d2afed695cac8a83ce72e23e7e57",
+      "sections": 28
+    },
+    {
+      "alias": "RULE",
+      "path": "docs/plans/Ronova_MS_Rulebound_Enhancement_Plan_V2.0.md",
+      "archive": "docs/archive/plans-before-ms-restructure-r66/Ronova_MS_Rulebound_Enhancement_Plan_V2.0.md",
+      "bytes": 86398,
+      "lines": 1026,
+      "sha256": "caa8968235fa8a2e3b04503a1c080c136feaada93311a8485cb0243b7629d4d1",
+      "sections": 63
+    },
+    {
+      "alias": "NON",
+      "path": "docs/plans/Ronova_NonViolating_Enhancement_Plan_V1.0.md",
+      "archive": "docs/archive/plans-before-ms-restructure-r66/Ronova_NonViolating_Enhancement_Plan_V1.0.md",
+      "bytes": 20772,
+      "lines": 296,
+      "sha256": "43a2de15b78ca16375dca65cd1f6d05735a1672d1337dd346d5c2ffd9cfd9c29",
+      "sections": 19
+    },
+    {
+      "alias": "DS",
+      "path": "docs/DESIGN-SPEC.md",
+      "archive": "docs/archive/plans-before-ms-restructure-r66/DESIGN-SPEC.md",
+      "bytes": 91080,
+      "lines": 1169,
+      "sha256": "9d0768c351aa3a1d4bda7865c93303def851cfd7370afdc37442bcf544dda9e7",
+      "sections": 80
+    }
+  ],
+  "ms_sources": [
+    {
+      "path": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/minecraft-ms-1.20.1-skills.zh.md",
+      "sha256": "ac7801b0859e66b903307c96a59540887b1f1ba6bf7002ad6ad4b433a099e726",
+      "headings": 35
+    },
+    {
+      "path": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/item/minecraft-ms-msitem.zh.md",
+      "sha256": "1c1aea6dc45e50c3f99ef06926bfbb05bfea7d606d811e9017a89fa4f61ecb5e",
+      "headings": 23
+    },
+    {
+      "path": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/entity/minecraft-ms-entitydefence.zh.md",
+      "sha256": "495480f9e3343a1dd8840a42a8b27e80eb0b7dafdca0a37b9f535870a5ef4cd4",
+      "headings": 24
+    }
+  ]
+}

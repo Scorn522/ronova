@@ -1,0 +1,874 @@
+{
+  "kind": "r66_static_wiring_baseline_not_runtime_evidence",
+  "revision": "fix4-wiring-plan",
+  "date": "2026-09-14",
+  "source_archive": {
+    "filename": "ronova-source-0.2.0-alpha.7.17-r66.zip",
+    "sha256": "1266d8c2dd46b949178d7341ee467333be678fb9b373c1403b576a56c73fd763",
+    "files": 618
+  },
+  "source_file_hashes": {
+    "native/src/ronova_native.cpp": "9914ab5bb358f641f3a3fca9cf176fc8d10eb6b0129557b504aa4cc2c9652baa",
+    "src/main/java/dev/ronova/coremod/command/DominionCommands.java": "2ac3ce3b95ab064284821a7f1ea8c121e72d0a2a6c871c464b1d9ba19f815ca0",
+    "src/main/java/dev/ronova/coremod/engine/TerminalLifecycle.java": "a06eb3d087d5572531ff05f1ead8c23fe065091f77eda387b679b34d18eb78fc",
+    "src/main/java/dev/ronova/coremod/engine/TerminalPlanExecutor.java": "6d06243b598f19a5c3f6fbb4849f26ab2b1c147360ec270fddf6cf644565dd8d",
+    "src/main/java/dev/ronova/coremod/policy/AttackAction.java": "21c6de9a6810fe7fdd080dcfebd4d8d4eab4e85853ba99d2813e99af416f5923",
+    "src/main/java/dev/ronova/coremod/policy/RecoveryChainPolicy.java": "5ee8b9291b37a1727afd794d6f44f4110d6aa39ac352681fbc091cb10cb4450c",
+    "src/main/java/dev/ronova/coremod/policy/RuntimeCapabilityProjection.java": "c0c2920dddc4847947baa960e1805098531fc69f1eaa513636c61bf637b0d04b",
+    "src/main/java/dev/ronova/coremod/policy/StrengthOptionKey.java": "7395854c31105d62aa5762aa4cbbc1850e2e1860705f5d510634b6000e71d3ed",
+    "src/main/java/dev/ronova/coremod/policy/StrengthPolicyConfiguration.java": "2235eb1cd90b0b272c618c684ed9411e13c463c0010d34751dcb7206530c68eb",
+    "src/main/java/dev/ronova/coremod/policy/StrengthPolicySnapshot.java": "8881c5987ebe7e2af71332ed342e5c58f8678b95fd67b51f022032eb75833faf",
+    "src/main/java/dev/ronova/coremod/policy/TerminalActionPolicy.java": "2300395e2c35b9a68d25a715981aacd226a07e614b216c5214506a3886ce884b",
+    "src/main/java/dev/ronova/coremod/runtime/DominionServerRuntime.java": "1063602985d85d9ccac59c99c948b23b9627893cbe931a289f382cd2c5593911",
+    "src/main/java/dev/ronova/coremod/persistence/ShadowDurableRootStore.java": "b7a492bc2b36a48303d3e86e568214442fb537a2fc2f95426d760a91d258af90",
+    "src/main/java/dev/ronova/coremod/client/RonovaStrengthScreen.java": "0da1b7706450e6ead61408764a2d29c2c1a6be05567de8200792ccaa0cfc16c4"
+  },
+  "audit_snapshot": {
+    "path": "docs/reference/R66-CAPABILITY-AUDIT.md",
+    "sha256": "b8648701786ed576392a8aa0d4dabad741bcf6ac9ecef1fef36f6a6cee4b636e",
+    "copied_without_changes": true
+  },
+  "audit_numbered_source_excerpt_comparison": [
+    {
+      "source": "src/main/java/dev/ronova/coremod/policy/StrengthPolicySnapshot.java",
+      "numbered_lines_compared": 137,
+      "mismatch_lines": []
+    },
+    {
+      "source": "src/main/java/dev/ronova/coremod/policy/RuntimeCapabilityProjection.java",
+      "numbered_lines_compared": 26,
+      "mismatch_lines": []
+    },
+    {
+      "source": "src/main/java/dev/ronova/coremod/runtime/DominionServerRuntime.java",
+      "numbered_lines_compared": 9,
+      "mismatch_lines": []
+    },
+    {
+      "source": "src/main/java/dev/ronova/coremod/policy/AttackAction.java",
+      "numbered_lines_compared": 25,
+      "mismatch_lines": []
+    },
+    {
+      "source": "src/main/java/dev/ronova/coremod/policy/TerminalActionPolicy.java",
+      "numbered_lines_compared": 50,
+      "mismatch_lines": []
+    },
+    {
+      "source": "src/main/java/dev/ronova/coremod/engine/TerminalLifecycle.java",
+      "numbered_lines_compared": 96,
+      "mismatch_lines": []
+    },
+    {
+      "source": "src/main/java/dev/ronova/coremod/engine/TerminalPlanExecutor.java",
+      "numbered_lines_compared": 124,
+      "mismatch_lines": []
+    },
+    {
+      "source": "src/main/java/dev/ronova/coremod/policy/RecoveryChainPolicy.java",
+      "numbered_lines_compared": 68,
+      "mismatch_lines": []
+    },
+    {
+      "source": "native/src/ronova_native.cpp",
+      "numbered_lines_compared": 51,
+      "mismatch_lines": []
+    },
+    {
+      "source": "src/main/java/dev/ronova/coremod/command/DominionCommands.java",
+      "numbered_lines_compared": 24,
+      "mismatch_lines": []
+    },
+    {
+      "source": "src/main/java/dev/ronova/coremod/policy/StrengthPolicyConfiguration.java",
+      "numbered_lines_compared": 15,
+      "mismatch_lines": []
+    },
+    {
+      "source": "src/main/java/dev/ronova/coremod/persistence/ShadowDurableRootStore.java",
+      "numbered_lines_compared": 16,
+      "mismatch_lines": []
+    },
+    {
+      "source": "src/main/java/dev/ronova/coremod/client/RonovaStrengthScreen.java",
+      "numbered_lines_compared": 9,
+      "mismatch_lines": []
+    },
+    {
+      "source": "native/src/ronova_native.cpp",
+      "numbered_lines_compared": 21,
+      "mismatch_lines": []
+    }
+  ],
+  "keys": [
+    {
+      "enum": "ATTACK_NON_ENTITY",
+      "canonical": "attack.non_entity",
+      "plane": "ATTACK",
+      "restart_required": false,
+      "explicitly_published_by_runtime_projection": false,
+      "static_scope": "RuntimeCapabilityProjection.apply only; not a whole-program reachability or runtime-active assertion",
+      "runtime_status": "NOT_MEASURED"
+    },
+    {
+      "enum": "ATTACK_LOGIC_SOURCE",
+      "canonical": "attack.logic_source",
+      "plane": "ATTACK",
+      "restart_required": false,
+      "explicitly_published_by_runtime_projection": false,
+      "static_scope": "RuntimeCapabilityProjection.apply only; not a whole-program reachability or runtime-active assertion",
+      "runtime_status": "NOT_MEASURED"
+    },
+    {
+      "enum": "ATTACK_RECOVERY_SOURCE",
+      "canonical": "attack.recovery_source",
+      "plane": "ATTACK",
+      "restart_required": false,
+      "explicitly_published_by_runtime_projection": false,
+      "static_scope": "RuntimeCapabilityProjection.apply only; not a whole-program reachability or runtime-active assertion",
+      "runtime_status": "NOT_MEASURED"
+    },
+    {
+      "enum": "ATTACK_STATE_SOURCE",
+      "canonical": "attack.state_source",
+      "plane": "ATTACK",
+      "restart_required": false,
+      "explicitly_published_by_runtime_projection": false,
+      "static_scope": "RuntimeCapabilityProjection.apply only; not a whole-program reachability or runtime-active assertion",
+      "runtime_status": "NOT_MEASURED"
+    },
+    {
+      "enum": "ATTACK_REGISTRATION_SOURCE",
+      "canonical": "attack.registration_source",
+      "plane": "ATTACK",
+      "restart_required": false,
+      "explicitly_published_by_runtime_projection": false,
+      "static_scope": "RuntimeCapabilityProjection.apply only; not a whole-program reachability or runtime-active assertion",
+      "runtime_status": "NOT_MEASURED"
+    },
+    {
+      "enum": "ATTACK_TASK_CHAIN",
+      "canonical": "attack.task_chain",
+      "plane": "ATTACK",
+      "restart_required": false,
+      "explicitly_published_by_runtime_projection": false,
+      "static_scope": "RuntimeCapabilityProjection.apply only; not a whole-program reachability or runtime-active assertion",
+      "runtime_status": "NOT_MEASURED"
+    },
+    {
+      "enum": "ATTACK_CALLBACK_CHAIN",
+      "canonical": "attack.callback_chain",
+      "plane": "ATTACK",
+      "restart_required": false,
+      "explicitly_published_by_runtime_projection": false,
+      "static_scope": "RuntimeCapabilityProjection.apply only; not a whole-program reachability or runtime-active assertion",
+      "runtime_status": "NOT_MEASURED"
+    },
+    {
+      "enum": "ATTACK_NETWORK_RECONSTRUCTION",
+      "canonical": "attack.network_reconstruction",
+      "plane": "ATTACK",
+      "restart_required": false,
+      "explicitly_published_by_runtime_projection": false,
+      "static_scope": "RuntimeCapabilityProjection.apply only; not a whole-program reachability or runtime-active assertion",
+      "runtime_status": "NOT_MEASURED"
+    },
+    {
+      "enum": "ATTACK_SAVE_RECONSTRUCTION",
+      "canonical": "attack.save_reconstruction",
+      "plane": "ATTACK",
+      "restart_required": false,
+      "explicitly_published_by_runtime_projection": false,
+      "static_scope": "RuntimeCapabilityProjection.apply only; not a whole-program reachability or runtime-active assertion",
+      "runtime_status": "NOT_MEASURED"
+    },
+    {
+      "enum": "ATTACK_DYNAMIC_CODE",
+      "canonical": "attack.dynamic_code",
+      "plane": "ATTACK",
+      "restart_required": true,
+      "explicitly_published_by_runtime_projection": false,
+      "static_scope": "RuntimeCapabilityProjection.apply only; not a whole-program reachability or runtime-active assertion",
+      "runtime_status": "NOT_MEASURED"
+    },
+    {
+      "enum": "ATTACK_DISPATCH",
+      "canonical": "attack.dispatch",
+      "plane": "ATTACK",
+      "restart_required": true,
+      "explicitly_published_by_runtime_projection": false,
+      "static_scope": "RuntimeCapabilityProjection.apply only; not a whole-program reachability or runtime-active assertion",
+      "runtime_status": "NOT_MEASURED"
+    },
+    {
+      "enum": "ATTACK_RUNTIME_PATCH_DISABLEMENT",
+      "canonical": "attack.runtime_patch_disablement",
+      "plane": "ATTACK",
+      "restart_required": true,
+      "explicitly_published_by_runtime_projection": false,
+      "static_scope": "RuntimeCapabilityProjection.apply only; not a whole-program reachability or runtime-active assertion",
+      "runtime_status": "NOT_MEASURED"
+    },
+    {
+      "enum": "ATTACK_TARGET_CLASS_LINEAGE",
+      "canonical": "attack.target_class_lineage",
+      "plane": "ATTACK",
+      "restart_required": true,
+      "explicitly_published_by_runtime_projection": false,
+      "static_scope": "RuntimeCapabilityProjection.apply only; not a whole-program reachability or runtime-active assertion",
+      "runtime_status": "NOT_MEASURED"
+    },
+    {
+      "enum": "ATTACK_FINAL_RESULT_TAKEOVER",
+      "canonical": "attack.final_result_takeover",
+      "plane": "ATTACK",
+      "restart_required": false,
+      "explicitly_published_by_runtime_projection": false,
+      "static_scope": "RuntimeCapabilityProjection.apply only; not a whole-program reachability or runtime-active assertion",
+      "runtime_status": "NOT_MEASURED"
+    },
+    {
+      "enum": "ATTACK_SOURCE_TRACE",
+      "canonical": "attack.source_trace",
+      "plane": "ATTACK",
+      "restart_required": true,
+      "explicitly_published_by_runtime_projection": false,
+      "static_scope": "RuntimeCapabilityProjection.apply only; not a whole-program reachability or runtime-active assertion",
+      "runtime_status": "NOT_MEASURED"
+    },
+    {
+      "enum": "INTERCEPT_MIXIN",
+      "canonical": "intercept.mixin",
+      "plane": "INTERCEPTION",
+      "restart_required": true,
+      "explicitly_published_by_runtime_projection": false,
+      "static_scope": "RuntimeCapabilityProjection.apply only; not a whole-program reachability or runtime-active assertion",
+      "runtime_status": "NOT_MEASURED"
+    },
+    {
+      "enum": "INTERCEPT_ASM",
+      "canonical": "intercept.asm",
+      "plane": "INTERCEPTION",
+      "restart_required": true,
+      "explicitly_published_by_runtime_projection": false,
+      "static_scope": "RuntimeCapabilityProjection.apply only; not a whole-program reachability or runtime-active assertion",
+      "runtime_status": "NOT_MEASURED"
+    },
+    {
+      "enum": "INTERCEPT_INSTRUMENTATION",
+      "canonical": "intercept.instrumentation",
+      "plane": "INTERCEPTION",
+      "restart_required": true,
+      "explicitly_published_by_runtime_projection": true,
+      "static_scope": "RuntimeCapabilityProjection.apply only; not a whole-program reachability or runtime-active assertion",
+      "runtime_status": "NOT_MEASURED"
+    },
+    {
+      "enum": "INTERCEPT_JVMTI",
+      "canonical": "intercept.jvmti",
+      "plane": "INTERCEPTION",
+      "restart_required": true,
+      "explicitly_published_by_runtime_projection": false,
+      "static_scope": "RuntimeCapabilityProjection.apply only; not a whole-program reachability or runtime-active assertion",
+      "runtime_status": "NOT_MEASURED"
+    },
+    {
+      "enum": "INTERCEPT_UNSAFE_REFLECTION",
+      "canonical": "intercept.unsafe_reflection",
+      "plane": "INTERCEPTION",
+      "restart_required": true,
+      "explicitly_published_by_runtime_projection": false,
+      "static_scope": "RuntimeCapabilityProjection.apply only; not a whole-program reachability or runtime-active assertion",
+      "runtime_status": "NOT_MEASURED"
+    },
+    {
+      "enum": "INTERCEPT_CLASSLOADER",
+      "canonical": "intercept.classloader",
+      "plane": "INTERCEPTION",
+      "restart_required": true,
+      "explicitly_published_by_runtime_projection": false,
+      "static_scope": "RuntimeCapabilityProjection.apply only; not a whole-program reachability or runtime-active assertion",
+      "runtime_status": "NOT_MEASURED"
+    },
+    {
+      "enum": "INTERCEPT_JNI_NATIVE",
+      "canonical": "intercept.jni_native",
+      "plane": "INTERCEPTION",
+      "restart_required": true,
+      "explicitly_published_by_runtime_projection": false,
+      "static_scope": "RuntimeCapabilityProjection.apply only; not a whole-program reachability or runtime-active assertion",
+      "runtime_status": "NOT_MEASURED"
+    },
+    {
+      "enum": "INTERCEPT_MODLAUNCHER",
+      "canonical": "intercept.modlauncher",
+      "plane": "INTERCEPTION",
+      "restart_required": true,
+      "explicitly_published_by_runtime_projection": false,
+      "static_scope": "RuntimeCapabilityProjection.apply only; not a whole-program reachability or runtime-active assertion",
+      "runtime_status": "NOT_MEASURED"
+    },
+    {
+      "enum": "INTERCEPT_THREAD_TASK",
+      "canonical": "intercept.thread_task",
+      "plane": "INTERCEPTION",
+      "restart_required": false,
+      "explicitly_published_by_runtime_projection": false,
+      "static_scope": "RuntimeCapabilityProjection.apply only; not a whole-program reachability or runtime-active assertion",
+      "runtime_status": "NOT_MEASURED"
+    },
+    {
+      "enum": "INTERCEPT_ALL_RETURN",
+      "canonical": "intercept.all_return",
+      "plane": "INTERCEPTION",
+      "restart_required": true,
+      "explicitly_published_by_runtime_projection": false,
+      "static_scope": "RuntimeCapabilityProjection.apply only; not a whole-program reachability or runtime-active assertion",
+      "runtime_status": "NOT_MEASURED"
+    },
+    {
+      "enum": "PROTECT_LIFE",
+      "canonical": "protect.life",
+      "plane": "PROTECTION",
+      "restart_required": false,
+      "explicitly_published_by_runtime_projection": false,
+      "static_scope": "RuntimeCapabilityProjection.apply only; not a whole-program reachability or runtime-active assertion",
+      "runtime_status": "NOT_MEASURED"
+    },
+    {
+      "enum": "PROTECT_DEATH",
+      "canonical": "protect.death",
+      "plane": "PROTECTION",
+      "restart_required": false,
+      "explicitly_published_by_runtime_projection": false,
+      "static_scope": "RuntimeCapabilityProjection.apply only; not a whole-program reachability or runtime-active assertion",
+      "runtime_status": "NOT_MEASURED"
+    },
+    {
+      "enum": "PROTECT_REMOVAL",
+      "canonical": "protect.removal",
+      "plane": "PROTECTION",
+      "restart_required": false,
+      "explicitly_published_by_runtime_projection": false,
+      "static_scope": "RuntimeCapabilityProjection.apply only; not a whole-program reachability or runtime-active assertion",
+      "runtime_status": "NOT_MEASURED"
+    },
+    {
+      "enum": "PROTECT_ENTITY_RECORD",
+      "canonical": "protect.entity_record",
+      "plane": "PROTECTION",
+      "restart_required": false,
+      "explicitly_published_by_runtime_projection": false,
+      "static_scope": "RuntimeCapabilityProjection.apply only; not a whole-program reachability or runtime-active assertion",
+      "runtime_status": "NOT_MEASURED"
+    },
+    {
+      "enum": "PROTECT_IDENTITY_RESPAWN",
+      "canonical": "protect.identity_respawn",
+      "plane": "PROTECTION",
+      "restart_required": false,
+      "explicitly_published_by_runtime_projection": false,
+      "static_scope": "RuntimeCapabilityProjection.apply only; not a whole-program reachability or runtime-active assertion",
+      "runtime_status": "NOT_MEASURED"
+    },
+    {
+      "enum": "PROTECT_DISPLAY",
+      "canonical": "protect.display",
+      "plane": "PROTECTION",
+      "restart_required": false,
+      "explicitly_published_by_runtime_projection": false,
+      "static_scope": "RuntimeCapabilityProjection.apply only; not a whole-program reachability or runtime-active assertion",
+      "runtime_status": "NOT_MEASURED"
+    },
+    {
+      "enum": "PROTECT_ANTI_INTERCEPTION",
+      "canonical": "protect.anti_interception",
+      "plane": "PROTECTION",
+      "restart_required": true,
+      "explicitly_published_by_runtime_projection": false,
+      "static_scope": "RuntimeCapabilityProjection.apply only; not a whole-program reachability or runtime-active assertion",
+      "runtime_status": "NOT_MEASURED"
+    },
+    {
+      "enum": "PROTECT_ANTI_ALL_RETURN",
+      "canonical": "protect.anti_all_return",
+      "plane": "PROTECTION",
+      "restart_required": true,
+      "explicitly_published_by_runtime_projection": false,
+      "static_scope": "RuntimeCapabilityProjection.apply only; not a whole-program reachability or runtime-active assertion",
+      "runtime_status": "NOT_MEASURED"
+    },
+    {
+      "enum": "PROTECT_INPUT_COMMUNICATION",
+      "canonical": "protect.input_communication",
+      "plane": "PROTECTION",
+      "restart_required": false,
+      "explicitly_published_by_runtime_projection": false,
+      "static_scope": "RuntimeCapabilityProjection.apply only; not a whole-program reachability or runtime-active assertion",
+      "runtime_status": "NOT_MEASURED"
+    },
+    {
+      "enum": "PROTECT_CALL",
+      "canonical": "protect.call",
+      "plane": "PROTECTION",
+      "restart_required": true,
+      "explicitly_published_by_runtime_projection": false,
+      "static_scope": "RuntimeCapabilityProjection.apply only; not a whole-program reachability or runtime-active assertion",
+      "runtime_status": "NOT_MEASURED"
+    },
+    {
+      "enum": "PROTECT_CODE_INTEGRITY",
+      "canonical": "protect.code_integrity",
+      "plane": "PROTECTION",
+      "restart_required": true,
+      "explicitly_published_by_runtime_projection": true,
+      "static_scope": "RuntimeCapabilityProjection.apply only; not a whole-program reachability or runtime-active assertion",
+      "runtime_status": "NOT_MEASURED"
+    },
+    {
+      "enum": "PROTECT_CORE_AUTHORITY",
+      "canonical": "protect.core_authority",
+      "plane": "PROTECTION",
+      "restart_required": true,
+      "explicitly_published_by_runtime_projection": false,
+      "static_scope": "RuntimeCapabilityProjection.apply only; not a whole-program reachability or runtime-active assertion",
+      "runtime_status": "NOT_MEASURED"
+    },
+    {
+      "enum": "PROTECT_AUTO_REPAIR",
+      "canonical": "protect.auto_repair",
+      "plane": "PROTECTION",
+      "restart_required": true,
+      "explicitly_published_by_runtime_projection": false,
+      "static_scope": "RuntimeCapabilityProjection.apply only; not a whole-program reachability or runtime-active assertion",
+      "runtime_status": "NOT_MEASURED"
+    },
+    {
+      "enum": "PROTECT_STATE_RECOVERY",
+      "canonical": "protect.state_recovery",
+      "plane": "PROTECTION",
+      "restart_required": false,
+      "explicitly_published_by_runtime_projection": false,
+      "static_scope": "RuntimeCapabilityProjection.apply only; not a whole-program reachability or runtime-active assertion",
+      "runtime_status": "NOT_MEASURED"
+    },
+    {
+      "enum": "PROTECT_RESTART_RECOVERY",
+      "canonical": "protect.restart_recovery",
+      "plane": "PROTECTION",
+      "restart_required": true,
+      "explicitly_published_by_runtime_projection": false,
+      "static_scope": "RuntimeCapabilityProjection.apply only; not a whole-program reachability or runtime-active assertion",
+      "runtime_status": "NOT_MEASURED"
+    },
+    {
+      "enum": "PROTECT_ROLLBACK",
+      "canonical": "protect.rollback",
+      "plane": "PROTECTION",
+      "restart_required": true,
+      "explicitly_published_by_runtime_projection": false,
+      "static_scope": "RuntimeCapabilityProjection.apply only; not a whole-program reachability or runtime-active assertion",
+      "runtime_status": "NOT_MEASURED"
+    },
+    {
+      "enum": "PROTECT_LOOP_GUARD",
+      "canonical": "protect.loop_guard",
+      "plane": "PROTECTION",
+      "restart_required": false,
+      "explicitly_published_by_runtime_projection": false,
+      "static_scope": "RuntimeCapabilityProjection.apply only; not a whole-program reachability or runtime-active assertion",
+      "runtime_status": "NOT_MEASURED"
+    },
+    {
+      "enum": "RUNTIME_JAVA_AGENT",
+      "canonical": "runtime.java_agent",
+      "plane": "RUNTIME",
+      "restart_required": true,
+      "explicitly_published_by_runtime_projection": false,
+      "static_scope": "RuntimeCapabilityProjection.apply only; not a whole-program reachability or runtime-active assertion",
+      "runtime_status": "NOT_MEASURED"
+    },
+    {
+      "enum": "RUNTIME_INSTRUMENTATION",
+      "canonical": "runtime.instrumentation",
+      "plane": "RUNTIME",
+      "restart_required": true,
+      "explicitly_published_by_runtime_projection": false,
+      "static_scope": "RuntimeCapabilityProjection.apply only; not a whole-program reachability or runtime-active assertion",
+      "runtime_status": "NOT_MEASURED"
+    },
+    {
+      "enum": "RUNTIME_JVMTI",
+      "canonical": "runtime.jvmti",
+      "plane": "RUNTIME",
+      "restart_required": true,
+      "explicitly_published_by_runtime_projection": true,
+      "static_scope": "RuntimeCapabilityProjection.apply only; not a whole-program reachability or runtime-active assertion",
+      "runtime_status": "NOT_MEASURED"
+    },
+    {
+      "enum": "RUNTIME_NATIVE",
+      "canonical": "runtime.native",
+      "plane": "RUNTIME",
+      "restart_required": true,
+      "explicitly_published_by_runtime_projection": true,
+      "static_scope": "RuntimeCapabilityProjection.apply only; not a whole-program reachability or runtime-active assertion",
+      "runtime_status": "NOT_MEASURED"
+    },
+    {
+      "enum": "RUNTIME_NATIVE_LOADER",
+      "canonical": "runtime.native_loader",
+      "plane": "RUNTIME",
+      "restart_required": true,
+      "explicitly_published_by_runtime_projection": false,
+      "static_scope": "RuntimeCapabilityProjection.apply only; not a whole-program reachability or runtime-active assertion",
+      "runtime_status": "NOT_MEASURED"
+    },
+    {
+      "enum": "RUNTIME_RENDER_GUARD",
+      "canonical": "runtime.render_guard",
+      "plane": "RUNTIME",
+      "restart_required": true,
+      "explicitly_published_by_runtime_projection": false,
+      "static_scope": "RuntimeCapabilityProjection.apply only; not a whole-program reachability or runtime-active assertion",
+      "runtime_status": "NOT_MEASURED"
+    },
+    {
+      "enum": "RUNTIME_CRITICAL_CLASS_WATCH",
+      "canonical": "runtime.critical_class_watch",
+      "plane": "RUNTIME",
+      "restart_required": true,
+      "explicitly_published_by_runtime_projection": true,
+      "static_scope": "RuntimeCapabilityProjection.apply only; not a whole-program reachability or runtime-active assertion",
+      "runtime_status": "NOT_MEASURED"
+    },
+    {
+      "enum": "RUNTIME_DYNAMIC_CODE_WATCH",
+      "canonical": "runtime.dynamic_code_watch",
+      "plane": "RUNTIME",
+      "restart_required": true,
+      "explicitly_published_by_runtime_projection": false,
+      "static_scope": "RuntimeCapabilityProjection.apply only; not a whole-program reachability or runtime-active assertion",
+      "runtime_status": "NOT_MEASURED"
+    },
+    {
+      "enum": "RUNTIME_NATIVE_MODULE_WATCH",
+      "canonical": "runtime.native_module_watch",
+      "plane": "RUNTIME",
+      "restart_required": true,
+      "explicitly_published_by_runtime_projection": false,
+      "static_scope": "RuntimeCapabilityProjection.apply only; not a whole-program reachability or runtime-active assertion",
+      "runtime_status": "NOT_MEASURED"
+    },
+    {
+      "enum": "RUNTIME_THREAD_CONTINUITY",
+      "canonical": "runtime.thread_continuity",
+      "plane": "RUNTIME",
+      "restart_required": false,
+      "explicitly_published_by_runtime_projection": false,
+      "static_scope": "RuntimeCapabilityProjection.apply only; not a whole-program reachability or runtime-active assertion",
+      "runtime_status": "NOT_MEASURED"
+    },
+    {
+      "enum": "RUNTIME_BACKGROUND_INTEGRITY",
+      "canonical": "runtime.background_integrity",
+      "plane": "RUNTIME",
+      "restart_required": true,
+      "explicitly_published_by_runtime_projection": true,
+      "static_scope": "RuntimeCapabilityProjection.apply only; not a whole-program reachability or runtime-active assertion",
+      "runtime_status": "NOT_MEASURED"
+    },
+    {
+      "enum": "RUNTIME_ANOMALOUS_CALL_LOG",
+      "canonical": "runtime.anomalous_call_log",
+      "plane": "RUNTIME",
+      "restart_required": false,
+      "explicitly_published_by_runtime_projection": false,
+      "static_scope": "RuntimeCapabilityProjection.apply only; not a whole-program reachability or runtime-active assertion",
+      "runtime_status": "NOT_MEASURED"
+    }
+  ],
+  "actions": [
+    {
+      "enum": "STRONG_ATTACK",
+      "canonical": "strongAttack",
+      "display_name": "强力攻击",
+      "required_keys": [],
+      "static_evidence_category": "AGGREGATE_CONTROL",
+      "runtime_status": "NOT_MEASURED"
+    },
+    {
+      "enum": "REWRITE_LIFE",
+      "canonical": "rewriteLife",
+      "display_name": "改写生命",
+      "required_keys": [
+        "ATTACK_STATE_SOURCE"
+      ],
+      "static_evidence_category": "REGISTERED_ENTITY_LOCAL_POLICY_PATH_PRESENT",
+      "runtime_status": "NOT_MEASURED"
+    },
+    {
+      "enum": "TERMINALIZE",
+      "canonical": "terminalize",
+      "display_name": "强制终结",
+      "required_keys": [
+        "ATTACK_FINAL_RESULT_TAKEOVER",
+        "ATTACK_REGISTRATION_SOURCE"
+      ],
+      "static_evidence_category": "BASELINE_SUBMIT_AND_TERMINAL_PLAN_PATH_PRESENT",
+      "runtime_status": "NOT_MEASURED"
+    },
+    {
+      "enum": "DIRECT_CLEAR",
+      "canonical": "directClear",
+      "display_name": "直接清除",
+      "required_keys": [
+        "ATTACK_FINAL_RESULT_TAKEOVER"
+      ],
+      "static_evidence_category": "REGISTERED_ENTITY_LOCAL_POLICY_PATH_PRESENT",
+      "runtime_status": "NOT_MEASURED"
+    },
+    {
+      "enum": "CLEAR_ENTITY_RECORDS",
+      "canonical": "clearEntityRecords",
+      "display_name": "实体记录清除",
+      "required_keys": [
+        "ATTACK_STATE_SOURCE",
+        "ATTACK_REGISTRATION_SOURCE"
+      ],
+      "static_evidence_category": "REGISTERED_ENTITY_LOCAL_POLICY_PATH_PRESENT",
+      "runtime_status": "NOT_MEASURED"
+    },
+    {
+      "enum": "SUPPRESS_RESPAWN",
+      "canonical": "suppressRespawn",
+      "display_name": "重生压制",
+      "required_keys": [
+        "ATTACK_REGISTRATION_SOURCE"
+      ],
+      "static_evidence_category": "END_TO_END_ACTION_ROUTE_NOT_ESTABLISHED_BY_THIS_AUDIT",
+      "runtime_status": "NOT_MEASURED"
+    },
+    {
+      "enum": "SUPPRESS_REBUILD",
+      "canonical": "suppressRebuild",
+      "display_name": "重建压制",
+      "required_keys": [
+        "ATTACK_RECOVERY_SOURCE",
+        "ATTACK_TARGET_CLASS_LINEAGE"
+      ],
+      "static_evidence_category": "END_TO_END_ACTION_ROUTE_NOT_ESTABLISHED_BY_THIS_AUDIT",
+      "runtime_status": "NOT_MEASURED"
+    },
+    {
+      "enum": "SUPPRESS_ADMISSION",
+      "canonical": "suppressAdmission",
+      "display_name": "生成压制",
+      "required_keys": [
+        "ATTACK_REGISTRATION_SOURCE",
+        "ATTACK_NETWORK_RECONSTRUCTION",
+        "ATTACK_SAVE_RECONSTRUCTION"
+      ],
+      "static_evidence_category": "END_TO_END_ACTION_ROUTE_NOT_ESTABLISHED_BY_THIS_AUDIT",
+      "runtime_status": "NOT_MEASURED"
+    },
+    {
+      "enum": "ATTACK_RENDER",
+      "canonical": "attackRender",
+      "display_name": "渲染攻击",
+      "required_keys": [
+        "ATTACK_FINAL_RESULT_TAKEOVER"
+      ],
+      "static_evidence_category": "END_TO_END_ACTION_ROUTE_NOT_ESTABLISHED_BY_THIS_AUDIT",
+      "runtime_status": "NOT_MEASURED"
+    },
+    {
+      "enum": "CLEAR_TRACKING",
+      "canonical": "clearTracking",
+      "display_name": "追踪清除",
+      "required_keys": [
+        "ATTACK_NETWORK_RECONSTRUCTION",
+        "ATTACK_FINAL_RESULT_TAKEOVER"
+      ],
+      "static_evidence_category": "END_TO_END_ACTION_ROUTE_NOT_ESTABLISHED_BY_THIS_AUDIT",
+      "runtime_status": "NOT_MEASURED"
+    },
+    {
+      "enum": "CLEAR_HUD",
+      "canonical": "clearHud",
+      "display_name": "血条/HUD 清除",
+      "required_keys": [
+        "ATTACK_FINAL_RESULT_TAKEOVER"
+      ],
+      "static_evidence_category": "END_TO_END_ACTION_ROUTE_NOT_ESTABLISHED_BY_THIS_AUDIT",
+      "runtime_status": "NOT_MEASURED"
+    },
+    {
+      "enum": "STRIP_CODE_DEFENSE",
+      "canonical": "stripCodeDefense",
+      "display_name": "代码防御剥离",
+      "required_keys": [
+        "ATTACK_RUNTIME_PATCH_DISABLEMENT",
+        "ATTACK_DYNAMIC_CODE",
+        "ATTACK_TARGET_CLASS_LINEAGE"
+      ],
+      "static_evidence_category": "END_TO_END_ACTION_ROUTE_NOT_ESTABLISHED_BY_THIS_AUDIT",
+      "runtime_status": "NOT_MEASURED"
+    },
+    {
+      "enum": "ATTACK_CALL_CHAIN",
+      "canonical": "attackCallChain",
+      "display_name": "调用链攻击",
+      "required_keys": [
+        "ATTACK_LOGIC_SOURCE",
+        "ATTACK_RECOVERY_SOURCE",
+        "ATTACK_TASK_CHAIN",
+        "ATTACK_CALLBACK_CHAIN",
+        "ATTACK_DISPATCH"
+      ],
+      "static_evidence_category": "END_TO_END_ACTION_ROUTE_NOT_ESTABLISHED_BY_THIS_AUDIT",
+      "runtime_status": "NOT_MEASURED"
+    },
+    {
+      "enum": "ALL_RETURN",
+      "canonical": "allReturn",
+      "display_name": "全返回",
+      "required_keys": [
+        "ATTACK_DISPATCH"
+      ],
+      "static_evidence_category": "END_TO_END_ACTION_ROUTE_NOT_ESTABLISHED_BY_THIS_AUDIT",
+      "runtime_status": "NOT_MEASURED"
+    }
+  ],
+  "global_projection_explicit_key_count": 6,
+  "unlisted_in_this_projection_count": 48,
+  "actual_active_key_count": null,
+  "native_requested_fields": [
+    "can_retransform_classes",
+    "can_retransform_any_class",
+    "can_generate_all_class_hook_events",
+    "can_access_local_variables"
+  ],
+  "native_granted_capabilities_measured": false,
+  "original_body_external_annotations": [
+    {
+      "book": "docs/plans/MS-SKILLS-PLAN.md",
+      "original_anchor": "orig-non-l0069",
+      "correction_sections": [
+        "prefix"
+      ]
+    },
+    {
+      "book": "docs/plans/MS-SKILLS-PLAN.md",
+      "original_anchor": "orig-rule-l0816",
+      "correction_sections": [
+        "source-corrections"
+      ]
+    },
+    {
+      "book": "docs/plans/MS-SKILLS-PLAN.md",
+      "original_anchor": "orig-non-l0165",
+      "correction_sections": [
+        "source-corrections"
+      ]
+    },
+    {
+      "book": "docs/plans/MS-SKILLS-PLAN.md",
+      "original_anchor": "orig-max-l0114",
+      "correction_sections": [
+        "native-bind"
+      ]
+    },
+    {
+      "book": "docs/plans/MS-SKILLS-PLAN.md",
+      "original_anchor": "orig-rule-l0748",
+      "correction_sections": [
+        "native-bind",
+        "prefix"
+      ]
+    },
+    {
+      "book": "docs/plans/MS-SKILLS-PLAN.md",
+      "original_anchor": "orig-rule-l0845",
+      "correction_sections": [
+        "prefix"
+      ]
+    },
+    {
+      "book": "docs/plans/MS-SKILLS-PLAN.md",
+      "original_anchor": "orig-non-l0057",
+      "correction_sections": [
+        "prefix"
+      ]
+    },
+    {
+      "book": "docs/plans/MS-SKILLS-PLAN.md",
+      "original_anchor": "orig-non-l0102",
+      "correction_sections": [
+        "native-bind",
+        "prefix"
+      ]
+    },
+    {
+      "book": "docs/plans/MS-SKILLS-PLAN.md",
+      "original_anchor": "orig-ds-l1021",
+      "correction_sections": [
+        "native-bind",
+        "prefix"
+      ]
+    },
+    {
+      "book": "docs/plans/MS-SKILLS-PLAN.md",
+      "original_anchor": "orig-ds-l1040",
+      "correction_sections": [
+        "source-corrections"
+      ]
+    },
+    {
+      "book": "docs/plans/MS-SKILLS-PLAN.md",
+      "original_anchor": "orig-ds-l1126",
+      "correction_sections": [
+        "batches"
+      ]
+    },
+    {
+      "book": "docs/plans/MS-SKILLS-PLAN.md",
+      "original_anchor": "orig-rule-l0957",
+      "correction_sections": [
+        "action-wiring"
+      ]
+    },
+    {
+      "book": "docs/plans/MS-MSITEM-PLAN.md",
+      "original_anchor": "orig-rule-l0550",
+      "correction_sections": [
+        "action-wiring"
+      ]
+    },
+    {
+      "book": "docs/plans/MS-MSITEM-PLAN.md",
+      "original_anchor": "orig-rule-l0798",
+      "correction_sections": [
+        "action-wiring"
+      ]
+    },
+    {
+      "book": "docs/plans/MS-MSITEM-PLAN.md",
+      "original_anchor": "orig-non-l0145",
+      "correction_sections": [
+        "action-wiring"
+      ]
+    },
+    {
+      "book": "docs/plans/MS-MSITEM-PLAN.md",
+      "original_anchor": "orig-ds-l1066",
+      "correction_sections": [
+        "action-wiring"
+      ]
+    }
+  ],
+  "meaning": "Enums, dependencies and publisher membership are static extraction. Route descriptions and priority are review/design judgments, not proof of full reachability or acceptance.",
+  "implementation_changes": false,
+  "runtime_tests_executed": false,
+  "acceptance_statuses_changed": false
+}

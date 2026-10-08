@@ -1,0 +1,2292 @@
+{
+  "headings": [
+    {
+      "source": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/minecraft-ms-1.20.1-skills.zh.md",
+      "line": 14,
+      "heading": "秒杀是什么",
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#ms-skills-l14",
+      "direct_units": [],
+      "related_units": [
+        "orig-v26-l0214",
+        "orig-v26-l0325"
+      ]
+    },
+    {
+      "source": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/minecraft-ms-1.20.1-skills.zh.md",
+      "line": 68,
+      "heading": "先确定能力边界",
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#ms-skills-l68",
+      "direct_units": [
+        "orig-index-l0027",
+        "orig-bl-l0101",
+        "orig-bl-l0179",
+        "orig-bl-l0268",
+        "orig-bl-l0332",
+        "orig-bl-l1815",
+        "orig-bl-l2499",
+        "orig-bl-l2787",
+        "orig-bl-l2927",
+        "orig-bl-l3010",
+        "orig-v26-l0130",
+        "orig-v26-l0132",
+        "orig-v26-l0156",
+        "orig-v26-l0174",
+        "orig-v26-l0361",
+        "orig-v26-l0402",
+        "orig-v26-l0417",
+        "orig-v26-l0429",
+        "orig-v26-l2527",
+        "orig-v26-l2828",
+        "orig-v26-l3254",
+        "orig-v26-l3256",
+        "orig-v26-l3270",
+        "orig-v26-l3282",
+        "orig-v26-l3286",
+        "orig-full-l0211",
+        "orig-full-l0244",
+        "orig-full-l0290",
+        "orig-tier-l0238",
+        "orig-tier-l0456",
+        "orig-tier-l0458",
+        "orig-tier-l0467",
+        "orig-tier-l0475",
+        "orig-tier-l0735",
+        "orig-tier-l0749",
+        "orig-rec-l0348",
+        "orig-max-l0009",
+        "orig-max-l0030",
+        "orig-max-l0304",
+        "orig-max-l0352",
+        "orig-cf-l0027",
+        "orig-cf-l0078",
+        "orig-cf-l0082",
+        "orig-cf-l0193",
+        "orig-cf-l1662",
+        "orig-cf-l1668",
+        "orig-p0a-l0026",
+        "orig-p0a-l0052",
+        "orig-p0a-l0183",
+        "orig-p0a-l1449",
+        "orig-p0a-l1451",
+        "orig-p0a-l1467",
+        "orig-p0a-l1778",
+        "orig-p0a-l2139",
+        "orig-p0a-l2230",
+        "orig-p0a-l2272",
+        "orig-l6-l0030",
+        "orig-l6-l0045",
+        "orig-l6-l0060",
+        "orig-l6-l1213",
+        "orig-l6-l1215",
+        "orig-l6-l1238",
+        "orig-l6-l1259",
+        "orig-road-l0026",
+        "orig-road-l0080",
+        "orig-msc-l0022",
+        "orig-msc-l0039",
+        "orig-msc-l0212",
+        "orig-msc-l0347",
+        "orig-msc-l0360",
+        "orig-msr-l0405",
+        "orig-rule-l0019",
+        "orig-rule-l0021",
+        "orig-rule-l0034",
+        "orig-rule-l0047",
+        "orig-rule-l0054",
+        "orig-rule-l0066",
+        "orig-rule-l0094",
+        "orig-rule-l0098",
+        "orig-rule-l0112",
+        "orig-rule-l0235",
+        "orig-rule-l0247",
+        "orig-rule-l0297",
+        "orig-rule-l0317",
+        "orig-rule-l0353",
+        "orig-rule-l0559",
+        "orig-rule-l0683",
+        "orig-rule-l0698",
+        "orig-rule-l0912",
+        "orig-rule-l0917",
+        "orig-rule-l0926",
+        "orig-rule-l0949",
+        "orig-non-l0025",
+        "orig-non-l0038",
+        "orig-non-l0078",
+        "orig-non-l0196",
+        "orig-ds-l0019",
+        "orig-ds-l0033",
+        "orig-ds-l0044",
+        "orig-ds-l0267",
+        "orig-ds-l0463",
+        "orig-ds-l0561",
+        "orig-ds-l0563",
+        "orig-ds-l0585",
+        "orig-ds-l0605",
+        "orig-ds-l0617",
+        "orig-ds-l0648",
+        "orig-ds-l0811",
+        "orig-ds-l0932",
+        "orig-ds-l0948",
+        "orig-ds-l0950",
+        "orig-ds-l0962",
+        "orig-ds-l0986"
+      ],
+      "related_units": []
+    },
+    {
+      "source": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/minecraft-ms-1.20.1-skills.zh.md",
+      "line": 84,
+      "heading": "总体架构",
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#ms-skills-l84",
+      "direct_units": [
+        "orig-index-l0001",
+        "orig-bl-l0001",
+        "orig-bl-l0025",
+        "orig-bl-l0209",
+        "orig-bl-l0238",
+        "orig-bl-l0296",
+        "orig-bl-l0373",
+        "orig-bl-l0500",
+        "orig-bl-l0702",
+        "orig-bl-l1366",
+        "orig-bl-l1427",
+        "orig-bl-l1992",
+        "orig-bl-l1994",
+        "orig-bl-l2014",
+        "orig-bl-l2028",
+        "orig-bl-l2041",
+        "orig-bl-l2055",
+        "orig-bl-l2066",
+        "orig-bl-l2176",
+        "orig-bl-l2191",
+        "orig-bl-l2221",
+        "orig-bl-l2799",
+        "orig-bl-l2943",
+        "orig-bl-l2963",
+        "orig-bl-l2993",
+        "orig-v26-l0001",
+        "orig-v26-l0037",
+        "orig-v26-l0212",
+        "orig-v26-l0214",
+        "orig-v26-l0341",
+        "orig-v26-l0453",
+        "orig-v26-l0455",
+        "orig-v26-l0472",
+        "orig-v26-l0503",
+        "orig-v26-l0521",
+        "orig-v26-l0539",
+        "orig-v26-l0552",
+        "orig-v26-l0571",
+        "orig-v26-l1222",
+        "orig-v26-l1255",
+        "orig-v26-l1588",
+        "orig-v26-l1685",
+        "orig-v26-l1974",
+        "orig-v26-l1994",
+        "orig-v26-l2064",
+        "orig-v26-l2085",
+        "orig-v26-l2224",
+        "orig-v26-l2226",
+        "orig-v26-l2244",
+        "orig-v26-l2286",
+        "orig-v26-l2308",
+        "orig-v26-l2310",
+        "orig-v26-l2323",
+        "orig-v26-l2335",
+        "orig-v26-l2348",
+        "orig-v26-l2368",
+        "orig-v26-l2420",
+        "orig-v26-l2463",
+        "orig-v26-l2479",
+        "orig-v26-l2493",
+        "orig-v26-l2495",
+        "orig-v26-l2505",
+        "orig-v26-l2541",
+        "orig-v26-l2551",
+        "orig-v26-l2576",
+        "orig-v26-l2603",
+        "orig-v26-l3104",
+        "orig-v26-l3106",
+        "orig-v26-l3129",
+        "orig-v26-l3202",
+        "orig-full-l0001",
+        "orig-full-l0070",
+        "orig-full-l0189",
+        "orig-full-l0242",
+        "orig-full-l0267",
+        "orig-tier-l0001",
+        "orig-tier-l0027",
+        "orig-tier-l0621",
+        "orig-tier-l0692",
+        "orig-rec-l0001",
+        "orig-rec-l0212",
+        "orig-rec-l0233",
+        "orig-rec-l0441",
+        "orig-rec-l0457",
+        "orig-max-l0001",
+        "orig-cf-l0001",
+        "orig-cf-l0056",
+        "orig-cf-l0160",
+        "orig-cf-l0306",
+        "orig-cf-l0373",
+        "orig-cf-l0398",
+        "orig-cf-l0438",
+        "orig-cf-l0442",
+        "orig-cf-l0454",
+        "orig-cf-l0458",
+        "orig-cf-l0508",
+        "orig-cf-l0538",
+        "orig-cf-l0555",
+        "orig-cf-l0824",
+        "orig-cf-l1085",
+        "orig-cf-l1132",
+        "orig-cf-l1244",
+        "orig-cf-l1297",
+        "orig-cf-l1563",
+        "orig-cf-l1592",
+        "orig-cf-l1616",
+        "orig-cf-l1650",
+        "orig-p0a-l0001",
+        "orig-p0a-l0068",
+        "orig-p0a-l0090",
+        "orig-p0a-l0152",
+        "orig-p0a-l0160",
+        "orig-p0a-l0171",
+        "orig-p0a-l0201",
+        "orig-p0a-l0606",
+        "orig-p0a-l0675",
+        "orig-p0a-l0709",
+        "orig-p0a-l0713",
+        "orig-p0a-l0744",
+        "orig-p0a-l0759",
+        "orig-p0a-l0799",
+        "orig-p0a-l0819",
+        "orig-p0a-l0859",
+        "orig-p0a-l0861",
+        "orig-p0a-l0882",
+        "orig-p0a-l0903",
+        "orig-p0a-l0955",
+        "orig-p0a-l0985",
+        "orig-p0a-l1139",
+        "orig-p0a-l1162",
+        "orig-p0a-l1185",
+        "orig-p0a-l1261",
+        "orig-p0a-l1313",
+        "orig-p0a-l1337",
+        "orig-p0a-l1483",
+        "orig-p0a-l1988",
+        "orig-p0a-l2018",
+        "orig-p0a-l2085",
+        "orig-l6-l0001",
+        "orig-l6-l0102",
+        "orig-l6-l0133",
+        "orig-l6-l0135",
+        "orig-l6-l0142",
+        "orig-l6-l0148",
+        "orig-l6-l0155",
+        "orig-l6-l0162",
+        "orig-l6-l0170",
+        "orig-l6-l0178",
+        "orig-l6-l0196",
+        "orig-l6-l0198",
+        "orig-l6-l0206",
+        "orig-l6-l0335",
+        "orig-l6-l0369",
+        "orig-l6-l0373",
+        "orig-l6-l0391",
+        "orig-l6-l0415",
+        "orig-l6-l0438",
+        "orig-l6-l0440",
+        "orig-l6-l0457",
+        "orig-l6-l0487",
+        "orig-l6-l0498",
+        "orig-l6-l0547",
+        "orig-l6-l0604",
+        "orig-l6-l0707",
+        "orig-l6-l0709",
+        "orig-l6-l0720",
+        "orig-l6-l0737",
+        "orig-l6-l0744",
+        "orig-l6-l0750",
+        "orig-l6-l0765",
+        "orig-l6-l0767",
+        "orig-l6-l0791",
+        "orig-l6-l0820",
+        "orig-l6-l0834",
+        "orig-l6-l0847",
+        "orig-l6-l0859",
+        "orig-l6-l0876",
+        "orig-l6-l1277",
+        "orig-l6-l1279",
+        "orig-l6-l1283",
+        "orig-l6-l1287",
+        "orig-l6-l1293",
+        "orig-l6-l1324",
+        "orig-l6-l1326",
+        "orig-l6-l1341",
+        "orig-l6-l1380",
+        "orig-l6-l1398",
+        "orig-l6-l1410",
+        "orig-l6-l1417",
+        "orig-l6-l1455",
+        "orig-road-l0001",
+        "orig-road-l0009",
+        "orig-road-l0061",
+        "orig-road-l0071",
+        "orig-road-l0091",
+        "orig-road-l0131",
+        "orig-road-l0240",
+        "orig-road-l0284",
+        "orig-road-l0296",
+        "orig-road-l0325",
+        "orig-road-l0327",
+        "orig-msc-l0001",
+        "orig-msc-l0035",
+        "orig-msc-l0193",
+        "orig-msr-l0001",
+        "orig-rule-l0001",
+        "orig-rule-l0267",
+        "orig-rule-l0345",
+        "orig-rule-l0807",
+        "orig-rule-l0837",
+        "orig-rule-l1008",
+        "orig-non-l0001",
+        "orig-non-l0069",
+        "orig-non-l0153",
+        "orig-non-l0185",
+        "orig-ds-l0001",
+        "orig-ds-l0053",
+        "orig-ds-l0134",
+        "orig-ds-l0154",
+        "orig-ds-l0166",
+        "orig-ds-l0168",
+        "orig-ds-l0177",
+        "orig-ds-l0197",
+        "orig-ds-l0205",
+        "orig-ds-l0227",
+        "orig-ds-l0243",
+        "orig-ds-l0265",
+        "orig-ds-l0283",
+        "orig-ds-l0299",
+        "orig-ds-l0319",
+        "orig-ds-l0329",
+        "orig-ds-l0364",
+        "orig-ds-l0385",
+        "orig-ds-l0425",
+        "orig-ds-l0461",
+        "orig-ds-l0488",
+        "orig-ds-l0516",
+        "orig-ds-l0537",
+        "orig-ds-l0624",
+        "orig-ds-l0890",
+        "orig-ds-l0907",
+        "orig-ds-l0918",
+        "orig-ds-l1072",
+        "orig-ds-l1107"
+      ],
+      "related_units": []
+    },
+    {
+      "source": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/minecraft-ms-1.20.1-skills.zh.md",
+      "line": 112,
+      "heading": "秒杀的三种执行模式",
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#ms-skills-l112",
+      "direct_units": [],
+      "related_units": [
+        "orig-bl-l0874",
+        "orig-rec-l0001"
+      ]
+    },
+    {
+      "source": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/minecraft-ms-1.20.1-skills.zh.md",
+      "line": 114,
+      "heading": "1. 标准死亡",
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#ms-skills-l114",
+      "direct_units": [],
+      "related_units": [
+        "orig-msc-l0069",
+        "orig-bl-l1125"
+      ]
+    },
+    {
+      "source": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/minecraft-ms-1.20.1-skills.zh.md",
+      "line": 125,
+      "heading": "2. 实体清除",
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#ms-skills-l125",
+      "direct_units": [],
+      "related_units": [
+        "orig-bl-l1123",
+        "orig-v26-l1506"
+      ]
+    },
+    {
+      "source": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/minecraft-ms-1.20.1-skills.zh.md",
+      "line": 144,
+      "heading": "3. 混合模式",
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#ms-skills-l144",
+      "direct_units": [],
+      "related_units": [
+        "orig-msc-l0069",
+        "orig-cf-l1011"
+      ]
+    },
+    {
+      "source": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/minecraft-ms-1.20.1-skills.zh.md",
+      "line": 163,
+      "heading": "扇形与范围选取",
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#ms-skills-l163",
+      "direct_units": [],
+      "related_units": [
+        "orig-non-l0129",
+        "orig-v26-l1275"
+      ]
+    },
+    {
+      "source": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/minecraft-ms-1.20.1-skills.zh.md",
+      "line": 185,
+      "heading": "线程、逻辑边与生命周期",
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#ms-skills-l185",
+      "direct_units": [
+        "orig-msc-l0080"
+      ],
+      "related_units": [
+        "orig-p0a-l1500"
+      ]
+    },
+    {
+      "source": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/minecraft-ms-1.20.1-skills.zh.md",
+      "line": 187,
+      "heading": "逻辑服务器",
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#ms-skills-l187",
+      "direct_units": [
+        "orig-p0a-l1500",
+        "orig-p0a-l1530",
+        "orig-ds-l0504"
+      ],
+      "related_units": []
+    },
+    {
+      "source": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/minecraft-ms-1.20.1-skills.zh.md",
+      "line": 204,
+      "heading": "客户端",
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#ms-skills-l204",
+      "direct_units": [
+        "orig-bl-l1909",
+        "orig-bl-l1911",
+        "orig-bl-l1969",
+        "orig-cf-l0140",
+        "orig-cf-l1149",
+        "orig-cf-l1175",
+        "orig-cf-l1194",
+        "orig-cf-l1634",
+        "orig-road-l0286",
+        "orig-rule-l0636",
+        "orig-ds-l0659"
+      ],
+      "related_units": []
+    },
+    {
+      "source": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/minecraft-ms-1.20.1-skills.zh.md",
+      "line": 214,
+      "heading": "追踪和重载",
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#ms-skills-l214",
+      "direct_units": [
+        "orig-msc-l0089"
+      ],
+      "related_units": []
+    },
+    {
+      "source": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/minecraft-ms-1.20.1-skills.zh.md",
+      "line": 222,
+      "heading": "防御链",
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#ms-skills-l222",
+      "direct_units": [
+        "orig-bl-l1634",
+        "orig-bl-l1651",
+        "orig-bl-l1673",
+        "orig-bl-l1695",
+        "orig-bl-l1715",
+        "orig-bl-l1737",
+        "orig-v26-l0835",
+        "orig-v26-l1837",
+        "orig-v26-l1839",
+        "orig-v26-l1885",
+        "orig-v26-l1899",
+        "orig-v26-l1903",
+        "orig-v26-l1907",
+        "orig-v26-l1911",
+        "orig-v26-l1922",
+        "orig-v26-l1930",
+        "orig-v26-l1951",
+        "orig-full-l0107",
+        "orig-tier-l0350",
+        "orig-cf-l0178",
+        "orig-cf-l1108",
+        "orig-cf-l1656",
+        "orig-p0a-l1385",
+        "orig-p0a-l1657",
+        "orig-road-l0172",
+        "orig-msc-l0097",
+        "orig-msc-l0294"
+      ],
+      "related_units": []
+    },
+    {
+      "source": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/minecraft-ms-1.20.1-skills.zh.md",
+      "line": 226,
+      "heading": "1. 统一分类",
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#ms-skills-l226",
+      "direct_units": [],
+      "related_units": [
+        "orig-msc-l0097",
+        "orig-cf-l0140"
+      ]
+    },
+    {
+      "source": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/minecraft-ms-1.20.1-skills.zh.md",
+      "line": 237,
+      "heading": "2. Forge 事件层",
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#ms-skills-l237",
+      "direct_units": [],
+      "related_units": [
+        "orig-msc-l0097"
+      ]
+    },
+    {
+      "source": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/minecraft-ms-1.20.1-skills.zh.md",
+      "line": 241,
+      "heading": "3. 实体与生物方法层",
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#ms-skills-l241",
+      "direct_units": [],
+      "related_units": [
+        "orig-msc-l0097",
+        "orig-bl-l2242"
+      ]
+    },
+    {
+      "source": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/minecraft-ms-1.20.1-skills.zh.md",
+      "line": 257,
+      "heading": "4. `SynchedEntityData` 层",
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#ms-skills-l257",
+      "direct_units": [],
+      "related_units": [
+        "orig-msc-l0097",
+        "orig-rule-l0198"
+      ]
+    },
+    {
+      "source": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/minecraft-ms-1.20.1-skills.zh.md",
+      "line": 267,
+      "heading": "5. 周期修复层",
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#ms-skills-l267",
+      "direct_units": [
+        "orig-road-l0318"
+      ],
+      "related_units": []
+    },
+    {
+      "source": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/minecraft-ms-1.20.1-skills.zh.md",
+      "line": 273,
+      "heading": "自定义Mixin或转换器",
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#ms-skills-l273",
+      "direct_units": [
+        "orig-bl-l1400",
+        "orig-bl-l1448",
+        "orig-bl-l1524",
+        "orig-bl-l1573",
+        "orig-bl-l1584",
+        "orig-bl-l1617",
+        "orig-bl-l1759",
+        "orig-bl-l1788",
+        "orig-bl-l1807",
+        "orig-bl-l2290",
+        "orig-bl-l2422",
+        "orig-bl-l2424",
+        "orig-bl-l2436",
+        "orig-v26-l0239",
+        "orig-v26-l0820",
+        "orig-v26-l1154",
+        "orig-v26-l1718",
+        "orig-v26-l1733",
+        "orig-v26-l1762",
+        "orig-v26-l1764",
+        "orig-v26-l1789",
+        "orig-v26-l1821",
+        "orig-v26-l3220",
+        "orig-full-l0092",
+        "orig-tier-l0367",
+        "orig-tier-l0586",
+        "orig-max-l0150",
+        "orig-max-l0152",
+        "orig-max-l0157",
+        "orig-max-l0172",
+        "orig-max-l0188",
+        "orig-max-l0190",
+        "orig-max-l0203",
+        "orig-max-l0212",
+        "orig-cf-l0100",
+        "orig-cf-l1215",
+        "orig-road-l0102",
+        "orig-road-l0121",
+        "orig-road-l0157",
+        "orig-msc-l0161",
+        "orig-rule-l0506",
+        "orig-rule-l0816",
+        "orig-non-l0165",
+        "orig-ds-l1083"
+      ],
+      "related_units": []
+    },
+    {
+      "source": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/minecraft-ms-1.20.1-skills.zh.md",
+      "line": 281,
+      "heading": "注入声明",
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#ms-skills-l281",
+      "direct_units": [
+        "orig-msr-l0153",
+        "orig-msr-l0155",
+        "orig-msr-l0182",
+        "orig-msr-l0346",
+        "orig-msr-l0348",
+        "orig-msr-l0362",
+        "orig-rule-l0215",
+        "orig-rule-l0442",
+        "orig-rule-l0450"
+      ],
+      "related_units": []
+    },
+    {
+      "source": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/minecraft-ms-1.20.1-skills.zh.md",
+      "line": 309,
+      "heading": "实现一个简单 Hook",
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#ms-skills-l309",
+      "direct_units": [
+        "orig-bl-l1490",
+        "orig-v26-l0229",
+        "orig-v26-l1863"
+      ],
+      "related_units": []
+    },
+    {
+      "source": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/minecraft-ms-1.20.1-skills.zh.md",
+      "line": 326,
+      "heading": "转换器注册与顺序",
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#ms-skills-l326",
+      "direct_units": [],
+      "related_units": [
+        "orig-msc-l0161",
+        "orig-msr-l0094"
+      ]
+    },
+    {
+      "source": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/minecraft-ms-1.20.1-skills.zh.md",
+      "line": 338,
+      "heading": "重转换与重定义",
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#ms-skills-l338",
+      "direct_units": [
+        "orig-msr-l0094",
+        "orig-msr-l0096",
+        "orig-msr-l0115",
+        "orig-rule-l0141",
+        "orig-rule-l0476",
+        "orig-rule-l0652"
+      ],
+      "related_units": []
+    },
+    {
+      "source": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/minecraft-ms-1.20.1-skills.zh.md",
+      "line": 350,
+      "heading": "JNA/JNI/JVMTI Native 层",
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#ms-skills-l350",
+      "direct_units": [
+        "orig-bl-l1827",
+        "orig-bl-l1829",
+        "orig-bl-l1851",
+        "orig-v26-l0857",
+        "orig-v26-l1976",
+        "orig-full-l0129",
+        "orig-tier-l0289",
+        "orig-tier-l0382",
+        "orig-tier-l0394",
+        "orig-tier-l0715",
+        "orig-max-l0098",
+        "orig-max-l0100",
+        "orig-max-l0114",
+        "orig-max-l0125",
+        "orig-max-l0133",
+        "orig-max-l0277",
+        "orig-max-l0279",
+        "orig-max-l0287",
+        "orig-max-l0295",
+        "orig-p0a-l1549",
+        "orig-l6-l0906",
+        "orig-l6-l0908",
+        "orig-l6-l0917",
+        "orig-l6-l0928",
+        "orig-road-l0194",
+        "orig-msc-l0306",
+        "orig-msr-l0037",
+        "orig-msr-l0039",
+        "orig-msr-l0058",
+        "orig-msr-l0066",
+        "orig-rule-l0159",
+        "orig-rule-l0390",
+        "orig-rule-l0611",
+        "orig-rule-l0748",
+        "orig-rule-l0828",
+        "orig-rule-l0845",
+        "orig-non-l0057",
+        "orig-non-l0102",
+        "orig-non-l0176",
+        "orig-ds-l1021",
+        "orig-ds-l1100",
+        "orig-ds-l1115"
+      ],
+      "related_units": []
+    },
+    {
+      "source": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/minecraft-ms-1.20.1-skills.zh.md",
+      "line": 360,
+      "heading": "命令桥接契约",
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#ms-skills-l360",
+      "direct_units": [
+        "orig-bl-l1879"
+      ],
+      "related_units": [
+        "orig-msc-l0161"
+      ]
+    },
+    {
+      "source": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/minecraft-ms-1.20.1-skills.zh.md",
+      "line": 376,
+      "heading": "启动顺序(对于ModMain优先级且对平台有限制的秒杀Mod)",
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#ms-skills-l376",
+      "direct_units": [
+        "orig-msr-l0302",
+        "orig-msr-l0304",
+        "orig-msr-l0321",
+        "orig-rule-l0436"
+      ],
+      "related_units": []
+    },
+    {
+      "source": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/minecraft-ms-1.20.1-skills.zh.md",
+      "line": 391,
+      "heading": "对于非MoMain优先级",
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#ms-skills-l391",
+      "direct_units": [
+        "orig-max-l0048",
+        "orig-max-l0050",
+        "orig-max-l0061",
+        "orig-max-l0072",
+        "orig-rule-l0734",
+        "orig-non-l0089",
+        "orig-ds-l1007"
+      ],
+      "related_units": []
+    },
+    {
+      "source": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/minecraft-ms-1.20.1-skills.zh.md",
+      "line": 404,
+      "heading": "Native 实现规则",
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#ms-skills-l404",
+      "direct_units": [
+        "orig-bl-l2450",
+        "orig-msr-l0234",
+        "orig-msr-l0236",
+        "orig-msr-l0260",
+        "orig-rule-l0428"
+      ],
+      "related_units": []
+    },
+    {
+      "source": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/minecraft-ms-1.20.1-skills.zh.md",
+      "line": 413,
+      "heading": "新增功能的实现清单",
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#ms-skills-l413",
+      "direct_units": [
+        "orig-index-l0007",
+        "orig-index-l0040",
+        "orig-bl-l0316",
+        "orig-bl-l0413",
+        "orig-bl-l0453",
+        "orig-bl-l2523",
+        "orig-bl-l2527",
+        "orig-bl-l2544",
+        "orig-bl-l2557",
+        "orig-bl-l2572",
+        "orig-bl-l2590",
+        "orig-bl-l2612",
+        "orig-bl-l2632",
+        "orig-bl-l2647",
+        "orig-bl-l2663",
+        "orig-bl-l2682",
+        "orig-bl-l2859",
+        "orig-bl-l2861",
+        "orig-bl-l2873",
+        "orig-bl-l2905",
+        "orig-v26-l1125",
+        "orig-v26-l1173",
+        "orig-v26-l1200",
+        "orig-v26-l1211",
+        "orig-v26-l2613",
+        "orig-v26-l2615",
+        "orig-v26-l2650",
+        "orig-v26-l2703",
+        "orig-v26-l2717",
+        "orig-v26-l2719",
+        "orig-v26-l2725",
+        "orig-v26-l2738",
+        "orig-v26-l2750",
+        "orig-v26-l2763",
+        "orig-v26-l2780",
+        "orig-v26-l2796",
+        "orig-v26-l3292",
+        "orig-v26-l3294",
+        "orig-v26-l3325",
+        "orig-v26-l3372",
+        "orig-full-l0063",
+        "orig-full-l0300",
+        "orig-full-l0302",
+        "orig-tier-l0255",
+        "orig-tier-l0311",
+        "orig-tier-l0409",
+        "orig-tier-l0424",
+        "orig-tier-l0503",
+        "orig-tier-l0510",
+        "orig-tier-l0512",
+        "orig-tier-l0525",
+        "orig-tier-l0541",
+        "orig-max-l0323",
+        "orig-cf-l1338",
+        "orig-p0a-l1569",
+        "orig-p0a-l1587",
+        "orig-p0a-l2112",
+        "orig-p0a-l2240",
+        "orig-l6-l0941",
+        "orig-l6-l0943",
+        "orig-l6-l0947",
+        "orig-l6-l0960",
+        "orig-l6-l0982",
+        "orig-l6-l0992",
+        "orig-l6-l1007",
+        "orig-l6-l1020",
+        "orig-l6-l1042",
+        "orig-l6-l1055",
+        "orig-l6-l1059",
+        "orig-l6-l1074",
+        "orig-l6-l1111",
+        "orig-l6-l1119",
+        "orig-l6-l1133",
+        "orig-l6-l1358",
+        "orig-l6-l1368",
+        "orig-road-l0043",
+        "orig-road-l0357",
+        "orig-road-l0366",
+        "orig-msc-l0210",
+        "orig-msc-l0319",
+        "orig-msr-l0388",
+        "orig-rule-l0730",
+        "orig-rule-l0767",
+        "orig-rule-l0869",
+        "orig-non-l0087",
+        "orig-non-l0129",
+        "orig-non-l0217",
+        "orig-ds-l1003",
+        "orig-ds-l1040",
+        "orig-ds-l1126"
+      ],
+      "related_units": []
+    },
+    {
+      "source": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/minecraft-ms-1.20.1-skills.zh.md",
+      "line": 415,
+      "heading": "新武器或主动技能",
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#ms-skills-l415",
+      "direct_units": [],
+      "related_units": [
+        "orig-tier-l0255",
+        "orig-rec-l0317"
+      ]
+    },
+    {
+      "source": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/minecraft-ms-1.20.1-skills.zh.md",
+      "line": 427,
+      "heading": "新防御规则",
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#ms-skills-l427",
+      "direct_units": [],
+      "related_units": [
+        "orig-msc-l0269",
+        "orig-msc-l0280",
+        "orig-msc-l0294"
+      ]
+    },
+    {
+      "source": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/minecraft-ms-1.20.1-skills.zh.md",
+      "line": 436,
+      "heading": "构建、打包与验证",
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#ms-skills-l436",
+      "direct_units": [
+        "orig-index-l0054",
+        "orig-bl-l0048",
+        "orig-bl-l0050",
+        "orig-bl-l0090",
+        "orig-bl-l0121",
+        "orig-bl-l0139",
+        "orig-bl-l0165",
+        "orig-bl-l2332",
+        "orig-bl-l2372",
+        "orig-bl-l2402",
+        "orig-bl-l2701",
+        "orig-bl-l2747",
+        "orig-bl-l2758",
+        "orig-bl-l2770",
+        "orig-v26-l0185",
+        "orig-v26-l2889",
+        "orig-v26-l2891",
+        "orig-v26-l2895",
+        "orig-v26-l2927",
+        "orig-v26-l2936",
+        "orig-v26-l2954",
+        "orig-v26-l2970",
+        "orig-v26-l2981",
+        "orig-v26-l2992",
+        "orig-v26-l3001",
+        "orig-v26-l3036",
+        "orig-v26-l3057",
+        "orig-v26-l3068",
+        "orig-v26-l3085",
+        "orig-v26-l3183",
+        "orig-full-l0049",
+        "orig-full-l0160",
+        "orig-full-l0310",
+        "orig-tier-l0442",
+        "orig-tier-l0778",
+        "orig-tier-l0780",
+        "orig-tier-l0801",
+        "orig-tier-l0815",
+        "orig-max-l0089",
+        "orig-max-l0142",
+        "orig-max-l0179",
+        "orig-max-l0218",
+        "orig-max-l0270",
+        "orig-cf-l1457",
+        "orig-cf-l1533",
+        "orig-cf-l1557",
+        "orig-p0a-l1879",
+        "orig-p0a-l1883",
+        "orig-p0a-l1889",
+        "orig-p0a-l1891",
+        "orig-p0a-l1908",
+        "orig-p0a-l1918",
+        "orig-p0a-l1929",
+        "orig-p0a-l1941",
+        "orig-p0a-l1951",
+        "orig-l6-l0089",
+        "orig-l6-l0091",
+        "orig-l6-l0184",
+        "orig-l6-l1146",
+        "orig-l6-l1148",
+        "orig-l6-l1186",
+        "orig-l6-l1204",
+        "orig-l6-l1430",
+        "orig-l6-l1443",
+        "orig-road-l0386",
+        "orig-road-l0401",
+        "orig-msc-l0177",
+        "orig-msc-l0243",
+        "orig-msc-l0336",
+        "orig-msr-l0084",
+        "orig-msr-l0144",
+        "orig-msr-l0225",
+        "orig-msr-l0294",
+        "orig-msr-l0338",
+        "orig-msr-l0380",
+        "orig-rule-l0543",
+        "orig-rule-l0716",
+        "orig-rule-l0957",
+        "orig-non-l0254",
+        "orig-ds-l0871",
+        "orig-ds-l1151"
+      ],
+      "related_units": []
+    },
+    {
+      "source": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/minecraft-ms-1.20.1-skills.zh.md",
+      "line": 464,
+      "heading": "故障定位",
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#ms-skills-l464",
+      "direct_units": [
+        "orig-bl-l1891",
+        "orig-bl-l2336",
+        "orig-bl-l2354",
+        "orig-v26-l3135",
+        "orig-tier-l0047",
+        "orig-tier-l0049",
+        "orig-tier-l0058",
+        "orig-tier-l0070",
+        "orig-tier-l0085",
+        "orig-tier-l0095",
+        "orig-tier-l0106",
+        "orig-tier-l0119",
+        "orig-tier-l0132",
+        "orig-tier-l0169",
+        "orig-tier-l0189",
+        "orig-tier-l0201",
+        "orig-cf-l1266",
+        "orig-p0a-l1419",
+        "orig-p0a-l1608",
+        "orig-p0a-l1633",
+        "orig-p0a-l2038"
+      ],
+      "related_units": []
+    },
+    {
+      "source": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/minecraft-ms-1.20.1-skills.zh.md",
+      "line": 478,
+      "heading": "完成标准(以一个标准的，带Native的秒杀Mod举例)",
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#ms-skills-l478",
+      "direct_units": [
+        "orig-v26-l3013",
+        "orig-v26-l3391",
+        "orig-full-l0222",
+        "orig-tier-l0484",
+        "orig-tier-l0762",
+        "orig-max-l0365",
+        "orig-cf-l0351",
+        "orig-l6-l0500",
+        "orig-road-l0384",
+        "orig-road-l0418",
+        "orig-rule-l0224",
+        "orig-rule-l0974",
+        "orig-rule-l0978",
+        "orig-rule-l0987",
+        "orig-non-l0276",
+        "orig-ds-l0844",
+        "orig-ds-l1160"
+      ],
+      "related_units": []
+    },
+    {
+      "source": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/minecraft-ms-1.20.1-skills.zh.md",
+      "line": 484,
+      "heading": "总而言之",
+      "destination": "docs/plans/MS-SKILLS-PLAN.md#ms-skills-l484",
+      "direct_units": [],
+      "related_units": [
+        "orig-v26-l3391"
+      ]
+    },
+    {
+      "source": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/item/minecraft-ms-msitem.zh.md",
+      "line": 24,
+      "heading": "先定义击杀契约",
+      "destination": "docs/plans/MS-MSITEM-PLAN.md#ms-msitem-l24",
+      "direct_units": [
+        "orig-full-l0017",
+        "orig-full-l0036",
+        "orig-tier-l0223",
+        "orig-tier-l0225",
+        "orig-road-l0011",
+        "orig-msc-l0069"
+      ],
+      "related_units": []
+    },
+    {
+      "source": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/item/minecraft-ms-msitem.zh.md",
+      "line": 43,
+      "heading": "总体架构",
+      "destination": "docs/plans/MS-MSITEM-PLAN.md#ms-msitem-l43",
+      "direct_units": [
+        "orig-bl-l1542",
+        "orig-v26-l0675",
+        "orig-p0a-l0634",
+        "orig-msc-l0050",
+        "orig-msc-l0258"
+      ],
+      "related_units": []
+    },
+    {
+      "source": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/item/minecraft-ms-msitem.zh.md",
+      "line": 89,
+      "heading": "建立职责边界",
+      "destination": "docs/plans/MS-MSITEM-PLAN.md#ms-msitem-l89",
+      "direct_units": [
+        "orig-rec-l0162"
+      ],
+      "related_units": []
+    },
+    {
+      "source": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/item/minecraft-ms-msitem.zh.md",
+      "line": 112,
+      "heading": "物品层只承担入口与表现",
+      "destination": "docs/plans/MS-MSITEM-PLAN.md#ms-msitem-l112",
+      "direct_units": [],
+      "related_units": [
+        "orig-msc-l0069",
+        "orig-non-l0129",
+        "orig-rule-l0175"
+      ]
+    },
+    {
+      "source": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/item/minecraft-ms-msitem.zh.md",
+      "line": 126,
+      "heading": "列出全部击杀入口",
+      "destination": "docs/plans/MS-MSITEM-PLAN.md#ms-msitem-l126",
+      "direct_units": [
+        "orig-v26-l0778",
+        "orig-v26-l0884",
+        "orig-full-l0146",
+        "orig-rec-l0115",
+        "orig-road-l0211",
+        "orig-rule-l0550"
+      ],
+      "related_units": []
+    },
+    {
+      "source": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/item/minecraft-ms-msitem.zh.md",
+      "line": 142,
+      "heading": "用统一动作上下文消除重复",
+      "destination": "docs/plans/MS-MSITEM-PLAN.md#ms-msitem-l142",
+      "direct_units": [
+        "orig-cf-l0325",
+        "orig-msc-l0059",
+        "orig-ds-l0144"
+      ],
+      "related_units": []
+    },
+    {
+      "source": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/item/minecraft-ms-msitem.zh.md",
+      "line": 168,
+      "heading": "去重与幂等",
+      "destination": "docs/plans/MS-MSITEM-PLAN.md#ms-msitem-l168",
+      "direct_units": [
+        "orig-v26-l2182",
+        "orig-rec-l0240",
+        "orig-cf-l1011",
+        "orig-cf-l1024",
+        "orig-cf-l1043",
+        "orig-cf-l1055",
+        "orig-cf-l1069",
+        "orig-cf-l1577",
+        "orig-p0a-l0775",
+        "orig-road-l0350",
+        "orig-rule-l0175",
+        "orig-ds-l0677"
+      ],
+      "related_units": []
+    },
+    {
+      "source": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/item/minecraft-ms-msitem.zh.md",
+      "line": 180,
+      "heading": "目标选择与快照",
+      "destination": "docs/plans/MS-MSITEM-PLAN.md#ms-msitem-l180",
+      "direct_units": [
+        "orig-v26-l0258",
+        "orig-v26-l1275",
+        "orig-v26-l1277",
+        "orig-v26-l1288",
+        "orig-v26-l1300",
+        "orig-v26-l1327",
+        "orig-v26-l1362",
+        "orig-v26-l1397",
+        "orig-v26-l1413",
+        "orig-v26-l1425",
+        "orig-v26-l1442",
+        "orig-tier-l0562",
+        "orig-rec-l0064",
+        "orig-rec-l0091",
+        "orig-rec-l0389",
+        "orig-cf-l0572",
+        "orig-cf-l0613",
+        "orig-p0a-l1096",
+        "orig-p0a-l1098",
+        "orig-p0a-l1116",
+        "orig-road-l0267"
+      ],
+      "related_units": []
+    },
+    {
+      "source": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/item/minecraft-ms-msitem.zh.md",
+      "line": 201,
+      "heading": "统一目标、结果和防御策略",
+      "destination": "docs/plans/MS-MSITEM-PLAN.md#ms-msitem-l201",
+      "direct_units": [
+        "orig-bl-l0518",
+        "orig-bl-l0520",
+        "orig-bl-l0551",
+        "orig-bl-l0571",
+        "orig-bl-l0606",
+        "orig-bl-l1257",
+        "orig-v26-l0295",
+        "orig-v26-l0363",
+        "orig-v26-l0365",
+        "orig-v26-l0375",
+        "orig-v26-l0389",
+        "orig-v26-l0584",
+        "orig-v26-l0586",
+        "orig-v26-l0606",
+        "orig-v26-l0614",
+        "orig-v26-l0645",
+        "orig-v26-l0761",
+        "orig-v26-l0800",
+        "orig-v26-l1127",
+        "orig-v26-l1488",
+        "orig-full-l0072",
+        "orig-tier-l0034",
+        "orig-tier-l0257",
+        "orig-tier-l0328",
+        "orig-rec-l0137",
+        "orig-rec-l0280",
+        "orig-cf-l0117",
+        "orig-cf-l0319",
+        "orig-cf-l0692",
+        "orig-cf-l0704",
+        "orig-cf-l0717",
+        "orig-cf-l0744",
+        "orig-cf-l0761",
+        "orig-cf-l0795",
+        "orig-cf-l1604",
+        "orig-p0a-l1209",
+        "orig-p0a-l1211",
+        "orig-p0a-l1221",
+        "orig-p0a-l1231",
+        "orig-p0a-l1244",
+        "orig-p0a-l1286",
+        "orig-p0a-l2066",
+        "orig-road-l0137",
+        "orig-rule-l0133",
+        "orig-ds-l0698",
+        "orig-ds-l0708",
+        "orig-ds-l0721",
+        "orig-ds-l0730",
+        "orig-ds-l0769",
+        "orig-ds-l0787",
+        "orig-ds-l0796"
+      ],
+      "related_units": []
+    },
+    {
+      "source": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/item/minecraft-ms-msitem.zh.md",
+      "line": 224,
+      "heading": "正常死亡、运行时清除与混合执行",
+      "destination": "docs/plans/MS-MSITEM-PLAN.md#ms-msitem-l224",
+      "direct_units": [
+        "orig-bl-l0874",
+        "orig-bl-l0878",
+        "orig-bl-l0903",
+        "orig-bl-l0929",
+        "orig-bl-l0952",
+        "orig-bl-l0993",
+        "orig-bl-l1041",
+        "orig-bl-l1065",
+        "orig-bl-l1106",
+        "orig-rule-l0798",
+        "orig-non-l0145",
+        "orig-ds-l1066"
+      ],
+      "related_units": []
+    },
+    {
+      "source": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/item/minecraft-ms-msitem.zh.md",
+      "line": 226,
+      "heading": "正常死亡",
+      "destination": "docs/plans/MS-MSITEM-PLAN.md#ms-msitem-l226",
+      "direct_units": [],
+      "related_units": [
+        "orig-msc-l0069",
+        "orig-bl-l1125",
+        "orig-cf-l1011"
+      ]
+    },
+    {
+      "source": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/item/minecraft-ms-msitem.zh.md",
+      "line": 238,
+      "heading": "运行时清除",
+      "destination": "docs/plans/MS-MSITEM-PLAN.md#ms-msitem-l238",
+      "direct_units": [
+        "orig-bl-l1123",
+        "orig-bl-l1125",
+        "orig-bl-l1147",
+        "orig-bl-l1172",
+        "orig-bl-l1206",
+        "orig-bl-l1242",
+        "orig-v26-l0325",
+        "orig-v26-l1273",
+        "orig-v26-l1506",
+        "orig-v26-l1569",
+        "orig-v26-l1697",
+        "orig-tier-l0656",
+        "orig-rec-l0045",
+        "orig-rec-l0196",
+        "orig-rec-l0198",
+        "orig-rec-l0381",
+        "orig-max-l0226",
+        "orig-max-l0228",
+        "orig-max-l0239",
+        "orig-max-l0248",
+        "orig-max-l0263",
+        "orig-p0a-l0131",
+        "orig-p0a-l0650",
+        "orig-p0a-l1070",
+        "orig-l6-l0627",
+        "orig-l6-l0629",
+        "orig-l6-l0637",
+        "orig-l6-l0685",
+        "orig-ds-l0065"
+      ],
+      "related_units": []
+    },
+    {
+      "source": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/item/minecraft-ms-msitem.zh.md",
+      "line": 255,
+      "heading": "混合模式",
+      "destination": "docs/plans/MS-MSITEM-PLAN.md#ms-msitem-l255",
+      "direct_units": [],
+      "related_units": [
+        "orig-msc-l0069",
+        "orig-cf-l1011"
+      ]
+    },
+    {
+      "source": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/item/minecraft-ms-msitem.zh.md",
+      "line": 261,
+      "heading": "服务端队列与线程边界",
+      "destination": "docs/plans/MS-MSITEM-PLAN.md#ms-msitem-l261",
+      "direct_units": [
+        "orig-bl-l0794",
+        "orig-bl-l0836",
+        "orig-bl-l1286",
+        "orig-bl-l1290",
+        "orig-bl-l1311",
+        "orig-bl-l1347",
+        "orig-v26-l2134",
+        "orig-v26-l2268",
+        "orig-rec-l0180",
+        "orig-rec-l0223",
+        "orig-rec-l0407",
+        "orig-rec-l0426",
+        "orig-l6-l0663",
+        "orig-road-l0341"
+      ],
+      "related_units": []
+    },
+    {
+      "source": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/item/minecraft-ms-msitem.zh.md",
+      "line": 286,
+      "heading": "Forge 事件、Mixin 与自定义转换器",
+      "destination": "docs/plans/MS-MSITEM-PLAN.md#ms-msitem-l286",
+      "direct_units": [],
+      "related_units": [
+        "orig-msr-l0153",
+        "orig-msc-l0161"
+      ]
+    },
+    {
+      "source": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/item/minecraft-ms-msitem.zh.md",
+      "line": 290,
+      "heading": "事件层",
+      "destination": "docs/plans/MS-MSITEM-PLAN.md#ms-msitem-l290",
+      "direct_units": [],
+      "related_units": [
+        "orig-msc-l0059",
+        "orig-msc-l0097"
+      ]
+    },
+    {
+      "source": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/item/minecraft-ms-msitem.zh.md",
+      "line": 301,
+      "heading": "Hook 分类",
+      "destination": "docs/plans/MS-MSITEM-PLAN.md#ms-msitem-l301",
+      "direct_units": [],
+      "related_units": [
+        "orig-msr-l0153",
+        "orig-rule-l0215"
+      ]
+    },
+    {
+      "source": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/item/minecraft-ms-msitem.zh.md",
+      "line": 329,
+      "heading": "服务端与客户端一致性",
+      "destination": "docs/plans/MS-MSITEM-PLAN.md#ms-msitem-l329",
+      "direct_units": [
+        "orig-v26-l1546",
+        "orig-rule-l0188"
+      ],
+      "related_units": []
+    },
+    {
+      "source": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/item/minecraft-ms-msitem.zh.md",
+      "line": 345,
+      "heading": "客户端表现也是物品的一部分",
+      "destination": "docs/plans/MS-MSITEM-PLAN.md#ms-msitem-l345",
+      "direct_units": [
+        "orig-v26-l0931",
+        "orig-v26-l0933",
+        "orig-v26-l0954",
+        "orig-v26-l1018",
+        "orig-v26-l1054",
+        "orig-v26-l1081",
+        "orig-v26-l1105",
+        "orig-v26-l1109"
+      ],
+      "related_units": []
+    },
+    {
+      "source": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/item/minecraft-ms-msitem.zh.md",
+      "line": 358,
+      "heading": "从零实现顺序",
+      "destination": "docs/plans/MS-MSITEM-PLAN.md#ms-msitem-l358",
+      "direct_units": [
+        "orig-rec-l0317"
+      ],
+      "related_units": []
+    },
+    {
+      "source": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/item/minecraft-ms-msitem.zh.md",
+      "line": 372,
+      "heading": "验证矩阵",
+      "destination": "docs/plans/MS-MSITEM-PLAN.md#ms-msitem-l372",
+      "direct_units": [
+        "orig-bl-l2714",
+        "orig-bl-l2736",
+        "orig-v26-l0874",
+        "orig-rec-l0472",
+        "orig-p0a-l1812"
+      ],
+      "related_units": []
+    },
+    {
+      "source": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/item/minecraft-ms-msitem.zh.md",
+      "line": 392,
+      "heading": "故障定位",
+      "destination": "docs/plans/MS-MSITEM-PLAN.md#ms-msitem-l392",
+      "direct_units": [],
+      "related_units": [
+        "orig-msc-l0243",
+        "orig-msc-l0177"
+      ]
+    },
+    {
+      "source": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/item/minecraft-ms-msitem.zh.md",
+      "line": 406,
+      "heading": "完成标准",
+      "destination": "docs/plans/MS-MSITEM-PLAN.md#ms-msitem-l406",
+      "direct_units": [
+        "orig-rec-l0293"
+      ],
+      "related_units": []
+    },
+    {
+      "source": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/entity/minecraft-ms-entitydefence.zh.md",
+      "line": 14,
+      "heading": "先定义防御契约",
+      "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#ms-entitydefence-l14",
+      "direct_units": [],
+      "related_units": [
+        "orig-msc-l0108",
+        "orig-cf-l1085"
+      ]
+    },
+    {
+      "source": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/entity/minecraft-ms-entitydefence.zh.md",
+      "line": 25,
+      "heading": "划定策略范围",
+      "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#ms-entitydefence-l25",
+      "direct_units": [],
+      "related_units": [
+        "orig-cf-l0213",
+        "orig-p0a-l0462",
+        "orig-msc-l0108"
+      ]
+    },
+    {
+      "source": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/entity/minecraft-ms-entitydefence.zh.md",
+      "line": 42,
+      "heading": "为什么只覆写实体方法不够",
+      "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#ms-entitydefence-l42",
+      "direct_units": [
+        "orig-bl-l0750",
+        "orig-bl-l0756",
+        "orig-bl-l0778"
+      ],
+      "related_units": []
+    },
+    {
+      "source": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/entity/minecraft-ms-entitydefence.zh.md",
+      "line": 58,
+      "heading": "保留一个规范实例",
+      "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#ms-entitydefence-l58",
+      "direct_units": [
+        "orig-bl-l0634",
+        "orig-bl-l0670",
+        "orig-bl-l0735",
+        "orig-cf-l0211",
+        "orig-p0a-l0546",
+        "orig-p0a-l0548",
+        "orig-p0a-l0556",
+        "orig-p0a-l0570",
+        "orig-p0a-l0585",
+        "orig-msc-l0108",
+        "orig-msc-l0269",
+        "orig-rule-l0538",
+        "orig-ds-l0099"
+      ],
+      "related_units": []
+    },
+    {
+      "source": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/entity/minecraft-ms-entitydefence.zh.md",
+      "line": 62,
+      "heading": "规范实例规则",
+      "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#ms-entitydefence-l62",
+      "direct_units": [
+        "orig-bl-l0638",
+        "orig-v26-l1665",
+        "orig-cf-l0213",
+        "orig-cf-l0226",
+        "orig-cf-l0258",
+        "orig-cf-l0282",
+        "orig-p0a-l0094",
+        "orig-p0a-l0105",
+        "orig-p0a-l0121",
+        "orig-p0a-l0312",
+        "orig-p0a-l0314",
+        "orig-p0a-l0344",
+        "orig-p0a-l0367",
+        "orig-p0a-l0395",
+        "orig-p0a-l0397",
+        "orig-p0a-l0415",
+        "orig-p0a-l0460",
+        "orig-p0a-l0462",
+        "orig-p0a-l0479",
+        "orig-p0a-l0498",
+        "orig-p0a-l0510",
+        "orig-p0a-l1002",
+        "orig-p0a-l1025",
+        "orig-l6-l0359",
+        "orig-l6-l0619",
+        "orig-road-l0093",
+        "orig-ds-l0075",
+        "orig-ds-l0101",
+        "orig-ds-l0110",
+        "orig-ds-l0115",
+        "orig-ds-l0125"
+      ],
+      "related_units": []
+    },
+    {
+      "source": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/entity/minecraft-ms-entitydefence.zh.md",
+      "line": 72,
+      "heading": "修复前的状态不变量",
+      "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#ms-entitydefence-l72",
+      "direct_units": [
+        "orig-cf-l0907",
+        "orig-p0a-l0434"
+      ],
+      "related_units": [
+        "orig-rule-l0198",
+        "orig-msc-l0108"
+      ]
+    },
+    {
+      "source": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/entity/minecraft-ms-entitydefence.zh.md",
+      "line": 88,
+      "heading": "通过正常生命周期初始化",
+      "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#ms-entitydefence-l88",
+      "direct_units": [],
+      "related_units": [
+        "orig-msc-l0108",
+        "orig-msc-l0269"
+      ]
+    },
+    {
+      "source": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/entity/minecraft-ms-entitydefence.zh.md",
+      "line": 103,
+      "heading": "构建幂等修复过程",
+      "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#ms-entitydefence-l103",
+      "direct_units": [
+        "orig-bl-l2074",
+        "orig-bl-l2091",
+        "orig-bl-l2458",
+        "orig-cf-l0858",
+        "orig-cf-l0876",
+        "orig-cf-l0888",
+        "orig-cf-l0935",
+        "orig-cf-l0965",
+        "orig-cf-l0979",
+        "orig-cf-l0989",
+        "orig-cf-l1567",
+        "orig-p0a-l1362",
+        "orig-road-l0111",
+        "orig-rule-l0198",
+        "orig-ds-l0548"
+      ],
+      "related_units": []
+    },
+    {
+      "source": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/entity/minecraft-ms-entitydefence.zh.md",
+      "line": 117,
+      "heading": "修复时机",
+      "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#ms-entitydefence-l117",
+      "direct_units": [
+        "orig-bl-l2130"
+      ],
+      "related_units": [
+        "orig-msc-l0132"
+      ]
+    },
+    {
+      "source": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/entity/minecraft-ms-entitydefence.zh.md",
+      "line": 132,
+      "heading": "修复服务端注册表",
+      "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#ms-entitydefence-l132",
+      "direct_units": [
+        "orig-msc-l0119",
+        "orig-msc-l0280"
+      ],
+      "related_units": []
+    },
+    {
+      "source": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/entity/minecraft-ms-entitydefence.zh.md",
+      "line": 145,
+      "heading": "分区存储",
+      "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#ms-entitydefence-l145",
+      "direct_units": [],
+      "related_units": [
+        "orig-msc-l0119",
+        "orig-msc-l0145"
+      ]
+    },
+    {
+      "source": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/entity/minecraft-ms-entitydefence.zh.md",
+      "line": 151,
+      "heading": "ID 与 UUID 查询",
+      "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#ms-entitydefence-l151",
+      "direct_units": [],
+      "related_units": [
+        "orig-msc-l0119",
+        "orig-p0a-l0462"
+      ]
+    },
+    {
+      "source": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/entity/minecraft-ms-entitydefence.zh.md",
+      "line": 157,
+      "heading": "Tick 集合",
+      "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#ms-entitydefence-l157",
+      "direct_units": [],
+      "related_units": [
+        "orig-msc-l0145",
+        "orig-msc-l0280"
+      ]
+    },
+    {
+      "source": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/entity/minecraft-ms-entitydefence.zh.md",
+      "line": 168,
+      "heading": "持久管理与生命周期",
+      "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#ms-entitydefence-l168",
+      "direct_units": [
+        "orig-cf-l0641",
+        "orig-cf-l0666",
+        "orig-cf-l0672",
+        "orig-cf-l0682",
+        "orig-p0a-l1049"
+      ],
+      "related_units": []
+    },
+    {
+      "source": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/entity/minecraft-ms-entitydefence.zh.md",
+      "line": 174,
+      "heading": "玩家追踪",
+      "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#ms-entitydefence-l174",
+      "direct_units": [],
+      "related_units": [
+        "orig-msc-l0119",
+        "orig-msc-l0280"
+      ]
+    },
+    {
+      "source": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/entity/minecraft-ms-entitydefence.zh.md",
+      "line": 184,
+      "heading": "修复客户端注册表",
+      "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#ms-entitydefence-l184",
+      "direct_units": [
+        "orig-bl-l1939"
+      ],
+      "related_units": [
+        "orig-msc-l0119"
+      ]
+    },
+    {
+      "source": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/entity/minecraft-ms-entitydefence.zh.md",
+      "line": 199,
+      "heading": "防御读取路径",
+      "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#ms-entitydefence-l199",
+      "direct_units": [
+        "orig-bl-l0181",
+        "orig-p0a-l0933",
+        "orig-l6-l0351",
+        "orig-l6-l0363",
+        "orig-l6-l1389",
+        "orig-msc-l0132",
+        "orig-ds-l0057",
+        "orig-ds-l0256"
+      ],
+      "related_units": []
+    },
+    {
+      "source": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/entity/minecraft-ms-entitydefence.zh.md",
+      "line": 215,
+      "heading": "可选：实体列表独占防御",
+      "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#ms-entitydefence-l215",
+      "direct_units": [
+        "orig-msc-l0153",
+        "orig-rule-l0512"
+      ],
+      "related_units": []
+    },
+    {
+      "source": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/entity/minecraft-ms-entitydefence.zh.md",
+      "line": 238,
+      "heading": "实体状态也必须防御",
+      "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#ms-entitydefence-l238",
+      "direct_units": [
+        "orig-bl-l1089",
+        "orig-bl-l2242",
+        "orig-bl-l2246",
+        "orig-bl-l2260",
+        "orig-bl-l2276"
+      ],
+      "related_units": []
+    },
+    {
+      "source": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/entity/minecraft-ms-entitydefence.zh.md",
+      "line": 254,
+      "heading": "从零实现顺序",
+      "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#ms-entitydefence-l254",
+      "direct_units": [
+        "orig-cf-l1362"
+      ],
+      "related_units": []
+    },
+    {
+      "source": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/entity/minecraft-ms-entitydefence.zh.md",
+      "line": 268,
+      "heading": "内部集合规则",
+      "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#ms-entitydefence-l268",
+      "direct_units": [
+        "orig-msc-l0145"
+      ],
+      "related_units": []
+    },
+    {
+      "source": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/entity/minecraft-ms-entitydefence.zh.md",
+      "line": 282,
+      "heading": "验证矩阵",
+      "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#ms-entitydefence-l282",
+      "direct_units": [
+        "orig-bl-l2703",
+        "orig-cf-l1400",
+        "orig-cf-l1404",
+        "orig-cf-l1420",
+        "orig-cf-l1437",
+        "orig-cf-l1469",
+        "orig-cf-l1481",
+        "orig-cf-l1497",
+        "orig-cf-l1509",
+        "orig-cf-l1515",
+        "orig-cf-l1521",
+        "orig-cf-l1527",
+        "orig-cf-l1539",
+        "orig-cf-l1545",
+        "orig-cf-l1551",
+        "orig-p0a-l1673",
+        "orig-p0a-l1689",
+        "orig-p0a-l1698",
+        "orig-p0a-l1702",
+        "orig-p0a-l1710",
+        "orig-p0a-l1718",
+        "orig-p0a-l1726",
+        "orig-p0a-l1734",
+        "orig-p0a-l1742",
+        "orig-p0a-l1746",
+        "orig-p0a-l1750",
+        "orig-p0a-l1754",
+        "orig-p0a-l1758",
+        "orig-p0a-l1762",
+        "orig-p0a-l1766",
+        "orig-p0a-l1770",
+        "orig-p0a-l1774",
+        "orig-p0a-l1794",
+        "orig-p0a-l1796",
+        "orig-p0a-l1827",
+        "orig-p0a-l1839",
+        "orig-p0a-l1851",
+        "orig-p0a-l1865"
+      ],
+      "related_units": []
+    },
+    {
+      "source": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/entity/minecraft-ms-entitydefence.zh.md",
+      "line": 300,
+      "heading": "故障定位",
+      "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#ms-entitydefence-l300",
+      "direct_units": [],
+      "related_units": [
+        "orig-msc-l0243",
+        "orig-msc-l0177"
+      ]
+    },
+    {
+      "source": ".incoming-ms-mod-doc/Minecraft-MS-Mod-Doc-main/base/entity/minecraft-ms-entitydefence.zh.md",
+      "line": 314,
+      "heading": "完成标准",
+      "destination": "docs/plans/MS-ENTITYDEFENCE-PLAN.md#ms-entitydefence-l314",
+      "direct_units": [
+        "orig-p0a-l2158",
+        "orig-p0a-l2162",
+        "orig-p0a-l2170",
+        "orig-p0a-l2177",
+        "orig-p0a-l2183",
+        "orig-p0a-l2192",
+        "orig-p0a-l2199",
+        "orig-p0a-l2205",
+        "orig-p0a-l2211",
+        "orig-p0a-l2218",
+        "orig-p0a-l2224"
+      ],
+      "related_units": []
+    }
+  ],
+  "gaps": [
+    {
+      "id": "GAP-DOC-01",
+      "kind": "原规划缺少完整细则",
+      "title": "物品自身的完整契约",
+      "ms": [
+        [
+          "msitem",
+          24,
+          41
+        ],
+        [
+          "msitem",
+          112,
+          124
+        ]
+      ],
+      "old": [
+        [
+          "MSC",
+          69,
+          78
+        ],
+        [
+          "NON",
+          129,
+          144
+        ],
+        [
+          "RULE",
+          175,
+          187
+        ]
+      ],
+      "dest": "i.item",
+      "detail": "原文有八维契约、ItemPolicy、执行前手持复验与成本一次提交，但没有主手/副手、堆叠/修复/附魔、取消或失败的成本返还、槽位变更逐项决策表。",
+      "next": "在本节补一张物品契约表，保留既有动作和配置 ID；未获来源支持的默认值留待明确，不自动设计新功能。"
+    },
+    {
+      "id": "GAP-DOC-02",
+      "kind": "原规划缺少完整细则",
+      "title": "扇形与范围几何的边界条件",
+      "ms": [
+        [
+          "skills",
+          163,
+          183
+        ],
+        [
+          "msitem",
+          180,
+          199
+        ]
+      ],
+      "old": [
+        [
+          "NON",
+          129,
+          144
+        ],
+        [
+          "V26",
+          1275,
+          1326
+        ]
+      ],
+      "dest": "i.target",
+      "detail": "旧 C11 提到补扇形选择器，现有范围条款未集中给出半角/总开角、水平重合零向量、180 度边界、射线遮挡、垂直高度与快照后复验的完整对照。",
+      "next": "补选择器契约；不改变现有 64 格等数值，也不据关键词检索断言代码缺失。"
+    },
+    {
+      "id": "GAP-DOC-03",
+      "kind": "原规划缺少字段级对照",
+      "title": "MS 动作上下文到 Ronova 类型的逐字段映射",
+      "ms": [
+        [
+          "msitem",
+          142,
+          179
+        ]
+      ],
+      "old": [
+        [
+          "MSC",
+          59,
+          68
+        ],
+        [
+          "NON",
+          129,
+          144
+        ],
+        [
+          "CF",
+          325,
+          371
+        ]
+      ],
+      "dest": "i.context",
+      "detail": "原 R-C3/R-C4 已肯定部分调度/幂等设计，另有 C11 要补 budget 与 candidates；没有把 actor、item、world、trigger、request、candidates、budget 逐字段映射到现有类型、执行前复验者和短期去重淘汰规则。",
+      "next": "补类型/字段/所有者/有效期/复验位置表；不新建第二套 RootCommandId 或 SubjectKey。"
+    },
+    {
+      "id": "GAP-DOC-04",
+      "kind": "原规划仅登记待办",
+      "title": "三份 MS 的逐症状故障定位手册",
+      "ms": [
+        [
+          "skills",
+          464,
+          476
+        ],
+        [
+          "msitem",
+          392,
+          404
+        ],
+        [
+          "entitydefence",
+          300,
+          312
+        ]
+      ],
+      "old": [
+        [
+          "MSC",
+          177,
+          191
+        ],
+        [
+          "MSC",
+          243,
+          257
+        ]
+      ],
+      "dest": "s.diag",
+      "detail": "旧 R-S4 / M1 写明待建故障定位手册，原 15 份规划没有展开成 MS 三张表的完整“现象→Ronova 检查入口→日志字段→处置”对照；泛化 Telemetry/Audit 不能替代逐症状手册。",
+      "next": "按三本书各自故障定位章节补充，不把原来源示例当成已观察到的 Ronova 故障。"
+    },
+    {
+      "id": "GAP-MAP-01",
+      "kind": "已有提案，跨模型对接未闭合",
+      "title": "动作七态与实体持久状态的正交映射",
+      "ms": [
+        [
+          "msitem",
+          75,
+          87
+        ]
+      ],
+      "old": [
+        [
+          "MSC",
+          50,
+          58
+        ],
+        [
+          "MSC",
+          258,
+          268
+        ],
+        [
+          "P0A",
+          634,
+          649
+        ]
+      ],
+      "dest": "i.arch",
+      "detail": "MS 七态与 LifecycleTruth / ResolutionState / AdmissionDisposition 的作用域不同。旧 M2 已要求映射而不新增真值，不能以“三态/两态不是七态”直接判已有身份合同错误。",
+      "next": "补动作视图、保护优先级与生命周期状态转换对照；保留原 A*、INV*。"
+    },
+    {
+      "id": "GAP-MAP-02",
+      "kind": "已有缺口登记，实例级细化不足",
+      "title": "规范当前实例和修复前七项物理状态",
+      "ms": [
+        [
+          "entitydefence",
+          58,
+          101
+        ]
+      ],
+      "old": [
+        [
+          "MSC",
+          108,
+          118
+        ],
+        [
+          "MSC",
+          269,
+          279
+        ],
+        [
+          "RULE",
+          538,
+          542
+        ]
+      ],
+      "dest": "e.canonical",
+      "detail": "既有 SubjectKey/binding/rebind 合同很完整，但旧规划仍登记当前规范实例五条规则、A/B 同键对象替换与修复前七项状态的对接缺口；长期身份不等于当前注册实例。",
+      "next": "按 SubjectKey 与当前 BindingRevision 细化，不把全项目缩成一个规范对象。"
+    },
+    {
+      "id": "GAP-MAP-03",
+      "kind": "已有缺口登记，集合事务待细化",
+      "title": "ID/UUID 原子修复及 active/passive 保持",
+      "ms": [
+        [
+          "entitydefence",
+          145,
+          172
+        ]
+      ],
+      "old": [
+        [
+          "MSC",
+          119,
+          131
+        ],
+        [
+          "MSC",
+          145,
+          152
+        ]
+      ],
+      "dest": "e.iduuid",
+      "detail": "R-J3 明确记录 ID 与 UUID 成员修复事务未明文化；active/passive 仅在内部集合总规则中汇总。Root JudgmentBatch 的逻辑原子性不是实体注册表事务已经实现的证明。",
+      "next": "展开缺失→存在、陈旧对象替换、迭代安全和两表失败语义。"
+    },
+    {
+      "id": "GAP-MAP-04",
+      "kind": "已有缺口登记，独立修复矩阵未闭合",
+      "title": "服务端追踪与客户端六路径独立修复",
+      "ms": [
+        [
+          "entitydefence",
+          132,
+          197
+        ]
+      ],
+      "old": [
+        [
+          "MSC",
+          119,
+          131
+        ],
+        [
+          "MSC",
+          280,
+          293
+        ]
+      ],
+      "dest": "e.tracking",
+      "detail": "旧 R-J1/R-J6/R-K1 对 ChunkMap 追踪器和客户端路径标为部分/缺口；不能把 ERASED 摘除或客户端显示恢复当成 PROTECTED 各表独立补回已完成。",
+      "next": "将每表恢复来源、同实例条件、缺失/陈旧判定、追踪玩家与客户端收敛分别列出。"
+    },
+    {
+      "id": "GAP-MAP-05",
+      "kind": "已有缺口登记，时序覆盖未闭合",
+      "title": "七族读取兜底与六类修复触发点",
+      "ms": [
+        [
+          "entitydefence",
+          103,
+          130
+        ],
+        [
+          "entitydefence",
+          199,
+          213
+        ],
+        [
+          "entitydefence",
+          238,
+          252
+        ]
+      ],
+      "old": [
+        [
+          "MSC",
+          97,
+          107
+        ],
+        [
+          "MSC",
+          132,
+          144
+        ],
+        [
+          "RULE",
+          538,
+          542
+        ]
+      ],
+      "dest": "e.read",
+      "detail": "旧 R-L1/R-M4/R-M5/R-G6 已登记读写 Hook 与 tick 后修复等差距；原读侧终结过滤方向与受保护存在兜底不同。",
+      "next": "逐查询族列读取间隙、写 Hook、独立 tick 与双侧时序，不让 Public Presence 反向污染 Raw Observation。"
+    },
+    {
+      "id": "GAP-MAP-06",
+      "kind": "原稿判断有修正，需保留差异",
+      "title": "独占列表、终结过滤与瞬态抑制的边界",
+      "ms": [
+        [
+          "entitydefence",
+          25,
+          40
+        ],
+        [
+          "entitydefence",
+          215,
+          236
+        ]
+      ],
+      "old": [
+        [
+          "MSC",
+          153,
+          160
+        ],
+        [
+          "RULE",
+          512,
+          537
+        ]
+      ],
+      "dest": "e.exclusive",
+      "detail": "旧 R-O/C3 曾把已有过滤判为独占；后续 N8 明确纠正两者不同。两份原文同时保留，不能采纳较早结论冒充当前实现。五项副作用与显式策略说明仍是待细化内容。",
+      "next": "先声明选定路径、保护对象、过滤对象与开关含义；本轮不自动启用独占。"
+    },
+    {
+      "id": "GAP-MAP-07",
+      "kind": "已有来源清单，逐项落点未闭合",
+      "title": "结果可见性、双客户端矩阵与原验收账本对接",
+      "ms": [
+        [
+          "skills",
+          43,
+          54
+        ],
+        [
+          "msitem",
+          372,
+          390
+        ],
+        [
+          "entitydefence",
+          282,
+          298
+        ]
+      ],
+      "old": [
+        [
+          "MSC",
+          177,
+          191
+        ],
+        [
+          "MSC",
+          243,
+          257
+        ],
+        [
+          "RULE",
+          224,
+          234
+        ]
+      ],
+      "dest": "s.build",
+      "detail": "旧 R-S2/S3 和 M1 已要求六项可见结果及两组各 11 项矩阵，但来源规划未完整逐项绑定到 Ronova 的场景、动作/不变量 ID 与证据入口；状态不能由重构补成成功。",
+      "next": "做适用目标/触发路径/原验收 ID/证据缺项表；保留未执行、部分覆盖与范围限制。"
+    }
+  ],
+  "not_applicable": [
+    [
+      "NA-01",
+      "不作为工程规范",
+      "skills / 秒杀是什么",
+      "圈内评价、人物评价、T0/T1 社会性排名及“完美击败”口号，不作为 Ronova 的新技术等级事实。保留 MS 原文件及该章节入口。"
+    ],
+    [
+      "NA-02",
+      "平台范围不适用",
+      "skills、msitem / 开篇版本范围",
+      "Fabric、Paper、Spigot、NeoForge 1.21+ 及其他版本 API 不替换 Forge 1.20.1 的当前条款。不是删除 Ronova 能力，而是不混用生命周期假设。"
+    ],
+    [
+      "NA-03",
+      "违反本次明确边界",
+      "skills / 对于非MoMain优先级",
+      "任何以修改依赖/Mod/Forge 文件来获得更早入口的方式不纳入可实施路线；原 MS 也把修改 Forge 文件记为违规。"
+    ],
+    [
+      "NA-04",
+      "违反本次明确边界",
+      "原 L6 / Baseline / CF / P0-A 的 helper 与外部重启分支",
+      "旧 D13、PROC-INV-1、R7、A8、ID-9、T-16 等允许 bounded helper 的文字原样保留，但其中“起外部进程”的授权失效；重启恢复只能描述用户/现有宿主后来重启后的恢复语义，不能据此启动进程。"
+    ]
+  ],
+  "conditional": [
+    [
+      "COND-01",
+      "msitem / LivingEntity 范围",
+      "仅适用于该 MS 击杀物品职责切面，不能把 Ronova 已有非生物、投射物、掉落物、方块实体、非实体资源等条款删除或缩成 LivingEntity-only。原条款全部迁入各职责章。"
+    ],
+    [
+      "COND-02",
+      "entitydefence / 一个规范实例",
+      "适用于一个被保护逻辑对象的当前有效实例；不能推导为全 JVM / 全服务端只能有一个受保护 Subject。显式 rebind、不同 Subject 和客户端对应实例的原合同保留。"
+    ],
+    [
+      "COND-03",
+      "entitydefence / 可选实体列表独占防御",
+      "是可选策略，不是基础防御完成的强制前提。保留独立章节、原缺口和后果声明，不自动打开、不因不用就判铁律违规。"
+    ],
+    [
+      "COND-04",
+      "skills / 血量与死亡界面可见结果",
+      "玩家死亡界面只对存在对应客户端/玩家场景的用例适用；一般非玩家实体没有这类 UI。不能用单个不适用格子宣布整个能力通过或整章不适用。"
+    ],
+    [
+      "COND-05",
+      "skills / 平台 Native 启动与最小 Hook 示例",
+      "Windows x64、Java 17、特定 JDK 布局、零参数 getter、批次示例均按原适用前提处理；不导出“所有方案必须如此”或“同 JVM Native 被禁止”。"
+    ],
+    [
+      "COND-06",
+      "skills / Premain 与启动参数示例",
+      "“无参数”不是本次硬约束或额外必选完成条件，保留为默认取向而非违规判据；允许参数不等于要求参数。DS / RULE 加强 A5 与 RULE I7 的必要性按选中路线确定，不自动取消其功能依赖；旧“唯一前置入口”不排除等价方案。没有整体禁止 Agent、Instrumentation、JNI 或 JVMTI，但任何入口均不得起外部进程或改受禁文件。"
+    ]
+  ]
+}
